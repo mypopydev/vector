@@ -1,0 +1,646 @@
+<!--p405-->
+# INDEX
+
+- Page numbers in italics refer to figures.
+- Abraham, Max, 312; debates with Einstein, 280–81, 292, 391n10; Levi-Civita and, 294
+- abstract concepts: algebra and, 4, 10, 17, 72, 80, 313; historical perspective on, xiii; ideas for vectors and, 48, 61; Maxwell and, 118; quaternions and, 107, 110, 114, 116, 163; space and, 72, 80; space-time and, 206; tensors and, 254, 265
+- action-at-a-distance: electromagnetism and, 132–33, 135, 138, 150, 203, 365n14, 369n19, 376n11; Maxwell and, 132–33, 135, 138, 369n19
+- Ahmes: estimates of pi and, 22–23, 349n3; line integrals and, 122; timeline for, 327
+- Airy, George: rejects quaternions, 102
+- algebra: abstract concepts and, 4, 10, 17, 72, 80, 313; algorithms and, 7–16; Arabs and, 5–6, 9; arithmetic and, 6, 304, 348n19; astronomy and, 1, 7; Boolean, 83, 86–87; calculus and, 21–23, 29–41; Cardano and, 11–16, 347; Cayley and, 8, 81, 83, 86, 89–90, 160, 179, 194, 332; closure and, 71; commutative law and, 2, 332, 356n2; completing the square and, 6, 10–11, 327, 346n9, 347n13, 354n11; complex numbers and, 16, 348n20; Coulomb and, 154, 174; cubic equations and, 10–16, 347n15, 348n18; curved space and, 229, 233–35, 238; Descartes and, 6, 9, 15; Dodgson and, 345n9, 346n2; Einstein and, 7, 9, 17, 313, 316, 347n12; electromagnetism and, 3, 16, 348n17; Euclid and, 4–5; Euler and, 348n20; four-dimensional geometry and, 17; general theory of relativity and, 9; geometry and, 1, 4, 6, 10–17, 346n9, 347n13, 347nn15–16; Greeks and, 5, 7, 9, 13; Hamilton and, 1–8, 14, 17, 54, 57, 60–63, 69–71, 74, 76, 80–83, 86, 89–90, 99–107, 116, 151, 161, 163, 178–79, 183, 229, 243, 332–33, 345n1, 345n9, 346n2, 358n9; Harriot and, 8–9, 14–17, 29–32, 52, 61, 112, 328, 348nn18–19, 349n22, 350n7, 353n5; ideas for vectors and, 43, 45, 52–63, 68–69; imaginary numbers and, 2–3, 6, 12–16, 347n10; inverse square law and, 34, 36, 125, 138, *154*, *277*, 279, 315, 329, 367n11, 368n15, 393n21; al-Khwārizmī and, 5–8, 10–11, 13, 328, 346n9; laws and, 70, 99, 162–63, 356n2; liberation of, 1–17; Maxwell and, 3, 7, 16; Mesopotamia and, xiv, 9–11, 13; Newton and, 7, 14; Noether and, 7, 16; notation and, 8–12, 15–17; numerical linear algebra (NLA), 323; Pythagoras and, 4–5, 346n5; quadratic equations and, 6–7, 10, 13, 15–16, 347n16, 348n19; quantum theory and, 14, 323, 347n12; quaternions and, 3, 7–8, 14, 17, 76–80, 102–9, 112–16, 151, 160–63, 177–85, 345n1, 346n4; radio waves and, 16; reality and, 4, 17; real numbers and, 2–3; robots and, 1, 3; rotation and, 1–3, 14; scalar numbers and, 3; space and, 70–94, 99–100; space-time and, 194, 196, 207, 211; symbolic, 4–11, 14–17, 34, 52, 61–63, 83, 99–100, 104, 151, 265, 345n9, 348n18, 350n7, 353n5; symmetry and, 16; Tait and, 346n3; Tartaglia and, 12, 347n16; tensors and, 17, 242–43, 246, 258–65, 284–86, 289, 295, 300; three-dimensional space and, 1–4; timeline for, 328–29, 332–33; Wallis and, 14–15, 348n18; word problems and, 4, 7, 9–11
+- *Algebra* (Bombelli), 328
+- algebraic calculus: du Châtelet and, 41; geometry and, 21, 74; Newton and, 41, 74; rise of, 21–23, 29–41, 74, 324; Wallis and, 32
+- algorithms: algebra and, 7–16; Alpha-Fold, 191–92; calculus and, 21–22, 27, 31, 34, 41, 350n7; Cardano and, 11–16, 56, 328, 347n16; Gaussian elimination, 359n16; ideas for vectors and, 56; al-Khwārizmī and, 7; Newton and, 323; PageRank, 87–88, 336, 360n21; quaternions and, 108, 186; space and, 82–83, 87–89; space-time and, 191–92; tensors and, 263; timeline on, 327–29, 336
+- *Al-Jabr wa’l muqābalah* (al-Khwārizmī), 5–6
+- *Almagest* (Ptolemy), xvi–xviii, 5, 327
+- AlphaFold, 191–92
+- American Association for the Advancement of Science, 181
+- Ampère, André-Marie: electromagnetism and, 110–11, 128, 131, 138, 174, 330, 365n14, 369n21, 371n23
+- *Analytical Mechanics* (Lagrange), 104–5, 329
+- Anglicans, 64, 72–73, 81, 116, 119, 160
+- angular momentum, 94–96, 335–36, 362n30
+- *Annalen der Physik* (journal), 281
+- *Annali di Matematica pura e applicata* (journal), 256–57
+- Apelt, Ernst: *Ausdehnungslehre* and, 109–10
+- Apollo 11, 93
+- Apollonius of Perga, xix
+- Arabic mathematics, xxvi, 5–6, 9, 46, 64, 328
+- Archimedes: calculus and, 22–27, 30–31; curved space and, 225; line integrals and, 122; method of exhaustion and, 22–26; timeline on, 327
+- Argand, Jean Robert, 58, 60, 69, 330
+- Arianism, 72
+- Aristarchus, 327
+- arithmetic: algebra and, 6, 304, 348n19; calculus and, 32–34; ideas for vectors and, 60–64; quaternions and, 104; space and, 71–72, 76, 356n2; tensors and, 255
+- *Arithmetica Infinitorum* (Wallis), 32–34
+- Armstrong, Neil, 3
+- arrays. *See* matrices
+- *Ars Magna* (*The Great Art*) (Cardano), 11, 328, 347n16
+- artificial intelligence (AI): ChatGPT, 249; data storage and, 88–89; ethical issues and, 88–89, 360n22, 387n11, 387–88n12; ideas for vectors and, 44; LLMs and, 249–50, 387n12; machine learning and, 82, 86–90, 221, 247–48, 322–23; neural networks and, 191–92; NLP and, 249–51, 387n12; sophistication of, ix, 387n12; tensors and, 249, 387n12; timeline on, 337
+- *Artis Analyticae Praxis* (Harriot), 8, 32, 52, 328, 347n10, 349n22, 350n8
+- art of war, 48–49, 353n5
+- astronomy: Airy and, 102; algebra and, 1, 7; black holes and, 228, 302, 313, 315, 337, 385n7, 397n44, 401n12; Cannon and, 361n26; constellations, xvii–xviii; curved space and, 228–29; eclipses, 98, 199, 294, 302–3, 317, 320, 335, 397n44; Einstein and, 200, 293, 322, 336; Gill and, 145; Greek, xv–xvii, 344n6; Hamilton and, 1, 7, 62, 65, 73, 76, 102; ideas for vectors and, 60, 62, 65–66; indigenous, xvii–xviii, 344n5; International Astronomical Union, xviii, 337; Maxwell and, 145; Ptolemy and, xviii; quaternions and, 102, 114; redshift and, 278–81, 336–37; Somerville and, 7; space and, 73, 76; space-time and, 200; stars and, 76, 280, 289, 294, 303, 321–22, 337, 361n26, 391n8, 393n19, 393n21, 397n44; tensors and, 276, 293; timeline on, 328, 330, 336–37
+- *Ausdehnungslehre* (Grassmann), 103–110, 331; Hamilton and, 112–14; quaternions and, 103–16, 163, 178; tensors and, 256
+- Austen, Jane, 66, 73, 145
+- axioms, 163, 220, 295, 333
+- Babbage, Charles, 62, 74, 149, 358n8
+- ballistics, 12, 47–49
+- Baltzer, Heinrich: on* Ausdehnungslehre*, 110
+- Barrie, J. M.: on Tait, 145
+- Barrow, Isaac, 27
+- basis (vectors, vector spaces), 77, 143, 153, 171, 187, 251, 265, 272
+- Bellavitis, Giusto, 102
+- Beltrami, Eugenio, 273
+- Bernoulli, Jakob, 354n12
+- Bernoulli, Johann, 41, 54, 105, 229, 329
+- Bern University: Einstein’s first academic job, 232
+- Besso, Michele, 281; perihelion calculations with Einstein and, 292–93, 296
+- Betti, Enrico, 256
+- Bianchi identities: Hilbert and, 310, 395n35; Noether and, 310–11, 336, 401n13; tensors and, 310–11, 335–36, 372n9, 395n35, 400n8, 400n10, 401n13
+- Big Dipper, xvii
+- binary digits (“bits”), xxiv, 251
+- binomial expressions, 60
+- black holes: Einstein and, 313–14; gravity and, 302, 313–14; Hawking and, 228, 385n7; light and, 228, 302, 313, 315, 337, 385n7, 397n44, 401n12; merging of, 323; Penrose and, 228, 337
+- Blackwood, John: Eliot, Maxwell, Tait and, 165–66
+- Bohr, Niels, 95
+- Bolyai, Janos, 115–16, 220
+- Bombelli, Rafael, 14–15, 328
+- Bonnet, Pierre Ossian, 228
+- Boole, George: algebra of, 83, 86–87; quaternions and, 83, 100, 206; timeline on, 331
+- Born, Max, 321
+- bosons, 20, 99, 320, 362n30
+- Bouman, Katie, 313
+- Brahmagupta, 82, 328
+- Brin, Sergey, 87, 336
+- British Association for the Advancement of Science: Clifford meets Maxwell at, 160; Maxwell meets Thomson at, 123; the term “scientist” introduced at, 101
+- Broome Bridge: graffiti of, 2, 42, 325, 331; Hamilton and, 1–3, 18, 41–42, 75, 78, 97, 145, 243, 325, 331; quaternions and, 97, 145, 243, 325, 331
+- Brownian motion, 347n12
+- Byron, Lady, 73
+- calculus: algebraic, 21–23, 29–41, 74, 324; algorithms and, 21–22, 27, 31, 34, 41, 350n7; Archimedes and, 22–27, 30–31; arithmetic and, 32–34, 350n7; arrival of, 18–41; Cartesian coordinates and, 32; chain rule, 39, 267, 383n6, 389n22, 391n7; convergence and, 31, 153–55, 161, 172; curl and, 152 (*see also* curl); derivatives and, 20, 30 (*see also* derivatives); differential, 18–21 (*see also* differential calculus); divergence and, 298 (*see also* divergence); du Châtelet and, 38–39, 41; Einstein and, 19, 35–36; Euclid and, 27; Galileo and, 27; geometry and, 21–22, 26, 31–34, 39–41, 350nn7–8, 352n15; grad and, 152 (*see also* grad); gravity and, 20, 27, 34–40; Greeks and, 22, 29; Hamilton and, 18–20, 41, 65; Harriot and, 27, 29, 31–32, 350nn7–8; imaginary numbers and, 21; integral, 20–27, 31, 35 (*see also* integrals); inverse square law and, 34, 36; laws of motion and, 34–35; Leibniz and, 27–30, 35–41, 349n5, 350n6; Maxwell and, 18, 35, 349nn1–2; method of exhaustion and, 22–26; motion and, 27, 30, 34–36, 39, 41; Newton and, 18–20, 26–41, 323, 350nn6–7, 351nn11–13, 352n15; notation and, 29, 32, 39–40; planetary motion and, 34–36; *Principia* and, 34–41, 350n7, 351nn12–13, 352n15; Pythagoras’s theorem and, 22, *23*; slope, 40, 152, 383n6; symbolic, 39, 54, 83; tangent, 36, 222, 225–26, 315–16, 383n6; tensor, 17 (*see also* tensor calculus); velocity and, 32, 41, 352n15; Wallis and, 27, 31–34, 350nn7–8; Zeno and, 26–31, 40, 44
+- Campbell, Lewis: Maxwell and, 119, 150, 153, 157, 166–67; Tait and, 119, 150, 167
+- Cannon, Annie Jump, 361n26
+- capacitors, 124–25, 369n20
+- Cardano, Girolamo: algebra and, 11–16, 347; algorithm of, 11–16, 56, 328, 347n16; *Ars Magna*, 11, 328, 347n16; background of, 12; calculus and, 32, 37; geometry and, 11–12, 32, 347n16; Tartaglia and, 12, 347n16; timeline on, 328
+- Cartan, Élie, 318–19, 322, 336, 402n23
+- Cartesian coordinates: calculus and, 32; coordinate transformations, 190 (*see also* coordinate transformations); curved space and, 230–33; Einstein and, xxiv, 207, 400n8; Maxwell and, 128, 143; new dimensions and, xix–xxvi; notation and, xxii–xxiii; quaternions and, 150, 184, 186; space and, 77, 82; space-time and, 190; tensors and, 262, 270–72, 284, 290, 295, 391n7, 392n14; timeline on, 328
+- Catholics, 48, 50, 116, 240, 243
+- Cauchy, Augustin, 131, 213, 215, 230, 239, 332, 350n6
+- Cayley, Arthur: background of, 81–83, 188; curved space and, 230–31; curved surfaces and, 231, 242; Hamilton and, 8, 81–83, 86, 90, 137, 179, 332; invariance and, 191–94, 255; matrices and, 82–86, 89–90, 230, 332; Maxwell and, 137, 231; portrait of, 231; quaternions and, 8, 81–83, 86, 90, 179, 187, 194, 206, 332–33, 359n15; space and, 81–90; space-time and, 188–94, 206, 208; Tait and, 137, 156, 160, 163, 179, 187, 189, 191, 194, 206, 333, 378n3; timeline on, 331–33
+- CERN, 320, 402n1
+- chain rule, 39, 267, 383n6, 389n22, 391n7
+- Châtelet, Émilie du, 37–41, 329
+- ChatGPT, 249, 387nn11–12
+- Chinese mathematics, xvii, xxvi, 9, 82, 85, 323, 327
+- Chisholm, Grace, 188–89, 206, 242, 321, 334
+- Christians, 47, 72, 133, 137
+- Christoffel, Elwin: curved space and, 237–39; tensors and, 257, 271–73, 300, 303, 386n15, 397n40, 397n42
+- Clairut, Alexis-Claude, 38–39
+- Clarendon Press: Maxwell and, 157
+- Clebsch, Alfred, 222, 256
+- Clifford, Lucy, 163, 167
+- Clifford, William Kingdon: curved space and, 230, 238; death of, 167; *Elements of Dynamic*, 161; George Eliot and, 163; Grassmann and, 161–62; Hestenes on, 374n23; *Lectures and Essays*, 166; Maxwell and, 163–67; notation and, 161–62; *On the Hypotheses Which Lie at the Bases of Geometry* (translation of Riemann), 238; quaternions and, 160–67, 172, 177, 179, 181; Riemann and, 230, 238; timeline on, 333
+- Cohen, I. Bernard, 38
+- Coleridge, Samuel Taylor, 62, 64
+- collisions: Harriot’s pioneering vectorial study of, 50–52, 328, 353n8
+- colour photography: Maxwell and, 158, 248; tensors for image processing and, 248
+- Committee on Weights and Measures and the metric system, 105, 329
+- commutative law: algebra and, 2, 61, 332, 356n2; cryptography and, 89, 360n23; Einstein and, 315; general relativity and, 81, 315; Grassmann and, 104, 107, 114–15; Hamilton and, 2, 61, 76, 79, 90, 99, 104, 107, 114–16, 163, 178, 332, 345n9, 359n13; matrices and, 85; quantum mechanics and, 80–81; quaternions and, 76, 104, 107, 114–16, 162–63, 178, 332, 356n2; rotations in space and, 90; tensors and, 245, 268, 286; vectors and, 79
+- completing the square, 6, 10–11, 327, 346n9, 347n13, 354n11
+- complex numbers: algebra and, 16, 348n20; curved space and, 233; Euler and, 55–57; Hamilton and, 54, 57, 60–64, 67, 69, 74–75, 78, 100, 104, 107, 109, 114, 116, 178, 244, 355n20, 356n3, 358n11; ideas for vectors and, 53–63, 66–67, 355n14; imaginary part of, 14 (*see also* imaginary numbers); octonions and, 99, 363n34; quaternions and, 104, 107, 109, 114, 116, 178; qubits and, 251–52; representing on number plane, 58–60; rotations and, 91–92, 360n24; tensors and, 244, 251–52; timeline on, 328, 330
+- complex plane, 58–62, 67, 71, 91, 114, 354n11
+- conservation laws: Harriot and, 353–4n8; Leibniz and, 36; Newton and, 36; Newtonian gravity and, 368n15; Noether and, 16 (*see also* conservation of energy-momentum)
+- conservation of energy-momentum, 291, 299–300, 306–10, 321, 393n21, 400n8; Bianchi identities and, 310–11; Noether and, 306–11, 335, 399n1, 399–400n5
+- convergence: of infinite series, 31; of vector fields, 153–55, 161, 172, 372n7
+- coordinate transformations: curved space and, 227, 234–37, 383n6; Einstein and, 307; frames and, 190–91; invariance and, 190–94, 202–4, 237, 256, 265, 268–69, 305, 307, 389n22, 390n23; space-time and, 190–94, 199–204, 209; tensors and, 242, 255–56, 259–65, 268–69, 272, 283, 287, 291, 295, 389n22, 390n23, 392n14, 394n30; timeline on, 336
+- Corry, Leo, 297, 395n33
+- Coulomb, Augustin: electricity and, 125, 130, 138, 329; law of, 138, 154, 367n11, 370n21; Maxwell on Coulomb’s law, 138, 154, 367n11, 369n19, 370n21; vector form of Coulomb’s law, 154, 174, 371n21
+- covariance (form-invariant equations and relativity), 205, 291, 295, 304–5, 392n14, 393n21, 394n30, 399n2, 400n8
+- covariant derivatives, 271–72, 300, 309–10, 316, 318, 397n40
+- Cromwell, Oliver, 27
+- cross products: Maxwell and, 144; quaternions and, 104, 106, 155, 162, 179–80; space and, 78–80; space-time and, 213; tensors and, 245
+- Crowe, Michael, 196, 366n19
+- cryptography, 89, 360n23
+- crystals, 18; biaxial, 20; ferromagnetic, 363n31; Hamilton and, 20; snow, *193*; stress forces and, 213, 244–45; tensors and, 322; Voigt and, 244–45
+- cubic equations: algebra and, 10–16, 347n15, 348n18; ideas for vectors and, 46, 53, 56; timeline on, 328
+- cuneiform script, xiii–xiv, 10, 265, 327, 343n1, 347n13
+- curl: Maxwell and, 142, 152, 156–57, 172, 174, 204, 243, 287, 332, 376n10; quaternions and, 152, 156–57, 172–75, 370n21, 373n11, 376n12, 376n14; space-time and, 204, 211, *214*; tensors and, 243, 271, 287; timeline on, 332
+- curved space/space-time: algebra and, 229, 233–35, 238; Archimedes and, 225; astronomy and, 228–29; Cartesian coordinates and, 230–33; Cayley and, 230–31; Clifford and, 230, 238; complex numbers and, 233; coordinate transformations and, 227, 234–37, 383n6; derivatives and, 224, 229, 235–39; differential calculus and, 383n5, 385n11; Einstein and, xii, 217–19, 226, 228, 230, 232, 237–39, *277*, 278, 283, 383n5; electromagnetism and, 237; Euclidean geometry and, 220–22, 227–31, 234–35, 239; Euler and, 223, 229; four-dimensional mathematics and, 219, 223, 226; Gauss and, 219–35, 383n4, 383n6, 385n8; general theory of relativity and, 217–19, 228, 238, 277–28, 283; geodesics and, 229; geometry and, 220, 224–26, 229–31, 238, 383n6; Grassmann and, 230–33; gravity and, 219, 237, 385n7; Grossmann and, 217–20, 230, 238–39; Hamilton and, 229–30; Harriot and, 221, 224–28, 384n6; infinitesimals and, 221–24, 383n6; integrals and, 225, 383n6; invariance and, 226–30, 235–38; laws of motion and, 230; Leibniz and, 223; Levi-Civita and, 219–20, 237; Lorentz and, 227; matrices and, 230, 384n6; Maxwell and, 219, 231, 235–39; Minkowski and, 217, 219, 223, 227, 234, 238–39, 383n5, 386n16; motion and, 217, 219, 230; Newton and, 231; notation and,
+- curved space/space-time 222–23, 233–39, 383n6; parallelogram rule and, 220; Poincaré and, 218; Pythagoras’s theorem and, 231; quadratic equations and, 233–38; quaternions and, 229; Ricci and, 219–20, 226, 237–39; rotation and, 227; scalar numbers and, 225–26, 234, 236, 383n6, 386n13; Sommerfeld and, 219; special theory of relativity and, 232; symmetry and, 236; Tait and, 385n12; tensor calculus and, 219; Thomson and, 236; three-dimensional space and, 219–23, 229; vector field and, 237; velocity and, 230
+- curved surfaces: Cayley and, 231, 242; Einstein and, 314–15; Gauss and, 111, 220–35, 269, 330, 383n6; *General Investigations of Curved Surfaces* (Gauss), 221, 383n6; quaternions and, 111, 115; Riemann and, 219, 230–36, 244, 269, 383n6, 385nn10–12, 386nn13–16; tensors (incl. condition for curvature) and, 244, 260, 283, 287; timeline on, 330, 335
+- d’Alembert, Jean Le Rond, 57
+- dark energy, 322, 397n44
+- dark matter, 337, 397n44
+- Darwin, Charles, 164
+- data representation: matrices and, 81, 86–89; Mesopotamian, xiii–xiv, 81, 323, 327; tensors and, xi–xiii, 191–92, 244–49, 253–54, 290, 323; vectors and, xi–xiii, xxv, 77, 86–89, 191–92
+- DeepMind, 191–92
+- De Morgan, Augustus: algebraic structure and, 99–100, 163, 183; background of, 72; complex numbers and, 63; death of, 151; family life of, 73; Hamilton and, 104, 106, 112–14; ideas for vectors and, 61–63, 68; Lovelace and, 73, 358n8; nonsectarian views and, 72–72, 85, 160
+- De Morgan, Sophia Frend, 73–74
+- derivatives: covariant, 271–72, 300, 309–10, 316, 318, 397n40; curved space and, 224, 229, 235–39; Einstein and, 309–10, 316, 318; geometry and, 39, *40*; Hamilton and, 20, 41, 63, 152, 298; ideas for vectors and, 63; Leibniz and, 39, 368n12; Maxwell and, 126–27, 137–38, 141, 152, 172, 264, 271, 300, 369n21, 376n14; Newton and, 63, 137, 172, 182, 202, 271, 295, 301, 352n15, 368n12, 373n11; partial, 126–27, 235, 264, 271–72, 288–89, 298, 300, 368n13, 389n22, 397n40; quaternions and, 152, 172–75, *182*; space-time and, 202, 345n8; tensors and, 264, 271–72, 283, 286, 288–89, 295, 298–301, 309–12, 386n9, 389n22, 390n23, 397n40; timeline for, 335; Zeno and, 30
+- Descartes, René, xix; algebra and, 6, 9, 15, 350nn7–8; analytic geometry and, 32; Cartesian coordinates and, 32, 112 (*see also* Cartesian coordinates); *Discourse on Method*, 9 328; ideas for vectors and, xix, 50, 52; imaginary numbers and, 6, 15, 52, 346n8; Maxwell on, 151; timeline on, 328
+- Dickens, Charles: Tait and, 149
+- differential calculus: curved space and, 219, 222–23, 226, 231–38, 383n5, 385n11; development of, 18–21, 26–29, 35, 40, 328, 333–34, 336, 350n6, 352n15; Einstein and, 318; ideas for vectors and, 62; Maxwell and, 127, 137–41, 369n19, 369n21; quaternions and, 105, 109, 111, 371n23; rates of change and, 20–21; tensors and, 242–44, 256–58, 268–74, 284, 289, 389n22, 393n19; timeline on, 328, 333–34, 336
+- differential geometry: Cartan and, 322, 336; Gauss and, 109, 223, 231–32, 243, 269, 272, 369n21; Grassmann and, 109; ideas for vectors and, 352n15; tensors and, 272, 289, 393n19
+- diffraction: interference patterns and, 19, 97, 199, 363n31; light and, 19, 277–78, 293, 302–3, 317, 335, 337, 397n44
+- Diophantus, 7
+- Dirac, Paul: Einstein and, 402n2; electrons and, 96, 155, 320–21 336, 362n30; magnetic monopoles and, 155, 376n13; matrices and, 96, 320, 323, 362n29; Nobel Prize of, 402n2; notation and, 251; Pauli spin matrices and, 336; QED equations of, 320; quantum theory and, 96, 155, 251, 320–21, 336, 362n29, 376n13, 402n2; space and, 96, 362n29; special theory of relativity and, 320; tensors and, 251–53, 323; vectors and, 251
+- *Discourse on Method* (Descartes), 9, 328
+- Disney, Catherine (Hamilton and), 73, 145
+- distributive law, 255, 356n2
+- divergence (of vector and tensor fields): Einstein and, 308, 400n6; Maxwell and, 144, 149, 152–55, 161, 172, 243, 264, 332, 369n21, 372n7, 375n10; quaternions and, 152–57, 161, 172–74; space-time and, 211, 397n39; tensors and, 243, 264, 298–301; theorem of, 139, 144, 152, 369n21; timeline on, 332
+- Dodgson, Charles (Lewis Carroll), xxvi, 2, 345n9, 346n2
+- Doppler effect, 278
+- dot products, 78, 80, 211
+- Dublin University (Hamilton’s lectures on quaternions), 82
+- Dunsink Observatory (Hamilton’s home), 1, 73
+- E = mc^2^ equation, 9, 20, 207, 287, 347n12, 402n2
+- Earl of Northumberland (Harriot’s patron), 48, 50
+- eclipses: astronomy and, 98, 199, 294, 302–3, 317, 320, 335, 397n44; general theory of relativity and, 294, 302–3, 317, 320, 335
+- Eddington, Arthur, 317, 335
+- Edgeworth, Francis Beaufort, 62, 64
+- Edgeworth, Maria, 62, 64–65
+- Egyptian mathematics, xvi, xxvi; Ahmes, 22–23, 122, 327, 349n3; algebra and, 9; cycle of birth and death, 32; geometry and, 22, *23*; Hypatia, xvii, 7, 328; land parcels and, 186
+- Ehrenfest, Paul, 96, 311–12, 362n28, 393n23, 395n32
+- Einstein, Albert: Abraham and, 280–81, 292, 294, 312, 391n10; algebra and, 7, 9, 17, 313, 316, 347n12; algorithms and, 313–14; anti-Semitism and, 196; astronomy and, 200, 293, 322, 336; Bern University and, 232; “biggest blunder” of, 322; Brownian motion and, 347n12; calculus and, 19, 35–36; Cartesian coordinates and, xxiv, 207, 400n8; Clifford compared with, 167; commutative law and, 315; conservation of energy and, 306–9, 335, 393n21, 400n8; conservation of momentum and, 305–9, 321; coordinate transformations and, 283, 291, 295, 300, 305, 307; covariance and, 205, 291, 295, 304–5, 392n14, 393n21, 394n30, 399n2, 400n8; curved space and, 230; curved space-time and, xxii, 116, 238–39, *277*, 278, 283–85; curved surfaces and, 314–15; “Declaration to the Cultural World” and, 293; derivatives and, 309–10, 316, 318; differential calculus and, 318; Dirac and, 402n2; divergence and, 308, 400n6; doctorate and, 217–18; E = mc^2^ and, 9, 20, 207, 287, 347n12, 402n2; electromagnetism and, 308, 318; electrons and, 9, 200, 280, 380n12; elegant equation of, 325; *Entwurf* theory and, 290–95, 393n21; ether and, 198–99; Euclid and, 308; Euler and, 305; flux and, 309; *The Foundation of the General Theory of Relativity*, 305, 392n12; frames of reference and, 271, 276, 283–84; general theory of relativity and, 9, 274–303 (*see also* general theory of relativity); Grassmann and, 318; gravity and, 305–9, 313, 315, 318, 321–22, 399nn4–5; Grossmann and, 217–19, 238–39, 244, 253, 258, 275, 283–95, 298–99, 303, 319, 333–34; Hamilton and, 306–7, 310, 315; Hilbert and, 293–98, 301, 304–6, 310, 313, 317–18, 335, 395nn33–35, 396nn36–37, 397n43; ideas for vectors and, 62–63; integrals and, 305–6; invariance and, 226, 283, 305–8, 323, 399n5; Klein and, 304–6, 310–13; Lagrange and, 305–7; laws of motion and, 306; Levi-Civita and, 219, 310, 315–19; light and, 19, 35, 141, 200–201, 205, 212, 277–85, 293–94, 303, 317, 335, 337, 347n12, 379n10, 397n44; Lorentz and, 200; Lorentz transformations and, 199–212, 242, 280, 283–84, 334, 380n12, 381n14, 392n12, 394n30, 399n5; Marić and, 197–200, 293, 333, 335, 379nn9–10, 394n31; Maxwell and, xii, 7, 35, 129, 141, 160, 183, 196, 200–201, 205, 207, 212, 238, 241–42, 280, 287, 289, 325, 334, 366n1, 380n12; Minkowski and, 196, 207–12, 217, 219, 238, 242, 280–87, 289, 293, 303, 334, 340, 383n5; momentum and, 305–11, 321; motion and, 35, 200–20 1, 217, 219, 275, 295–96, 306–8, 347n12, 379n10, 392n12, 395n32, 397n44; Newton’s law of gravity and, 275–76, 279, 283, 285–86; Noether and, 304–13, 317, 399n3, 399n5; Norton on, 399n2; notation and, 300–301; parallelogram rule and, 314; Poincaré and, 200–1, 205–9, 212, 218, 242, 280–81, 334; principle of equivalence and, 276–78, 282–85; quantum mechanics and, 311, 320–21, 323; quantum theory and, 19, 292, 302, 311, 347n12; quaternions and, 180, 207; Ricci and, 219, 305, 310, 314, 316–19; Riemann and, 310–11; scalar numbers and, 401n12; Sommerfeld and, 317; space and, 95; space-time and, xxiv, 196–212, 216, 321–22, 379n10, 381n14, 383n5; special theory of relativity and, 160 (*see also* special theory of relativity); symmetry and, 306–14, 322, 399n5; tensor calculus and, 285–90, 305, 316, 318; tensors and, xii, 160, 183, 241–44, 253, 258, 261, 266–71, 275–303, 321, 390n2, 391nn6–10, 392nn11–14, 393n21, 394nn30–31, 395nn32–35, 396n37, 397n38, 397nn41–44, 399n46; timeline on, 329–37; velocity and, 305–6
+- Einstein, Hans Albert, 296, 403n5
+- Einstein-Cartan theory, 318, 318–19
+- Einstein summation convention, 261
+- Eisenstein, Ferdinand, 82
+- *Electrician, The* (magazine), 170
+- electricity: Ampère and, 110–11, 128, 131, 138, 174, 330, 365n14, 369n21, 371n23; capacitance, 124–25, 369n20; Coulomb and, 125, 130, 138, 329; Faraday and, 128–29, 133–42, 369n21; as fluid, 139–40; flux and, 130–33, 137–38, 369nn20–21; generation of, 129–31, *132*, 155, 330; induction and, 133, 138, 151, 369n21, 375n10; Lagrange and, 125–26; Laplace and, 127, 130; Maxwell and, 123–45, 150, 154, 157, 168, 332, 343n2, 349n2, 365n14, 367n11, 368n14, 369n19, 369n21, 372n7, 376n14; natural effects of, 325; Poisson and, 127, 130; quaternions/vectors and, 150, *154*, 157, 168–69, 185, *195*; static, 124, 128–30, 136, 138, 290, 329, 369n21; Tait and, 125, 127, 143, 145, 150, 185, 195; timeline on, 332; voltage and, 125, 152, 157, 172
+- electroencephalograms (EEGs), 247
+- *Electromagnetic Theory* (Heaviside), 170, 176–77
+- electromagnetic waves: algebra and, 16, 348n17; Maxwell and, 141; quaternions and, 151, 159, 168, 171–72, 371n23; tensors and, 289–90; timeline for, 332
+- electromagnetism: action-at-a-distance and, 132–33, 135, 138, 150, 203, 365n14, 369n19, 376n11; algebra and, 3, 16, 348n17; curved space and, 237; Einstein and, 308, 318; ether and, 280; Heaviside and, 172–76; induction and, 133, 138, 151, 369n21, 375n10; iron filings and, 95, 134–40, 174, 183; light and, 141 (*see also* light); Maxwell and, 3, 16, 110, 118–46, 150–51, 156–60, 170–73, 177, 183, 198–204, 213, 241, 271, 280, 288–90, 320, 325, 332–33, 371n23, 376n11; monopoles and, 155, 372n9, 376n13, 385n7; Øersted and, 94, 110, 124, 128–29, *132*, 138, 173, 330; quaternions/vectors and, 110, 146, 150–51, 156–60, 168, 170–73, 176–77, 183, 185, 371n23, 372n9, 373n11, 376n11, 376n13; space and, 83–84, 98–99; space-time and, 198–204, 213; Tait and, 118–24, 128–29, 137, 139, 142–45; telegraphy and, 95; tensors and, 241, 244, 271, 275, 280, 288–90, 296–99, 391n8, 397n44; timeline for, 330, 332–33; *Treatise on Electricity and Magnetism* (Maxwell), 145, 150, *154*, 157, 168, 332, 343n2, 349n2, 365n14, 367n7, 367n11, 369n19, 369n21, 372n7, 373n12; vector field and, 3, 118–45
+- electromotive intensity, 153
+- electrons: angular momentum of, 94, 96, 335–36; Coulomb’s law for, 154, 174, 371n21; Dirac and, 96, 155, 320–21, 336, 362n30; discovery of, 165, Einstein and, 9, 200, 280, 380n12; ideas for vectors and, 55, 66; interference patterns and, 19, 55, 363n31; Lorentz and, 96, 175, 200, 280, 362n28, 380n12; Maxwell and, 124–25, 129; monopoles and, 155; Opat and, 336, 363n31; quaternions/vectors and, 175; Schrödinger’s equation and, 348n17; space and, 93–100; space-time and, 200; spectral lines and, 361n26; spin of, 94–98, 175, 251, 292, 318, 321, 335–36, 362nn27–30, 363n31; tensors and, 251, 280
+- *Elementary Treatise on Quaternions* (Tait), 147–50, 332
+- *Elements* (Euclid), xviii, 4–5, 327
+- *Elements of Dynamic* (Clifford), 161
+- *Elements of Vector Analysis* (Gibbs), 178–80
+- Eliot, George, 163–66, 230
+- Emerson, Ralph Waldo, 84
+- *Encyclopedia Brittanica*, 133, 380n11
+- *Entwurf* theory, 290–95, 393n21
+- Eratosthenes, 327
+- *Essay on Dynamics* (Leibniz), 44–45
+- ether: Einstein and, 198–200, 205, 280; electromagnetism and, 198, 201; Lorentz and, 205, 292; Maxwell and, 198, 380n11; Michelson-Morley experiment and, 198–99; planetary motion hypothesis and, 34–35; Poincaré and, 200–201, 205, 280, 334; special theory of relativity and, 198–201, 205
+- Euclid: algebra and, 4–5; Apollonius and, xix; calculus and, 27; curved space and, 220–22, 227–31, 234–35, 239; Einstein and non-Euclidean geometry, 308; *Elements*, xviii, 4–5, 327; flat space and, 115–17, geometry and, 4, 74, 115–17, 163, 210, 216, 220, 229–31, 303, 308, 327, 330; space and, 74; space-time and, 209–10, 216; tensors and Euclidean spaces, 268–72, 299; tensors and non-Euclidean spaces, 284 (*see also* general theory of relativity); timeline on, 327, 330; vectors in Euclidean space, 253, 264–65
+- Eudoxus of Cnidus, 344n6
+- Euler, Leonhard, xiv; algebra and, 348n20; background of, 54; beautiful formula of, 55–56, 325; complex numbers and, 55–57; curved space and, 223, 229; Einstein and, 305; fluid flow and, 136; ideas for vectors and, 52–57, 60, 67, 354nn12–13, 355nn14–15; imaginary numbers and, 52–57; memory/blindness of, 54; modernising Newton and, 105; space and, 72, 81, 90, 356n3, 360n24
+- Euphrates River, xiv
+- Event Horizon Telescope, 337
+- factorisation: complex numbers and, 54; matrices (image compression) and, 86; polynomials (Harriot) and, 15, 348n19
+- falling motion, 112, 125, 275–76, 308, 353n6
+- Faraday, Michael: electricity and, 128–29, 133–42, 369n21; Faraday’s law, 174; Faraday tensor, 289; fields and, 134–36, *135*, 279; Maxwell and, 128–29, 133–42, 149, 151, 167, 174, 237, 279, 289, 331, 369n21; Øersted and, 128–29, 173, 330; “On Faraday’s Lines of Force” (Maxwell), 136; Riebau and, 133–34; Tait and, 149; Thomson and, 147, 151; timeline on, 330–31; vector field and, 136–40
+- Fascists, 317
+- Federal Polytechnic School (or “Poly,” now ETH): Besso and, 281; Christoffel and, 238; Einstein and, 196, 218, 275, 281; Grossmann and, 217–18; Marić and, 197; Minkowski and, 196
+- Ferguson, Duncan (Glenlair), 123, 367n9
+- Fermat, Pierre de: last theorem of, 27, 53, 56–57, 355nn14–15; as Le Blanc, 53, 220; legal background of, 52; Wallis and, 350n8
+- Ferro, Scipione del, 12
+- Fior, Antonio, 12
+- First Nations, xv
+- FitzGerald, George, 168, 171, 173, 199
+- *Flatland: A Romance of Many Dimensions* (Abbott), 206
+- Fleming, Ambrose, 168
+- flux: Einstein and, 309; electricity and, 130–33, 137–38, 369nn20–21; ideas for vectors and, 63; Maxwell and, 130–33, 137–38, 369nn20–21; quaternions/vectors and, 151, *154*, 155, 174, 279, 375n10; tensors and, 289–90
+- Foote, Eunice Newton, 84, 331, 359n19
+- *Foundation of the General Theory of **Relativity, The* (Einstein), 305, 392n12
+- “Foundations of Physics” (Hilbert), 297
+- Fourier, Joseph: heat flow and, 136, 142, 151, 233, 330, 359n19
+- fourth dimension: algebra and, 17; curved space and, 219, 223, 226; gravity and, 381n18; Hamilton and, 2, 4, 17, 75–78, 91, 98–99, 206; hypercubes and, 205–11; Minkowski and, 207–8; quaternions and, 187 (*see also* quaternions); space and, 75–78, 91, 98–99, 381n16; space-time and, 17, 75, 187, 205–12, 248, 289, 298, 381n16, 381n18; tensors and, 247–48, 286–89, 298; vector analysis and, 205–12
+- Fourth Wrangler (George Green), 126
+- frames of reference: conservation laws and, 306–8; coordinate transformations and, 85, 194, 199, 201, 400n10; definition of, 190–91; inertial, 283–84; invariance and, 189–193, 202–4, 227, 255; relativity and, *201*, 205, 276, *277*, 278, 284, 291, 302, 305, 336; tensors and, 259–60, 262, 271, 288, 290, 295
+- French Academy of Sciences, 105, 126
+- French Revolution, 105
+- Friedmann, Alexander, 322
+- fuzzy logic, 87
+- Galileo: ballistics (parabolic trajectory) and, 49, 277, 353n6; calculus and, 27; falling motion and, 49, 112, 275, 390n2, 393n21; ideas for vectors and, 46–49, 353n6; relativity and, *201*, 275
+- Galois, Évariste, 208
+- Gauss, Carl Friedrich: creativity of, 115–16; complex numbers and, 108–9; Coulomb’s law/flux and, 154, 174, 279; curved space and, 219–35, 383n4, 383n6, 385n8; curved surfaces and, 111, 220–35, 269, 330, 383n6; differential geometry and, 109, 223, 231–32, 243, 269, 272, 369n21; *General Investigations of Curved Surfaces*, 221, 383n6; Grassmann and, 108–9; ideas for vectors and, 53, 58, 60–61, 67; invariance and, 226–30; Maxwell and, 126, 130, 133, 138–39, 154, 279, 369n21; Möbius and, 109; non-Euclidean geometry and, 115; notation and, 383n6; remarkable theorem of, 225; Riemann and, 219, 230–33, 235, 243, 269, 303, 332, 383n6; space and, 82–83, 359n16; tensors and, 243, 269, 272, 284, 303; timeline on, 327, 330, 332
+- Gauss-Bonnet theorem, 228
+- Gauss-Coulomb laws, 154, 174, 279
+- Gaussian elimination, 82–83, 327, 359n16
+- *General Investigations of Curved Surfaces* (Gauss), 221, 383n6
+- general theory of relativity: algebra and, 9; confirmation of, 336–37; curved space and, 217–19, 228, 238; development of, 308, 313, 318–19, 399n2, 400n8, 401n11; E = mc^2^ and, 9, 20, 207, 287, 347n12, 402n2; eclipse proof of, 294, 302–3, 317, 320, 335; *Entwurf* theory and, 290–95, 393n21; *The Foundation of the General Theory of Relativity* (Einstein), 305, 392n12; frames of reference and, 271, 276, 283–84; Friedmann and, 322; gravity and, 219, 275–76, 280–81, 291, 302, 308, 313, 318, 329, 335, 372, 395n33, 395n35, 397n44, 399nn4–5; Grossmann and, 210, 217, 258, 275, 291, 298, 303, 319, 334–35; impact of, 320–22; Noether and, 304–5; parallelogram rule and, 314–19; space and, 80–83, 96; space-time and, 196–97, 206, 210–12; tensors and, 160, 258, 267, 274–303, 323, 372n9, 389n20, 391n9, 392n12, 392n14, 394n39, 395nn32–35, 397n44; timeline for, 329, 334–37; vectors and, 160
+- generators, 129–31, *132*, 155, 330
+- Genzel, Rienhard, 228
+- geodesics, 229–30, 284–85, 308, 315–16, 392n16, 395n32
+- *Geography* (Ptolemy), xviii, 327
+- geometry: algebra and, 1, 4, 6, 10–17, 346n9, 347n13, 347nn15–16; calculus and, 21–22, 26, 31–34, 39–41, 350nn7–8, 352n15; Cardano and, 11–12, 32, 347n16; Clifford and, 238; curved space and, 220, 224–26, 229–31, 238, 383n6; curved surfaces and, 219 (*see also* curved surfaces); derivatives and, 39, *40*; differential, 109, 272–73, 289, 322, 336, 352n15, 393n19; Einstein and, 308; Euclid and, 4, 74, 115–17, 163, 210, 216, 220, 229–31, 303, 308, 327, 330; four-dimensional, 17, 75, 187, 205–12, 248, 289, 298, 381n18; Hamilton and, 1, 4, 14, 17, 60–63, 68, 74, 90, 104, 106, 109–10, 113–17, 159, 161, 183, 185, 333, 345n1; ideas for vectors and, 44, 58–63, 68; Klein and, 242, 295, 298, 381n14; Leibniz and, 35–37, 368n12; Maxwell and, 110, 117, 159, 161, 183–84, 213, 241, 289, 333, 368n12; Mesopotamia and, xiv–xv; Newton and, 14, 39–41, 44, 60, 62, 74, 308, 329, 350n7, 351n15, 368n12; non-Euclidean, 117, 163, 216, 220, 284, 330; notation and, xxii–xxiii; Ptolemy and, 344n6; quaternions and, 103–6, 109–17, 159–63, 181–85, 374n23; space and, 1–4, 74–75, 87, 90, 360n24 (*see also* three-dimensional space); space-time and, 190, 194–95, 206–7, 210–13, 216, 381n14; tensors and, 241–42, 245, 259, 272, 283–86, 289, 295–98, 303; timeline on, 327–30, 333, 336; Zeno’s paradox and, 31, 40
+- Gerlach, Walther, 95–96, 335, 362n27
+- Germain, Sophie: calculus and, 25, 38; curved space and, 220, 233; Fermat’s last theorem and, 57; formal education and, 25, 38, 53; Gauss and, 53, 220; ideas for vectors and, 53, 57; sexism and, 164; timeline on, 330; vibrating surfaces and, 126–27
+- German letters (Maxwell’s symbols for vectors), 153, 155
+- German University in Prague (Einstein as professor), 278
+- Ghez, Andrea, 228
+- Gibbs, Josiah Willard: *Elements of **Vector Analysis*, 178–80; Heaviside and, 78, 176–81, 184, 187, 196,
+- Gibbs, Josiah Willard (*cont*.)
+- 210–12, 333, 376n12; invariance and, 196; Maxwell and, 140, 143, 177–79, 187, 212, 333, 377n17; notation and, 78, 376n12; quaternions and, 177–81, 184–87, 376n12, 377nn17–18; “Quaternions and the Algebra of Vectors,” 185–86; space-time and, 196, 210, 212; tensors and, 245; timeline on, 333
+- Gill, David (on Maxwell), 145
+- gimbal lock, 93
+- Girard, Albert, 225
+- Glenlair (Maxwell’s home), 118, 123, 137, 167, 367n9
+- Google, 87, 248, 323, 336
+- Göttingen Academy of Sciences (Hilbert’s relativity equations), 297
+- Goudsmit, Samuel, 96, 335, 362nn27–28
+- GPS, x, xii, 203, 249, 279, 302
+- grad: Maxwell and, 152, 243, 264, 332; quaternions/vectors and, 152, 376n14; space-time and, 211; tensors and, 243, 264
+- Grassmann, Hermann: *Ausdehnungslehre* of, 103–16, 163, 178, 212, 256, 331; background of, 102–3; Clifford and, 161–63; curved space and, 230–33; De Morgan and, 112–13; differential geometry and, 318; Einstein and, 267; Gauss and, 108–9; Gibbs and, 178–81; Hamilton (and Hamiltonian vectors) and, 102–18, 161, 163, 179–80, 230, 267, 329, 333, 364n3, 366n19, 368n12; Laplace and, 105; Maxwell and, 368n12; Möbius and, 109–10; newspaper of, 116–17; quaternion/vector alternative system and, 102–18, 364n3, 364n8, 365n14, 366n15, 366n19, 374n23, 377n17; *Rig Veda* and, 116; space-time and, 196, 212, 215; tensors and, 245, 253, 267; timeline on, 329, 331, 333;
+- Grassmann, Justus (father of Hermann), 102, 113
+- Grassmann, Justus (son of Hermann), 212, 256
+- Graves, John, 71, 75
+- Graves, Robert, 71, 101
+- gravity: calculus and, 20, 27, 34–40; curved space and, 219, 237, 385n7; Einstein and, 305–9, 313, 315, 318, 321–22, 399nn4–5; falling and, 112, 125, 129, 219, 275–76, *277*, 304, 308, 352n15, 353n6, 390n5, 397n40; four-dimensional geometry and, 381n18; general theory of relativity and, 219, 275–76, 280–81, 291, 302, 308, 313, 318, 329, 335, 372, 395n33, 395n35, 397n44, 399nn4–5; ideas for vectors and, 46–49; inverse square law and, 36, 125, 279, 315, 329, 367n11, 368n15, 393n21; light and, 27, 36–37, 277–79, 282, 285, 302; Maxwell and, 125–33, 142, 367n11, 368n12, 368n15; motion and, 27, 34–36, 46–49, 125, 182, 219, 275–76, 368n15, 397n44; Newton and, 27, 34–40, 47, 125, 130, 133, 142, 182, 275–80, 285–87, 301–2, 307, 329, 337, 367n11, 368n12, 368n15, 391nn7–8, 397n41; planets and, 34–36, 133, 275–76, 367n11, 393n21; principle of equivalence and, 276–78, 282–85; quaternions and, 155, *182*; space and, 92; space-time and, 198; special theory of relativity and, 198, 219, 275, 278–81, 285, 291, 397n40, 399n5; stationary, 280, 367n11; tensors and, 275–303, 390n2, 390n5, 391nn7–8, 393n21, 397n41; timeline for, 329, 335–37; trajectories and, 35, 46–49, 181–82, 274, 277; as waves, x, 20, 198, 302, 309, 313, 336–37
+- Gravity Probe B satellite, 336
+- Greek mathematicians, xiv, xxvi; algebra and, 5, 7, 9, 13; astronomy and, xvii; calculus and, 22, 29; curved space and, 233–34; ideas for vectors and, 49, 64; influence of, xvi–xvii; Maxwell and, 153; method of exhaustion and, 22–26; nabla and, 143; Ottomans and, 47; space-time and, 90; Tait and, 143, 147, 178. *See also specific individuals*
+- Green, George, 126, 131
+- Grossmann, Marcel: curved space and, 217–20, 230, 238–39; Einstein and, 217–19, 238–39, 244, 253, 258, 275, 283, 285–95, 298–99, 303, 319, 333–34; *Entwurf* theory and, 290–95, 393n21; general theory of relativity and, 210, 217, 258, 275, 291, 298, 303, 319, 334–35; Ricci and, 219, 238, 244, 253, 258, 275, 285–87, 290, 295, 303, 319, 334; tensors and, 244, 253, 258, 275, 282–95, 298–99, 303; timeline on, 333–35
+- group theory, 204, 208, 362n30
+- Grunert, Johann, 110
+- Gunpowder Plot, 50
+- habilitation theses, 232, 237–38, 257, 312–13
+- Habsburgs, 47
+- Halley, Edmond, 37, 351n13
+- Hamilton, Archibald, 69
+- Hamilton, Helen, 1–2, 73, 75, 357n7
+- Hamilton, Helen Eliza, 73
+- Hamilton, James, 64–65
+- Hamilton, William Edwin, 69
+- Hamilton, William Rowan: algebra and, 1–8, 14, 17, 54, 57, 60–63, 69–71, 74, 76, 80–83, 86, 89–90, 99–107, 116, 151, 161, 163, 178–79, 183, 229, 243, 332–33, 345n1, 345n9, 346n2, 358n9; arithmetic of, xxv–xxvi; Armstrong and, 3; astronomy and, 1, 7, 62, 65, 73, 76, 102; background of, 64–68; Broome Bridge and, 1–3, 41–42, 75, 78, 97, 145, 243, 325, 331; Broome Bridge graffiti, meaning of, 2–3, 76, 359n13; calculus and, 18–20, 41, 65; Cayley and, 8, 81–83, 86, 90, 137, 179, 332; coins vector term, xi–xii; commutative law and, 2, 61, 76, 79, 90, 99, 104, 107, 114–16, 163, 178, 332, 345n9, 359n13; complex numbers and, 54, 57, 60–64, 67, 69, 74–75, 78, 100, 104, 107, 109, 114, 116, 178, 244, 355n20, 356n3, 358n11; couples of, 61–64, 67, 71, 355nn20–21; crystals and, 20; curved space and, 229–30; death of, 146–47; derivatives and, 20, 41, 63, 152, 298; Einstein and, 306–7, 310, 315; elegance of equation of, 325; four-dimensional mathematics and, 2, 4, 17, 75–78, 91, 98–99, 206; genius of, 147; geometry and, 1, 4, 14, 17, 60–63, 68, 74, 90, 104, 106, 109–10, 113–17, 159, 161, 183, 185, 206, 333, 345n1; Grassmann and, 102–18, 161, 163, 179–80, 230, 267, 329, 333, 364n3, 366n19, 368n12; ideas for vectors and, 42, 52, 54, 57, 60–68, 355nn20–21; imaginary numbers and, 2, 6, 52, 57, 60, 74–78, 153, 171, 358n11; languages of, 64; Laplace and, 65, 104; law of moduli of, 71–72, 75–76, 356n3, 358n11; *Lectures on Quaternions*, 76, 107, 114, 117, 119, 142–43, 260n24, 345n1, 355n20, 357n4; light and, 2, 19–20; Mad Hatter parody conjecture and, 345n9; Maxwell and, 118–19, 128, 137–45, 368n12; nabla and, 143–44, 146, 148, 152–53, 243, 298, 332; Newton and, 42, 52, 60, 62–65, 74, 84, 103, 146–47, 181, 196, 306, 325, 355n20, 358n12, 367n12; notation and, 373n12; *Ode to the Moon under Total Eclipse*, 98; poetry and, 62–64, 73, 75, 84, 98, 331; as prodigy, 64–68; quaternions and, 3, 7–8, 14, 17, 64–65, 71, 74–83, 86, 90–91, 97–119, 128, 142–53, 159–63, 171, 178–86, 196, 206, 229, 243–44, 325, 331–33, 336, 355n20, 359n14, 360n24, 364n3, 366nn18–19, 372n10; refraction and, 18, 20, 331; reputation of, 73; Ricci and, 244, 267, 298, 325; rotation and, 1, 3, 14, 54, 60, 67–68, 89–91, 97, 100, 104, 107, 114, 178, 183, 336, 360n24; rule-breaking and, xxvi–xxvii, 80–81; space and, 1–4, 68–86, 89–91, 97–100, 106–7, 114, 161–62, 183, 356n3, 357n7, 358n11, 359nn13–14, 360n24; space-time and, 196, 206, 381n17; tensors and, 243–45, 267, 298, 395n34; timeline on, 329–33, 336; Trinity College Dublin and, 65–66; triples of, 68–71, 75–76
+- Hamilton Day, 1–2
+- Hamilton’s process, 355, 355n20
+- Harriot, Thomas: algebra and, 8–9, 14–17, 29–32, 52, 61, 112, 328, 348nn18–19, 349n22, 350n7, 353n5; ballistics (projectile trajectory) and, 49, 277, 353n6; calculus and, 27, 29, 31–32, 350nn7–8; curved space and, 221, 224–28, 384n6; death of, 256; Descartes and, 32, 350n8; falling motion and, 49, 112; Gunpowder Plot and, 50; ideas for vectors and, 48–52, 61, 328, 353nn5–8, 354n9, 354n12; infinite series and, 31; Lagrange and, 348n18; mechanics of collisions and, 50–52; motion and, 48–49, 112, 353n6, 353n8; *Praxis*, 8, 32, 52, 328, 347n10, 349n22, 350n8; Seltman and, 16–17; symbolism and, 8, 14–17, 29, 111–12, 349nn21–22; symmetry and, 353n8; tensors and, 256, 277; *Thomas Harriot: A Life in Science*, 347n10; timeline on, 328; Viète and, 15; Wallis and, 14–15, 27, 31–32, 52, 61, 111, 348n18, 350n7, 354n10
+- Hawking, Stephen, 228, 385n7
+- Haytham, Abu Ali Ibn al-, 27
+- Heaviside, Oliver: background of, 169–70; *Electromagnetic Theory* (and vector analysis), 170, 176–77; Gibbs and, 78, 176–81, 184, 187, 196, 210–12, 333, 376n12; invariance and, 196; Maxwell (and Maxwell’s equations) and, 169–78, 187, 212, 333, 369n21, 372nn2–10, 375n10, 376nn11–13, 377n15; modern vector notation of, 78, 143, 172–73; “On the Energy of Electric Currents,” 170; quaternions vs. vectors and, 153, 169–81, 184–87, 375nn2–10, 376nn11–13, 377n15; space-time and, 196, 206, 210–12; telegraphy and, 169–72, 177; timeline of, 333
+- *Henry V* (Shakespeare), 49
+- Herschel, Caroline, 66–67
+- Herschel, John, 62, 66–67, 101–2, 108
+- Herschel, William, 67
+- Hertz, Heinrich: death of, 175; Maxwell and, 141, 160, 377n15; radio waves and, 141, 159, 168, 241; timeline on, 333; vectors and, 175
+- Hestenes, David, 374n23
+- Higgs boson, 20, 99, 320
+- Hilbert, David: Bianchi identities and, 310, 395n35; “Declaration to the Cultural World” and, 293; Einstein and, 293–98, 301, 304–6, 310, 313, 317–18, 335, 395nn33–35, 396nn36–37, 397n43; “Foundations of Physics,” 297; general relativity (incl. priority debate) and, 295–98, 301; Klein and, 293, 295, 298, 304–6, 310–13, 335; Levi-Civita and, 294–98; Mie and, 296; Minkowski and, 211, 293; Noether and, 304–6, 310–13, 335; tensors and, 294–98, 301; timeline on, 335
+- Hinton, Charles Howard, 4-D geometry and, 206, 381n16
+- Hobbes, Thomas, 34, 39
+- Hodge, William, 316
+- Hooke, Robert, 36–37, 351nn12–13
+- Hungary, 47
+- Huygens, Christian, 20, 112
+- Hypatia, xvii, 7, 328
+- hypercubes, 206
+- image compression, 86–90
+- imaginary numbers: algebra and, 2–3, 6, 12–16, 347n10; calculus and, 21; Descartes and, 6, 15, 52, 346n8; Euler and, 52–57; Hamilton and, 2, 6, 52, 57, 60, 74–78, 153, 171, 358n11; ideas for vectors and, 52–59, 68; Maxwell and, 143; Minkowski and, 381n20; multiplication as a rotation of, 59; quaternions and, 153, 171, 187; space and, 69–70, 74–78; timeline on, 328
+- Inca mathematics, xvii
+- index notation: curved space and, 235–36; modern view of, 264–65; tensors and, 253–54, 258–71
+- Indian mathematics, xvii, 5–6, 9, 82, 328
+- induction (magnetic), 133, 138, 151, 155, 369n21, 375n10
+- Industrial Revolution, 83
+- inertial frame, *277*, 278, 283–84, 397n40
+- infinitesimals: curved space and, 221–24, 383n6; development of, 21–30, 34, 39, *40*; Hobbes and, 34; integral calculus and, 21–30, 34, 39, *40*, 122, 221–24, 350n6, 383n6; Leibniz and, 26–30, 350n6; method of exhaustion and, 22–26; Newton and, 26–30, 30; Zeno and, 26–30
+- infinity, 21, 29, 32, 53, 350n6
+- integrals (integral calculus): algebra and, 22; approximating areas and, 21; boundaries of, 132–33; curved space and, 225, 383n6; development of, 20–27, 31, 35; Einstein and, 305–6; infinitesimals and, 21–30, 34, 39, *40*, 122, 221–24, 350n6, 383n6; line, 122, 138, 151, 256, 368n12, 369n21, 373n11; Maxwell and, 122–33, 137–40, 367n8, 368n12, 368n15, 369n19, 369n21; method of exhaustion and, 22–26; surface, 122, 128, 130, 133, 137–38, 152, 225–26, 256, 367n8, 369n19, 369n21, 373n11; timeline on, 328
+- interference patterns, 19, 97, 199, 363n31
+- International Astronomical Union, xviii, 337
+- International Mathematics Union, 317
+- invariance: beautiful concept of, 189–97; Cayley and, 191–94, 255; coordinate transformations and, 190–94, 202–4, 237, 256, 265, 268–69, 305, 307, 389n22, 390n23; curved space and, 226–30, 235–38; Einstein and, 305–8, 323, 399n5; Gauss and, 226–30; Gibbs and, 196; Heaviside and, 196; Noether and, 306–8, 399n5; Ricci and, 242–44, 256–59, 262–63, 269–73, 285, 290, 298; space-time and, 189–97, 202–5, 208, 212, 216, 378n4, 381n14; Tait and, 191–94; tensors and, 242–44, 255–59, 262–69, 272–73, 285, 290, 389n22, 390n23; Thomson and, 194; topology and, 226–30
+- “Invariante Variationsprobleme” (Noether), 306
+- inverse square law: algebra and, 34, 36, 125, 138, *154*, *277*, 279, 315, 329, 367n11, 368n15, 393n21; black holes and, 315; calculus and, 34, 36; gravity and, 36, 125, 279, 315, 329, 367n11, 368n15, 393n21; Maxwell and, 125, 138, 367n11, 368n15; Newton and, 34, 36, 125, 277, 279, 329, 367n11; quaternions and, *154*; tensors and, *277*, 279, 393n21; timeline on, 329
+- Iraq, xiii, 10
+- iron filings, 95, 134–40, 174, 183
+- Islamic mathematics, 5, 11, 47
+- James I, 50
+- James Webb Space Telescope, 192
+- Jeffreys, Harold, 321
+- Jews, 85, 196, 317
+- Jones, William, 52–53
+- joule-seconds, 81
+- Jupiter, 199
+- Kant, Immanuel, 62, 64
+- Keith Medal (Tait wins), 159
+- Kelvin temperature scale, 148
+- Khayyam, Omar, 347n15
+- Khwārizmī, Mohammed ibn Mūsā al-, 5–8, 10–11, 13, 328, 346n9
+- kinetic energy, 9, 352nn14–15, 353n8, 399n4
+- Klein, Felix: Chisholm and, 242; “Declaration to the Cultural World” and, 293; Einstein and, 304–6, 310–13; geometry and, 242, 295, 298, 381n14; Hilbert and, 293, 295, 298, 304–6, 310–13, 335; *Mathematische Annalen* and, 255–56; Noether and, 304–6, 310, 312–13, 335, 381n14; notation and, 222; Ricci and, 242, 256, 274, 334; space-time and, 212; tensors and, 242, 255–56, 274–75, 293–95, 298; timeline on, 334–35
+- Klein, Tony, 97, 336, 363n31
+- Kovalevsky, Sonia, 159
+- Lagrange, Joseph-Louis: *Analytical **Mechanics*, 104–5, 329; calculus of variations and, 305; Committee on Weights and Measures, 105, 329, 364n6; Einstein and, 279, 305–7; electricity and, 125–26, 130; Grassmann and, 104–5; Harriot and, 348n18; Maxwell and, 125–30, 368n12; Newtonian gravity and, 125, 279; Newtonian motion and, 105, 307; potential theory and, 125–26, 368n12; timeline on, 329; vectors and, 128
+- Laplace, Pierre-Simon: *Analytical **Mechanics*, 104–5, 329; Committee on Weights and Measures, 105, 329; electricity and, 127, 130; Grassmann and, 105; Hamilton and, 65, 104; Maxwell and, 126–30, 144, 369n21; potential theory and, 126; timeline on, 329; *Treatise on Celestial Mechanics*, 65, 104, 105, 126, 329
+- Laplacian (operator), 127–28, 137, 142, 144, 150
+- Large Hadron Collider, 320
+- large language models (LLMs), 249–50, 387n12, 388n13
+- Laser Interferometer Gravitational-wave Observatory (LIGO), 198, 336–37
+- law of moduli, 71–72, 75–76, 356n3, 358n11
+- laws of motion: calculus and, 34–35; curved space and, 230; Einstein and, 306; ideas for vectors and, 43–44, 48, 353n8; Maxwell and, 125; Newton and, 34–36, 43–44, 48–49, 125, 182, 202, 271, 275, 283, 306, 358n12, 368n15; space and, 358n12; tensors and, 271
+- *Lectures and Essays* (Clifford), 166
+- *Lectures on Quaternions* (Hamilton), 117, 345n1; Grassmann and, 107, 114; ideas for vectors and, 355n20; Maxwell and, 119, 142–43; space and, 76, 357n4, 360n24; trouble in publishing, 106–7
+- Leibniz, Gottfried Wilhelm, 2; background of, 28; calculus and, 27–30, 35–41, 349n5, 350n6; criticism of Newton’s theory and, 35; curved space and, 223; derivatives and, 39, 368n12; *Essay on Dynamics*, 44–45; geometry and, 35–37, 368n12; Hamilton and, 65; ideas for vectors and, 44–45, 54, 62, 65; infinitesimals and, 26–30, 30, 350n6; notation and, 39, *40*, 41, 65, 105, 111–12, 368n12; priority dispute with Newton, 41, 44, 62, 72; quaternions/vectors and, 111–12, 366n15; space and, 62, 72, 83; space-time and, 196; timeline on, 328–30
+- leptons, 99
+- Levi-Civita, Liberia Trevisani, 317
+- Levi-Civita, Tullio: background of, 274–75; curved space and, 219–20, 237; Einstein and, 219, 310, 315–19; Hilbert and, 294–98; Ricci and, 219–20, 274, 285, 303, 316, 319, 334; tensors and, 274, 285, 289, 294–98, 303; timeline on, 334–35
+- Lewes, George, 163–65
+- Leyden jar, 124
+- light: black holes and, 228, 302, 313, 315, 337, 385n7, 397n44, 401n12; diffraction of, 19, 277–78, 293, 302–3, 317, 335, 337, 397n44; eclipses, 98, 199, 294, 302–3, 317, 320, 335, 397n44; Einstein and, 19, 35, 141, 200–201, 205, 212, 277–85, 293–94, 303, 317, 335, 337, 347n12, 379n10, 397n44; electric, 129; gravity and, 27, 36–37, 277–79, 282, 285, 302; Hamilton and, 2, 19–20; Huygens and, 112; interference patterns and, 19, 97, 199, 363n31; Maxwell and, 16, 18, 35, 141–42, 173, 198–200, 212, 332, 349n1, 387n10; Michelson-Morley experiment and, 198–99, 380n11; nature of, 16, 18–20; Newton and, 18–19, 36–37, 202, 277, 280, 285, 303, 337, 397n44; optics and, 18, 20, 27, 123, 147; as particle, 18–19, 37, 97, 277; photons and, 19–20, 99, 277, 284, 348n17, 361n26, 362n30; quantum theory and, 19, 199, 347; redshift and, 278–81, 336–37; refraction of, 18, 20, 66, 102, 331; spectra of, 96, 336, 361n26; speed of, 199, 202–3, 205, 212, 264, 278–85, 376n12, 379n10, 382n24, 389n20; two-slit experiment and, 97, 141; as wave, 16–20, 97–98, 112, 141, 173, 198–99, 278, 302, 332, 337, 349n1, 361n26, 376n11; Young and, 18–19, 97, 141, 199, 330
+- “Lines Written under the Conviction That It Is Not Wise to Read Mathematics in November after One’s Fire Is Out!” (Maxwell), 121
+- Listing, Johann, 111, 227
+- Lloyd, Humphrey, 20
+- Lobachevsky, Nicolai, 115–16, 220
+- Lodge, Oliver, 168, 171
+- London Mathematical Society, 151
+- London’s Royal Institution, 157
+- *London Times* (announcing confirmation of Einstein’s light bending prediction), 303
+- Lorentz, Hendrik, 96; curved space and, 227; Einstein and, 200–12, 242, 280, 283–84, 334, 380n12, 381n14, 392n12, 394n30, 399n5; electron theory and, 380n12; ether and, 199, 205, 210, 280; Maxwell’s laws and, 175; Michelson-Morley experiment and, 199, 207; Poincaré and, 199–201, 207, 280; space-time and, 199–212, 380n12, 381n14, 381n20, 382n24; spin and, 96, 362n28; tensors and, 242–43, 262, 269, 279–80, 283–84, 288, 292, 300, 392n18; timeline on, 334; transformations of, 199–209, 227, 242–43, 262, 269, 279, 283–84, 288, 300, 381n20, 382n24, 392n18, 399n5; vectors and, 207
+- Lovelace, Ada, 73–74, 149
+- Lun, Tony, 155, 372n9, 398n44
+- Macfarlane, Alexander, 181, 181–82
+- machine learning: artificial intelligence (AI) and, 82, 86–90, 221, 247–48, 322–23; classifications and, 88; expansion of, 86–90; matrices and, 86–90; predictions and, 88; tensors and, 88, 247; vectors and, 86–88
+- Mad Hatter parody conjecture, xxvi, 2, 345n9
+- magnetic field vector: Maxwell and, 118, 155, 201–2, 264, 287; tensors and, 392n18
+- magnetic resonance imaging (MRI), xxv, 97–98, 321
+- Marconi, Gugliemo, 168
+- Marić, Mileva, 197–200, 293, 333, 335, 379nn9–10, 394n31
+- Marischal College (Maxwell a professor at), 137, 369n18
+- Marlowe, Christopher, 49
+- mass density, 287, 391n8
+- *Mathematische Annalen* (journal), 255–56
+- matrices: Cayley and, 82–86, 89–90, 230, 332; curved space and, 230, 384n6; Dirac and, 96, 320, 323, 336, 362n29; factorisation of, 86; gimbal lock and, 93; image compression and, 86–90; linear equations and, 83, 85, 89, 246, 260, 324; machine learning and, 86–90; Pauli spin, 336, 362n30; quaternions and, 162, 362n29; robots and, 86–90; search engines and, 86–90; space and, 71, 81–93, 96, 360n24, 361n25, 362nn29–30; tensors and, 245–50, 253–55, 258–65, 270, 324, 388n19, 389n22, 390n23, 392n18; timeline on, 332, 336; transformation, *246*, 259–61, 263, 360n24, 388n19, 390n23, 392n18
+- Maupertuis, Pierre-Louis Moreau, 38–39
+- Maxwell, James Clerk, xi; abstract concepts and, 118; action-at-a-distance vs. fields and, 132–37; algebra and, 3, 7, 16; analogies and, 129–30, 132, 135–36, 151–52; animals and, 120, *158*, 160; Archimedes and, 122; astronomy and, 145; background of, 118–19; calculus and, 18, 35, 349nn1–2; Campbell and, 119, 150, 153, 157, 166–67; Cartesian coordinates and, 128, 143; Cayley and, 137; colour and, 123, *158*, 248; Coloumb’s law and, 138, 154, 367n11, 370n21; convergence and, 153, 155, 161, 172, 372n7; curved space and, 219, 231, 235–39; death of, 166–67; De Morgan and, 145; derivatives and, 126–27, 137–38, 141, 152, 172, 264, 271, 300, 369n21, 376n14; differential calculus and, 127, 137–41, 369n19, 369n21; divergence and, 144, 149, 152–55, 161, 172, 243, 264, 332, 369n21, 372n7, 375n10; Einstein and, xii, 7, 35, 129, 141, 160, 183, 196, 200–201, 205, 207, 212, 238, 241–42, 280, 287, 289, 325, 334, 366n1, 380n12; electricity and, 123–45, 150, 154, 157, 168, 332, 343n2, 349n2, 365n14, 367n11, 368n14, 369n19, 369n21, 372n7, 376n14; electromagnetism and, 3, 16, 110, 118–46, 150–51, 156–60, 170–73, 177, 183, 198–204, 213, 241, 271, 280, 288–90, 320, 325, 332–33, 371n23, 376n11; electromotive intensity and, 153; electrons and, 124–25, 129; Euler and, 136; Faraday and, 128–29, 133–42, 149, 151, 167, 237, 279, 289, 331, 369n21; flux and, 130–33, 137–38, 369nn20–21; Gauss and, 126, 130, 133, 138–39, 154, 279, 369n21; geometry and, 110, 117, 159, 161, 183–84, 213, 241, 289, 333, 368n12; Gibbs and, 140, 143, 177–79, 187, 212, 333, 377n17; Glenlair and, 118, 123, 137, 167, 366n10, 367n9; grad and, 152, 243, 264, 332; Grassmann and, 368n12; gravity and, 125–33, 142, 367n11, 368n12, 368n15; Hamilton and, 118–19, 128, 137–45, 368n12; health of, 166; Heaviside and, 169–78, 187, 212, 333, 369n21, 372nn2–10, 375n10, 376nn11–15; imaginary numbers and, 143; infinitesimals and, 122; integrals and, 122–33, 137–40, 367n8, 368n12, 368n15, 369n19, 369n21; inverse square law and, 125, 138, 367n11, 368n15; Lagrange and, 125–30, 368n12; Laplace and, 126–30, 144, 369n21; laws of motion and, 125; Leibniz and, 126, 368n12; light and, 16, 18, 35, 141–42, 173, 198–200, 212, 332, 349n1, 387n10; “Lines Written under the Conviction,” 121; magnetic field vector and, 118, 155, 201–2, 264, 287; motion and, 125, 129, 145; Newton and, 125, 128, 130, 133–37, 142, 367n11, 368n12, 368nn14–15; notation and, 140, 143, 149–50, 152–57; planets and, 133, 142, 199; poetry and, 137, 165, 231; portrait of, 231; quaternions and, 3, 7, 110–11, 117–22, 128, 142–46, 149–87, 243, 325, 332–33, 365n14, 372nn4–10, 373n11, 373n15, 375n10, 376nn11–14, 377n15, 377n17; radio waves and, xii, 16, 141, 159, 175, 241, 333; reality and, 130; “Remarks on the Classification of Physical Quantities,” 151; scalar numbers and, 130–31, 140, 143–44; Somerville and, 126; space-time and, 195–207, 212–15, 380nn11–12; statue of, *158*; Stoke’s theorem and, 121, 138–39, 152, 157, 160, 367n7, 369n21, 370n21, 380n11; Tait and, 118–24, 128–29, 137, 139, 142–45, 152, 167, 331, 366n2, 367n7, 369n18, 369n21; tensors and, 238, 241–43, 256, 264, 271, 273, 279–80, 287–90, 300, 387n10; Thomson and, 122–24, 129, 131, 136, 140, 142, 367n7; timeline on, 331–34; transverse waves and, 141–42; *Treatise*, 145 (see also *Treatise on Electricity and Magnetism*); vector field and, 3, 110, 124, 139–42, 150–55, 157, 159, 166, 183, 201–4, 215, 237, 264, 287–89, 325, 331–32, 343n2; velocity and, 130–31, 136; vision and, 123; “A Vision of a Wrangler,” 120–21
+- Maxwell, Katherine Dewar, 137, 149–50
+- Maxwellians, 168–69
+- Maxwell’s equations: derivatives vs. integrals and, 369–71n21; Heaviside cf. Maxwell whole vector form of, 152–57, 172–176, 375n10, 376nn13–15; invariance under Lorentz transformations of, 199–204, 212; tensor form of, 215, 264, 287–89. *See also* Maxwell, James Clerk
+- Mayan mathematics, xvii
+- McAulay, Alexander, 181–85
+- Mechanics’ Institutes, xix
+- *Mechanism of the Heavens* (Somerville), 65, 330
+- Mercury, 276, 292–93, 302, 395n32
+- Mesopotamian mathematics, xvii, xxvi; algebra and, xiv, 9–11, 13; clay tablets of, xiv, 323, 327, 343n3, 344n4; geometry and, xiv; quaternions cf., 186; space and, 99; tensors cf., 255; timeline on, 327
+- method of exhaustion, 22–23
+- Michelson-Morley experiment, 198–99, 207, 380n11
+- MICROSCOPE (and space-based tests of general relativity), 275, 397n44
+- *Middlemarch* (Eliot), 165–66
+- Mie, Gustav, 296, 318, 395n34
+- mind-body problem, 164
+- Minkowski, Hermann, xxii; curved space and, 217, 219, 223, 227, 234, 238–39, 383n5, 386n16; death of, 289; Einstein and, 196, 207–12, 217, 219, 238, 242, 280–87, 289, 293, 303, 334, 340, 383n5; fourth dimension and, 207–8; Hilbert and, 211, 293; imaginary numbers and, 381n20; space-time and, 196, 207–12, 215, 219, 287, 289, 298, 334, 382n27, 392n18, 397n39; tensors and, 242–43, 253, 255, 268–69, 280–89, 293, 298–99, 303, 392n18, 397nn39–40; timeline on, 334
+- Minkowski metric: curved space and, 219, 227, 234, 239; Einstein and, 196, 207–12, 217, 219, 238, 242, 280–87, 289, 293, 303, 334, 340, 383n5; space-time and, 210–11; tensors and, 242–43, 255, 268–69, 280, 283–85, 397n40, 400n9
+- Möbius, August, 102, 109–12, 227
+- momentum: angular, 94–96, 335–36, 362n30; conservation of, 16, 291, 299–300, 305; Einstein and, 305–11, 321; ideas for vectors and, 43, 45, 353n8; Newton and, 43, 45, 295, 306–8, 307, 373n11; Noether and, 16; space and, 80–81, 94–96; spin and, 94, 96, 335, 362n30; tensors and, 290–91, 295, 298–300, 321; timeline on, 334–36
+- monopoles: gravitomagnetic, 155, 372n9, 385n7, 398n44; magnetic, 155, 372n9, 376n13
+- Morley, Edward, 198–99, 207, 380n11
+- motion: ballistic, 12, 47–49; Brownian, 347n12; calculus and, 27, 30, 34–36, 39, 41; collisions, 50–52, 328, 353n8; curved space and, 217, 219, 230; Einstein and, 35, 200–201, 217, 219, 275, 295–96, 306–8, 347n12, 379n10, 392n12, 395n32, 397n44; falling, 112, 125, 129, 219, 275–76, *277*, 304, 308, 352n15, 353n6, 390n5, 397n40; gravity and, 27, 34–36, 46–49, 125, 182, 219, 275–76, 368n15, 397n44; Harriot and, 48–49, 112, 353n6, 353n8; ideas for vectors and, 43–52; Lagrange and, 105; Maxwell and, 156, 174; Newton and, 34–36, 39, 43–49, 105, 125, 182, 202, 271, 275, 283, 306–8, 325, 351n12, 358n12, 368n15, 392n32; planetary, 34–36, 45, 105, 344n6, 351n12; potential energy and, 125; quaternions and, 159, 172; space and, 73, 93; space-time and, 189, 199–202, 205; tensors and, 257–58, 264, 271–76, 283, 295–96, 299; trajectories and, 35, 46–49, 181–82, 274, 277; vectors and, 156, 161, 172, 182
+- multiplication tables (Mesopotamian), xiv
+- nabla: Hamilton and, 143–44, 146, 148, 152–53, 243, 298, 332; notation and, 143–56, 161, 243, 264, 298, 332; Tait and, 143–44, 146, 148, 150, 156, 161, 243
+- Napoleonic Wars, 220
+- NASA, 64, 93, 98, 336–37
+- natural language processing (NLP), 249–51, 387n12, 388n13
+- natural philosophy: comparison with modern theoretical physics, 34–35
+- *Nature* journal, 150, 158, 180–81, 185, 281
+- Nazis, 317
+- Neptune, 20
+- neutrons, 94, 97, 362n30, 363n31
+- Newcomen steam engine, 157
+- *New Era of Thought, A* (Hinton), 206
+- New Grange, xvii
+- Newton, Hannah, 27–28
+- Newton, Isaac: algebra and, 7, 14; algorithms and, 323; background of, 27–28; Barrow and, 27; calculus and, 18–20, 26–41, 323, 350nn6–7, 351nn11–13, 352n15; creative role of mathematicians and, 36–37, 158; curved space and, 231; derivatives and, 63, 137, 172, 182, 202, 271, 295, 301, 352n15, 368n12, 373n11; Einstein and, 306–8, 325; Einstein’s equations based on Newton’s, 275–80, 283, 285–87, 295, 397n41; elegance of equation and, 325; as genius, 26, 42; geometry and, 14, 39–41, 44, 60, 62, 74, 308, 329, 350n7, 351n15, 368n12; gravity and, 27, 34–40, 47, 125, 130, 133, 142, 182, 275–80, 285–87, 301–2, 307, 329, 337, 367n11, 368n12, 368n15, 391nn7–8, 397n41; Hamilton and, 42, 52, 60, 62–65, 74, 84, 103, 146–47, 181, 196, 306, 325, 355n20, 358n12, 367n12; Hooke and, 36–37, 351nn12–13, 373n15; ideas for vectors and, 42–54, 57–65, 111; infinitesimals and, 26–30; inverse square law and, 34, 36, 125, 277, 279, 329, 367n11; laws of motion and, 34–36, 43–44, 48–49, 125, 182, 202, 271, 275, 283, 306, 358n12, 368n15; light and, 18–19, 36–37, 202, 277, 280, 285, 303, 337, 397n44; Maxwell and, 125, 128, 130, 133–37, 142, 367n11, 368n12, 368nn14–15; momentum and, 43, 45, 295, 306–8, 373n11; motion and, 34–36, 39, 43–49, 105, 125, 182, 202, 271, 275, 283, 306–8, 325, 351n12, 358n12, 368n15, 392n32; notation and, 111–12, 172, 176; numerical linear algebra (NLA), 323; parallelogram rule and, 44; planets and, 133; portrait of, 231; *Principia*, 34–45, 49, 52, 65, 74, 176, 328–29, 350n7, 351nn12–13, 352n15; quaternions and, 181–82; religion and, 72; secrecy of, 27–28; space and, 72, 74, 83–84, 358n12; space-time and, xxi–xxii, 196, 201–2; tensors and, 295, 395n32, 397n41, 397n44; timeline on, 328–29, 331, 337
+- *New York Times* (announcing verification of Einstein’s light-bending prediction), 303
+- *Nine Chapters on the Mathematical Art* (Chinese text), 82–83
+- Nobel Prize, 198, 200, 228, 337, 385n7, 402n2
+- no-cloning theorem, 321
+- Noether, Emmy: algebra and, 7, 16; Bianchi identities and, 310–11, 336, 401n13; conservation of energy-momentum and, 306–9; Einstein and, 304–13, 317, 399n3, 399n5; general theory of relativity and, 304–5; Hilbert and, 304–6, 310–13, 335; invariance and, 306–8, 399n5; “Invariante Variationsprobleme,” 306; Klein and, 304–6, 310, 312–13, 335, 381n14; momentum and, 16, 306–9; as mother of modern algebra, 7; special theory of relativity and, 308, 312; struggle for acceptance by, 312–14; Swirles and, 321; timeline on, 335–36
+- Noether theorems, 306–7, 311, 335–36, 400n7
+- non-Euclidean geometry, 117, 163, 216, 220, 284, 330
+- North Atlantic Telegraph Company, 148
+- *North British Review* (journal— Tait’s obituary for Hamilton), 146
+- Norton, John D.,399n2
+- notation: algebra and, 11–12, 15; calculus and, 29, 32, 39–40; Cartesian coordinates and, xxii–xxiii; Christoffel and, 237–39, 271–73, 300, 303, 386n15, 397n40, 397n42; Clifford and, 161–62; curved space and, 222–23, 233–39, 383n6; development of, xx–xxvi; Dirac and, 251; Einstein and, 300–301; Euler and, 52–53; Gauss and, 383n6; geometry and, xxii–xxiii; German letters, 153, 155; Gibbs and, 78, 376n12; Greek letters, 29, 114, 143, 147, 153, 178, 234, 261, 271; Hamilton and, 373n12; Harriot and, 9, 14–15, 17, 31, *51*, 353–54n8; Heaviside and, 78, 143, 172–73; ideas for vectors and, 52, 62, 353n8; index, 235–36, 253–54, 258–71; Klein and, 222; Leibniz and, 111–12, 368n12; Maxwell and, 140, 143, 149–50, 152–57; nabla and, 143–56, 161, 243, 264, 298, 332; Newton and, 111–12; power of names and, 152–57; quaternions and, 106, 111, 147, 152–57, 161, 172–82, 185, 187; Ricci and, 298; Riemann and, 233–39, 383n6; space and, 78; space-time and, 196, 202, 207, 211–12, 215; tensors and, 233–39, 251–54, 258–66, 273, 288–89, 298, 390n23, 400; timeline on, 332, 334
+- numerical linear algebra (NLA), 323
+- octonions, 99, 363n34
+- *Ode to the Moon under Total Eclipse* (Hamilton), 98
+- Øersted, Hans: electromagnetism and, 94, 110, 124, 128–29, *132*, 138, 173, 330; Faraday and, 128–29, 173, 330; telegraphy and, 94–95, 128, 330
+- “On Faraday’s Lines of Forces” (Faraday), 136
+- *On the Electrodynamics of Moving Bodies* (Einstein), 334
+- *On the Hypotheses Which Lie at the **Bases of Geometry* (Clifford), 238
+- Opat, Geoff, 36, 97, 363n31
+- OpenAI, 249
+- optical tweezers, 20, 290, 349n2
+- optics, 18, 20, 27, 123, 147
+- Oresme, Nicole, xix, 27
+- Ostragradsky, Mikhail, 139
+- Ottomans, 47
+- *Oxford English Dictionary*, 26, 45, 130
+- Page, Larry, 87, 336
+- PageRank, 87–88, 336, 360n21
+- *Pall Mall Gazette*, 167
+- parabolas, 21, 49, 82, 182, 277
+- parallelogram rule: curved space and, 220, 315; Einstein and, 314; general theory of relativity and, 314–19; Grassmann and, 103–4; ideas for vectors and, 44–52, 65, 352n2, 353n8; Newton and, 44; tensors and, 245, 255; timeline on, 328
+- Parisian Academy of Sciences, 233
+- patrons, 8, 12, 28, 31, 47–48, 50
+- Pauli, Wolfgang, 96, 336, 362nn29–30
+- Peacock, George, 356n2; algebra and, 61–62, 70, 99–100, 356n2; Hamilton and, 101; ideas for vectors and, 61–62, 65; space and, 70, 99–100, 356n2
+- Peano, Giuseppe, 163
+- Peirce, Benjamin, 86
+- Peirce, Charles, 86, 178
+- Penrose, Roger, 228, 237
+- Persian mathematics, 5, 9, 64, 347n15
+- *Peter Pan* (Barrie), 145
+- *Philosophical Magazine*, 181
+- *Philosophical Transactions* (Royal Society), 256
+- photons, 19–20, 99, 277, 284, 348n17, 361n26, 362n30
+- pitch: Doppler effect and sound, 278; rotations and, 92–93
+- Planck, Max, 81, 292–93, 362n27
+- planets: calculus and, 34–36; gravity and, 34–36, 133, 275–76, 367n11, 393n21; ideas for vectors and, 44–45; Maxwell and, 133, 142, 199; motion of, 34–36, 45, 105, 344n6, 351n12; Newton and, 34–36, 133; perihelion/need for tensors and, 275–76
+- Plimpton tablet (Pythagorean triples), xv, *xvi*, 57, 186, 327, 343n3, 344n4
+- Poincaré, Henri: background of, 200; curved space and, 218; Einstein and, 200–1, 205–9, 212, 218, 242, 280–81, 334; ether and, 200–201, 205, 280, 334; Lorentz and, 199–201, 205–9, 212, 242, 280, 334; space-time and, 21, 199–201, 205–9; timeline on, 334
+- Poisson, Siméon-Dénis, 126–27, 130, 369n21, 391n7
+- polyplets, 106
+- positrons, 320–21
+- potential (mathematical concept and application of ), 125–28, 130, 137, 143–44, 152, 157, 172–73, 176, 270, 279–80, 282, 285–86, 307–8, 329, 368n12, 370n21, 373n11–12, 376n11, 391n7
+- potential energy, 36, 125, 157, 306, 368n12, 399n4
+- Pound, Robert, 336
+- Praeger, Cheryl, 7
+- *Principes Mathématiques* (du Châtelet), 41
+- *Principia* (*Mathematical Principles of **Natural Philosophy*) (Newton): calculus and, 34–41, 176, 350n7, 351nn12–13, 352n15; ideas for vectors and, 42–45, 49, 52, 65; reception of, 35–41; space and, 74; timeline on, 328–29
+- principle of equivalence, 276–78, 282–85
+- *Problems of Life and Mind* (Lewes), 164
+- Protestants, 48, 50
+- protons, 94, 155, 362n30
+- Prussia, 220, 241, 296
+- Ptolemy, Claudius, 344n6; *Almagest*, xvi–xviii, 5, 327; astronomy and, xviii; *Geography*, xviii, 327; ideas for vectors and, 45–46
+- Putin, Vladimir, 317
+- Pythagoras’s theorem, xv, 4–5, 22, 23, 54–55, 60, 208, 231, 243, 327, 344n7, 382n24; algebra and, 4–5, 346n5; background of, xv; calculus and, 22, *23*; curved space and, 231; ideas for vectors and, 54–55, 60; Plimpton tablets and, xv, 186, 327, 344n4; space-time and, 208, 382n24; tensors and, 243; timeline on, 327
+- Pythagorean triples, xv, 186
+- Quach, James (and quantum thermometer), 389n20
+- quadratic equations: algebra and, 6–7, 10, 13, 15–16, 347n16, 348n19; curved space and, 233–38; ideas for vectors and, 53, 354n11; space and, 82; space-time and, 194, 208, 378n5, 381n20; tensors and, 243, 257; timeline on, 327
+- quantum computers, xiv, 251–52, 321, 388n14
+- quantum electrodynamics (QED), 320–21
+- quantum field theory, 320
+- quantum mechanics: Einstein and, 311, 320–21, 323; ideas for vectors and, 55, 66; space and, 75, 80, 92–98, 363n31; tensors and, 247–55; timeline on, 336
+- quantum theory, xiv; algebra and, 14, 323, 347n12; calculus and, 19; Dirac and, 96, 155, 251, 320–21, 336, 362n29, 376n13, 402n2; Einstein and, 19, 292, 302, 311, 347n12; gauges and, 176; ideas for vectors and, 55, 66; light and, 19, 199, 347; monopoles and, 155, 376n13; no-cloning theorem and, 321; photons and, 19–20, 99, 277, 284, 348n17, 361n26, 362n30; Planck and, 81, 292–93, 362n27; Schrödinger and, 55, 66, 75, 323, 348n17; space and, 75, 80, 92–98, 362n30, 363n31; space-time and, 199; spin and, 94–98, 175, 251, 292, 318, 321, 335–36, 362nn27–30, 363n31; tensors and, 247–55, 265, 292, 302, 388n14, 389n20; timeline on, 336
+- quarks, 99
+- quaternions: abstract concepts and, 107, 110, 114, 116, 163; algebra and, 3, 7–8, 14, 17, 76–80, 102–9, 112–16, 151, 160–63, 177–85, 345n1, 346n4; algorithms and, 108, 186; arithmetic and, 104; astronomy and, 102, 114; breaking rules and, 80–81; Broome Bridge graffiti and, 1–2, 97, 145, 243, 325, 331; Campbell and, 150, 153, 157, 166–67; Cartesian coordinates and, 150, 184, 186; Cayley and, 8, 81–83, 86, 90, 179, 187, 194, 206, 332–33, 359n15; Clifford and, 160–67, 172, 177, 179, 181; commutative law and, 104, 107, 114–16, 162–63, 178, 332, 356n2; complex numbers and, 104, 107, 109, 114, 116, 178; convergence and, 31, 153–55, 161, 172; curl and, 152, 156–57, 172–75, 370n21, 373n11, 376n12, 376n14; curved space and, 229; curved surfaces and, 111, 115; De Morgan and, 104, 106, 112–14, 151, 160, 163, 183; derivatives and, 152, 172–75, *182*; Descartes and, 112, 151; differential calculus and, 105, 109, 111, 371n23; Dirac and, 155, 376n13; divergence and, 152–57, 161, 172–74; Einstein and, 116, 160, 167, 180, 183; electricity and, 150, *154*, 157, 168–69, 185, *195*; electromagnetism and, 110, 146, 150–51, 156–60, 168, 170–73, 176–77, 183, 185, 371n23, 372n9, 373n11, 376n11, 376n13; electrons and, 155, 165, 175; Euclid and, 115–17, 163, 179; Euler and, 105; Faraday and, 147, 149, 151, 167, 173–74; flux and, 151, *154*, 155, 174, 375n10; four-dimensional geometry and, 187; Galileo and, 112; Gauss and, 108–11, 115, 154, 174; general theory of relativity and, 160, 176, 372n9, 373n12; geometry and, 103–6, 109–17, 159–63, 181–85, 374n23; Gibbs and, 177–81, 184–87, 376n12, 377nn17–18; gimbal lock and, 93; grad and, 152, 376n14; gradual acceptance of, 160–63; Grassmann and, 102–18, 126, 161–63, 178–81, 364n3, 364n8, 365n14, 366n15, 366n19, 374n23, 377n17; gravity and, 155, *182*; Hamilton and, 3, 7–8, 14, 17, 64–65, 71, 74–83, 86, 90–91, 97–107, 101–19, 128, 142–53, 159–63, 171, 178–86, 196, 206, 229, 243–44, 325, 331–33, 336, 355n20, 359n14, 360n24, 364n3, 366nn18–19, 372n10; Harriot and, 111–12; Heaviside and, 153, 169–81, 184–87, 375nn2–10, 376nn11–13, 377n15; ideas for vectors and, 64–65, 355n20; imaginary numbers and, 2, 61, 75, 78, 153, 171, 187; integrals and, 151–52, 373n11; inverse of, 162, 178, 360n24, 362n30, 374n22; inverse square law and, *154*; Lagrange and, 104–5, 147, 364nn6–7; Laplace and, 104–5; *Lectures on Quaternions*, 76, 107, 114, 117, 119, 142, 260n24, 345n1, 355n20, 357n4; Leibniz and, 105, 111–12, 366n15; Lorentz and, 175; matrices and, 162, 362n29; Maxwell and, 3, 7, 110–11, 117–22, 128, 142–87, 243, 325, 332–33, 365n14, 372nn4–10, 373n11, 373n15, 375n10, 376nn11–14, 377n15, 377n17; Mesopotamian data storage cf., 186; as method of thinking, 158–59; motion and, 103, 105, 112, 117, 156, 159, 161, 164, 172, 182; nabla and, 143–56, 161, 243, 264, 298, 332; Newton and, 103–5, 111, 146–47, 158, 172, 176–77, 181–82, 365n14, 373n11, 373n15; notation and, 106, 111, 147, 152–57, 161, 172–82, 185, 187; parallelogram rule and, 103–4; Pauli matrices and, 336, 362n29; power of names and, 152–57; *Principia* and, 176; quantum theory and, 97, 155, 176, 376n13; radio waves and, 159, 175; reality and, 176; real numbers and, 114, 116, 163, 178; robots and, 187; rotation and, 104–5, 107, 114, 156, 159, 162, 174, 178, 183, 360n24, 362n30; rotations and, 3, 90–94, 97, 104–7, 114, 159, 162, 178, 183, 267, 336, 345n1, 360n24, 362n30; scalar numbers and, 79, 106–7, 113, 147–48, 151–57, 161–63, 171, 177–82, 185; Somerville and, 7, 65, 164; space and, 71, 74–83, 86, 90–94, 97–100, 359n14; space-time and, 189, 192, 194–96, 206–7, 210; special theory of relativity and, 160; spin and, 94–98; symmetry and, 174–76, 375n11, 376n13; Tait and, 114, 117, 146–67, 170, 177–81, 184–87; tensors and, 243–44, 258, 267; Thomson and, 147–51, 155, 158–59, 168–72, 177–81, 186; three-dimensional space and, 104, 107, 114, 161–62, 178, 183; timeline on, 328, 331–33, 336–37; vector field and, 152–55, 159, 175; vector part of, 79; velocity and, 146, 156, 172, 182; Wallis and, 111; “wars” over, 179–86
+- “Quaternions and the Algebra of Vectors” (Gibbs), 185–86
+- qubits, xiv, 251–52, 321, 388n14
+- Queen’s College, 33, 122
+- *Questiones Mechanicae* (Aristotle’s school), 45–47
+- radio waves: algebra and, 16; calculus and, 20; Hertz and, 159, 175; Maxwell and, xii, 16, 141, 159, 175, 241, 333; space and, 98; tensors and, 241; timeline on, 333, 337
+- Raleigh (Ralegh), Walter, 8, 31
+- Ramler, Ruth, 312
+- reality: algebra and, 4, 17; breakthroughs in understanding, ix; Maxwell and, 130; quaternions/
+- vectors and, 176; space and, 99–100; space-time and, 210; tensors and, 271
+- real numbers, x–xi; algebra and, 2–3; ideas for vectors and, *58*, 59, 61, 63, 354n11; quaternions and, 114, 116, 163, 178; space and, 69, 71, 74, 76–77, 361n24
+- Rebka, Glen, 336
+- redshift, 278–81, 336–37
+- refraction, 18, 20, 66, 102, 331
+- Reign of Terror, 105
+- “Remarks on the Classification of Physical Quantities” (Maxwell), 151
+- Renn, Jürgen, 395n33, 396n37
+- Rhind papyrus, 349n3
+- Ricci, Bianca, 243
+- Ricci, Gregorio: background of, 240–42; curved space and, 219–20, 226, 237–39; Einstein and, 219, 305, 310, 314, 316–19; Grossmann and, 219, 238, 244, 253, 258, 275, 285–87, 290, 295, 303, 319, 334; Hamilton and, 244, 267, 298, 325; index notation and, 258–64; invariance and, 242–44, 256–59, 262–63, 269–73, 285, 290, 298; Klein and, 242, 256, 274, 334; Levi-Civita and, 219–20, 274, 285, 303, 316, 319, 334; notation and, 298; papers of, 242–43; Royal Mathematics Prize and, 273; tensor calculus and, 241, 244, 271–74, 303, 305, 316, 318, 333–34; tensors and, 240–46, 253–75, 285–87, 290, 294–95, 298–303, 320, 323, 325, 333, 393n21, 397n42, 400n10; timeline on, 333–34, 337; Veronese and, 257–58
+- Riebau, George, 133–34
+- Riemann, Bernhard: background of, 230; Clifford and, 230; curved space and, 383n6, 385nn10–11; curved surfaces and, 219, 230–36, 244, 269, 383n6, 385nn10–12, 386nn13–16; Einstein and, 310–11; Gauss and, 219, 230–33, 235, 243, 269, 303, 332, 383n6; notation and, 233–39, 383n6; tensors and, 233–39, 243–44, 248, 255, 257, 260–61, 267, 269, 273, 283, 286–87, 295, 303, 310–11, 332, 386n9; timeline on, 332
+- right-hand rule, 2, *79*, 155, *156*
+- robots: algebra and, 1, 3; ideas for vectors and, 44; matrices and, 86–90; quaternions and, 187; space and, 86–90, 92; space-time and, *190*; tensors and, 259; timeline on, 336
+- Robson, Eleanor, 347n13
+- roll, 92–93
+- Roman numerals, 245
+- Romanticism, 1, 38, 64, 73, 84
+- “Room of One’s Own” (Woolf ), 189
+- rotation: algebra and, 1–3, 14; complex numbers and, 58–60; curved space and, 227; Hamilton and, 1, 3, 14, 54, 60, 67–68, 89–91, 97, 100, 104, 107, 114, 178, 183, 336, 360n24; ideas for vectors and, 54–55, 59–60, 67–68; pitch, 92–93; quaternions and, 3, 90–94, 97, 104–7, 114, 156, 159, 162, 174, 178, 183, 267, 336, 345n1, 360n24, 362n30; roll, 92–93; space and, 70, 75, 80, 89–97, 100, 360n24, 362n30, 363n31; space-time and, 192, 203, 209, 214; spin, 362; tensors and, 259–69, 389nn21–22; three-dimensional, 68, 75, 90–94, 97, 104, 107, 114, 162, 183, 345n1; timeline on, 330, 336; yaw, 93
+- Routh, E. J., 121
+- Royal Bank of Scotland, 7
+- Royal Canal, 1
+- Royal Irish Academy, 82, 98, 117
+- Royalists, 27
+- Royal Mathematics Prize, 273, 310
+- Royal Society of Edinburgh, 98, 159–60, 194
+- Royal Society of London, 139, 160, 256
+- Sadleir, Mary, 188
+- Salton, Gerry, 86–87
+- SARS-CoV-2 virus, 191
+- scalar numbers: algebra and, 3; calculus and, 41; curved space and, 225–26, 234, 236, 383n6, 386n13; dot products and, 78, 80, 211; Einstein and, 401n12; Maxwell and, 130–31, 140, 143–44; notation and, xx; quaternions and, 106–7, 113, 147–48, 151–57, 161–63, 171, 177–82, 185; space and, 76–80, 87, 359n14, 359n20, 360n24; space-time and, 189–93, 210–11; tensors and, 243, 246, 252–55, 259, 262–70, 279–80, 286, 301, 324, 389n20, 389n22, 397n39, 397n43
+- Schouten, Jan, 311, 316, 336
+- Schrödinger, Erwin, 55, 66, 75, 323, 348n17
+- *Scientific Romances* (Hinton), 206
+- scientist (term coined), 101
+- Scott, Susan, 313
+- Scott, Walter, 66
+- search engines, 86–90, 191, 247, 336–37, 359n20
+- Second Wrangler: Clifford, 160; Maxwell, 121
+- Seltman, Muriel, 16–17, 349n22
+- Senior Wrangler: Routh, 121; Tait, 119
+- *Sense and Sensibility* (Austen), 145
+- sexism, 164, 197, 312, 334
+- Shakespeare, William, 49, 149
+- Shaw, George Bernard, 167
+- signal processing, 247
+- singular value decomposition (SVD), 86
+- Sirius, xvii
+- *Sketch of Thermodynamics* (Tait), 149, 372n3
+- slope, 40, 152, 383n6
+- Smith, Barnabas, 27–28
+- Smith’s Prize, 119–22, 138, 183, 256, 367n7
+- social media, 360n22
+- Somerville, Mary: calculus and, 19, 38, 349n1; ideas for vectors and, 65–66; Maxwell and, 126; *Mechanism of the Heavens*, 65, 330; quaternions and, 7, 65, 164; as Queen of Science, 7; space and, 73; timeline on, 329–30; Young and, 19
+- Sommerfeld, Arnold: curved space and, 219; Einstein and, 317; four-vector term of, 212; Minkowski and, 211–12, 215, 219, 287, 289, 298, 334, 382n27; space-time and, 211–12, 215, 382n27; tensors and, 212–13, 287–92, 295, 298–99; timeline and, 334; Vector Commission and, 211–12
+- sound waves, 198, 278, 349n1
+- space: abstract concepts and, 72, 80; algebra and, 70–94, 99–100; algorithms and, 82–83, 87–89; arithmetic and, 71–72, 76, 356n2; artificial intelligence (AI) and, 88–89; astronomy and, 73, 76; breaking rules and, 80–81; Cartesian coordinates and, 77, 82; Cayley and, 81–90; commutative law and, 76, 79–81, 85, 90, 99; complex numbers and, 71, 74–75, 78, 91, 98–100, 360n24; curved, 217 (*see also* curved space); De Morgan and, 70–77, 85, 99–100, 358n9; Dirac and, 362n29; Einstein and, 95; electromagnetism and, 83–84, 98–99; electrons and, 93–100; Euclid and, 74; Euler and, 72, 81, 90, 356n3, 360n24; four-dimensional mathematics and, 75–78, 91, 98–99; Gauss and, 82–83, 359n16; general theory of relativity and, 80–83, 96; geometry and, 74–75, 87, 90, 360n24; Grassmann and, 196, 212, 215; gravity and, 92; Hamilton and, 1–4, 68–86, 89–91, 97–100, 106–7, 114, 161–62, 183, 356n3, 357n7, 358n11, 359nn13–14, 360n24; image compression and, 86–90; imaginary numbers and, 69–70, 74–78; laws of motion and, 358n12; Leibniz and, 72, 83; Lorentz and, 199–212, 380n12, 381n14, 381n20, 382n24; matrices and, 71, 81–93, 96, 360n24, 361n25, 362nn29–30; Mesopotamia and, 99; momentum and, 80–81, 94–96; motion and, 73, 93; Newton and, 72, 74, 83–84, 358n12; notation and, 78; planets and, 105; *Principia* and, 74; quadratic equations and, 82; quantum theory and, 75, 80, 92–98, 362n30, 363n31; quaternions and, 71, 74–83, 86, 90–94, 97–100, 359n14; radio waves and, 98; reality and, 99–100; real numbers and, 69, 71, 74, 76–77, 361n24; robots and, 86–90, 92; rotation and, 70, 75, 80, 89–97, 100, 360n24, 362n30, 363n31; scalar numbers and, 76–80, 87, 359n14, 359n20, 360n24; search engines and, 86–90; Somerville and, 73; symmetry and, 90; Tait and, 189–95, 206; three-dimensional, 74 (*see also* three-dimensional space)
+- space-time: abstract concepts and, 206; algebra and, 194, 196, 207, 211; algorithms and, 191–92; artificial intelligence (AI) and, 191; astronomy and, 200; Cartesian coordinates and, 190; Cayley and, 188–94, 206, 208; coordinate transformations and, 190–94, 199–204, 209; curl and, 204, 211, *214*; derivatives and, 202, 345n8; Dirac and, 96; divergence and, 211, 397n39; Einstein and, xxiv, 196–212, 216, 321–22, 379n10, 381n14; electromagnetism and, 198–204, 213; electrons and, 200; Euclid and, 209–10, 216; four-dimensional, 17, 75, 187, 205–12, 248, 289, 298, 381n16, 381n18; general theory of relativity and, 196–97, 206, 210–12; geometry and, 190, 194–95, 206–7, 210–13, 216, 381n14; Gibbs and, 196, 210, 212; grad and, 211; gravity and, 198; Greeks and, 90; Hamilton and, 381n17; Heaviside and, 196, 206, 210–12; invariance and, 189–97, 202–5, 208, 212, 216, 378n4, 381n14; Klein and, 212; Leibniz and, 196; Maxwell and, 195–207, 212–15, 380nn11–12; Minkowski and, 196, 207–12, 215, 334, 382n27, 392n18, 397n39; motion and, 189, 199–202, 205; Newton and, 196, 201–2; notation and, xxi–xxii, 196, 202, 207, 211–12, 215; Poincaré and, 21, 199–201, 205–9; Pythagoras and, 208, 382n24; quadratic equations and, 194, 208, 378n5, 381n20; quantum theory and, 199; quaternions and, 189, 192, 194–96, 206–7, 210; reality and, 210; robots and, *190*; rotation and, 192, 203, 209, 214; scalar numbers and, 189–93, 210–11; Sommerfeld and, 211–12, 215, 382n27; special theory of relativity and, 198–209; symmetry and, 192–93, 198, 204, 382n27; Thomson and, 194, 213–15; three-dimensional space and, 191–92, 206–12, 207, 215; vector field and, 201–2; velocity and, 379n10
+- special theory of relativity, 347n12; curved space and, 232; Dirac and, 320; ether and, 198–201, 205; gravity and, 198, 219, 275, 278–81, 285, 291, 397n40, 399n5; Noether and, 308, 312; quaternions and, 160; space-time and, 198–209; tensors and, 275, 278–85, 291–92, 299
+- spectra, 96, 336, 361n26
+- spin: angular momentum and, 94, 96, 335, 362n30; Gerlach and, 95–96, 335, 362n27; Goudsmit and, 96, 335, 362nn27–28; Lorentz and, 96, 362n28; quantum theory and, 94–98, 175, 251, 292, 318, 321, 335–36, 362nn27–30, 363n31; quaternions and, 94–98; Stern and, 95–96, 292, 335, 362n27; Uhlenbeck and, 96, 335, 362n27
+- spirituality, 121, 137, 164, 206
+- stars: space and, 76, 280, 294, 303, 321–22, 337, 361n26, 391n8, 393n19, 393n21, 397n44; tensors and, 280, 294, 303, 391n8, 393n19, 393n21, 397n44
+- static electricity, 124, 128–30, 136, 138, 290, 329, 369n21
+- Stern, Otto, 95–96, 292, 335, 362n27
+- Stokes, George, 122; component form of vectors, 139; Maxwell’s theory and, 160. *See also* Stokes’s theorem
+- Stokes’s theorem, 121, 138–39, 144, 152, 157, 256, 367n7, 369n21, 373n11, 388n15; Maxwell and, 121, 138–39, 152, 157, 160, 367n7, 369n21, 370n21, 380n11; Smith’s Prize and, 121–22, 138
+- Stonehenge, xvii
+- Stott, Alicia Boole, 206
+- Struik, Dirk, 311–12, 316, 336, 401n14
+- Süleyman, 47, 49
+- Sutton, Thomas, 248
+- Swirles, Bertha, 321, 402n3
+- Swiss Federal Institute of Technology (ETH), 218, 275, 281, 334
+- Sylvester, James, 8, 83, 85, 160
+- symmetry: algebra and, 16; curved space and, 236; Einstein and, 306–14, 322, 399n5; electromagnetism and, 175–76; Harriot and, 353n8; Heaviside and, 376n13; invariance and, 90, 192, 236, 268, 305; Noether theorems and, 306–7, 311, 335–36, 400n7; patterns of, 16; rotations and reflections and, 90, 192, *193*; space and, 90; space-time and, 192–93, 198, 204, 382n27; tensors and, 248, 268–71, 301–2, 308, 314, 393n20; timeline on, 335
+- Tait, Margaret Porter, 145
+- Tait, Peter Guthrie, 114: algebra and, 346n3; background of, 119–20; Campbell and, 119, 150, 167; Cayley and, 137, 156, 160, 163, 179, 187, 189, 191, 194, 206, 333, 378n3; curved space and, 385n12; electricity and, 125, 127, 143, 145, 150, 185, 195; electromagnetism and, 118–24, 128–29, 137, 139, 142–45; *Elementary Treatise on Quaternions*, 147–50, 332; golf and, 160, 165; invariance and, 191–94; Maxwell and, 118–24, 128–29, 137, 139, 142–45, 152, 167, 331, 366n2, 367n7, 369n18, 369n21; nabla and, 143–44, 146, 148, 150, 156, 161, 243; quaternions and, 114, 117, 146–67, 170, 177–81, 184–87; as Senior Wrangler, 119, 121; *Sketch of Thermodynamics*, 149, 372n3; space-time and, 189–95, 206; teaching methods of, 145; tensors and, 243, 258; Thomson and, 142, 147–50, 158, 177–81, 186, 194, 332–34, 367n7, 371n1, 385n12; timeline on, 331–34; *A Treatise on Natural Philosophy*, 148–49, 332; vector field and, 124, 139, 142, 146, 150, 155, 157
+- Tamerlane, 49
+- tangents, 36, 222, 225–26, 315–16, 383n6
+- Tartaglia, Niccolò: algebra and, 12, 347n16; Cardano and, 12, 347n16; ideas for vectors and, 46–49, 352n3
+- Taylor series, 54
+- telegraphy, 119; electromagnetism and, 95; Heaviside and, 169–72, 177; Industrial Revolution and, 83; international, 85; Marconi and, 168; Øersted and, 94–95, 128, 330; Thomson and, 147–48, 168–69, 177, 332; timeline for, 330, 332; Wheatstone and, 169
+- tensor calculus: algebra and, 17; curved space and, 219; development of, 26, 41; Einstein and, 285–90, 305, 316, 318; Grossmann and, 285–90; index notation and, 262–65; Ricci and, 241, 244, 271–74, 303, 305, 316, 318, 333–34; timeline on, 333–34
+- TensorFlow, 248
+- TensorLab, 248
+- Tensorly, 248
+- tensor networks (TN), 324
+- tensors: abstract concepts and, 254, 265; algebra and, 242–43, 246, 258–65, 284–86, 289, 295, 300; algorithms and, 263; arithmetic and, 255; artificial intelligence (AI) and, 249, 387n12; astronomy and, 276, 293; Bianchi identities and, 310–11, 335–36, 372n9, 395n35, 400n8, 400n10, 401n13; Cartesian coordinates and, 262, 270–72, 284, 290, 295, 391n7, 392n14; commutative law and, 245, 268, 286; complex numbers and, 244, 251–52; components of, 214–15, 226, 245–48, 259–65, 267–71, 288–90, 302, 307–8; computational power of, 265–68; concept of, ix–x; coordinate transformations and, 242, 255–56, 259–65, 268–69, 272, 283, 287, 291, 295, 389n22, 390n23, 392n14, 394n30; crystallography and, 322; curl and, 243, 271, 287; curved surfaces and, 242, 244; data science and, 247–55; derivatives and, 264, 269–72, 283, 286, 288–89, 295, 298–301, 309–12, 386n9, 389n22, 390n23, 397n40; differential calculus and, 242–44, 256–58, 268–74, 284, 289, 389n22, 393n19; differential geometry and, 272, 289, 393n19; Dirac and, 251, 253, 323; divergence and, 243, 264, 298–301; Einstein and, xii, 241–44, 253, 258, 261, 266–71, 275–303, 321, 390n2, 391nn6–10, 392nn11–14, 393n21, 394nn30–31, 395nn32–35, 396n37, 397n38, 397nn41–44, 399n46; electromagnetism and, 241, 244, 271, 275, 280, 288–90, 296–99, 391n8, 397n44; electrons and, 251, 280; ether and, 280, 292; Euclidean space and, 253, 264–65, 268–72, 280, 284, 299, 303; Faraday tensor, 289; flux and, 279, 289–90; four-dimensional mathematics and, 247–48, 286–88, 289, 298; Galileo’s law and, 277, 390n2, 393n21; Gauss and, 243, 269, 272, 279, 284, 303; general theory of relativity and, 258, 267, 274–303, 298–303, 314–19, 323, 389n20, 391n9, 392n12, 392n14, 394n39, 395nn32–35, 397n44; geometry and, 241–42, 245, 259, 272, 283–86, 289, 295–98, 303; Gibbs and, 245; grad and, 243, 264; Grassmann and, 245, 253, 256, 267; gravity and, 275–303, 390n2, 390n5, 391nn7–8, 393n21, 397n41; Grossmann and, 244, 253, 258, 275, 282–95, 298–99, 303; Hamilton and, 243–45, 267, 298, 395n34; Harriot and, 256, 277; Heaviside and, 289; Hilbert and, 294–98, 301; importance of, 322–24; index notation and, 258–64, 264–65, 268–71; integrals and, 256, 392n16; invariance and, 242–44, 255–59, 262–69, 272–73, 285, 290, 389n22, 390n23; inventing, 240–73; inverse square law and, *277*, 279, 393n21; Klein and, 242, 255–56, 274–75, 293–95, 298; Lagrange and, 279; Laplace and, 391n7; laws of motion and, 271; Levi-Civita and, 274, 285, 289, 294–98, 303; Lorentz and, 242–43, 262, 269, 279–80, 283–84, 288, 292, 300, 392n18; magnetic field vector and, 392n18; matrices and, 245–48, 253–55, 258–65, 270, 324, 388n19, 389n22, 390n23, 392n18; Maxwell and, 238, 241–43, 256, 264, 271, 273, 279–80, 287–90, 300, 387n10; Mesopotamia and, 255; Minkowski and, 242–43, 253, 255, 268–69, 280–89, 293, 298–99, 303, 392n18, 397nn39–40, 400n9; momentum and, 290–91, 295, 298–300, 321; motion and, 257–58, 264, 271–76, 283, 295–96, 299; naming of, 244–46; Newton and, 271, 275–80, 283, 285–87, 291, 295, 301–3, 391nn7–8, 395n32, 397n41, 397n44; NLP and, 249–51, 387n12; notation and, 233–39, 251–54, 258–66, 273, 288–89, 298, 390n23, 400; parallelogram rule and, 245, 255, 314–19; planets and, 275–76; Poincaré and, 242, 280–81; power of, x; Pythagoras and, 243; quadratic equations and, 243, 257; quantum theory and, 247–55, 265, 292, 302, 388n14, 389n20; quaternions and, 243–44, 258, 267; radio waves and, 241; reality and, 271; Ricci and, 240–46, 253–75, 285–87, 290, 294–95, 298–303, 320, 323, 325, 333, 393n21, 397n42, 400n10; Riemann and, 233–39, 243–44, 248, 255, 257, 260–61, 267, 269, 273, 283, 286–87, 295, 303, 310–11, 332, 386n9; robots and, 259; rotation and, 259–69, 389nn21–22; saying more with, 212–16; scalar numbers and, 243, 246, 252–55, 259, 262–70, 279–80, 286, 301, 324, 389n20, 389n22, 397n39, 397n43; signal processing and, 247; as simpler method, 309–12; Sommerfeld and, 212–13, 287–92, 295, 298–99; special theory of relativity and, 275, 278–85, 291–92, 299; symmetry and, 248, 268–71, 301–2, 393n20; Tait and, 243, 258; Thomson and, 273; three-dimensional space and, 254, 267, 287; topology and, 111, 226–33; vector field and, 264, 280, 287; velocity and, x, 41, 283, 287, 392n18; vital need for, 322–23
+- Thackeray, William Makepeace, 149
+- thermodynamics, 148–49, 177–78, 371n3
+- *Thomas Harriot: A Life in Science* (Arianrhod), 347n10
+- Thomson, William (Lord Kelvin): curved space and, 236; invariance and, 194; Kelvin temperature scale of, 148; Maxwell and, 122–24, 129, 131, 136, 140, 142, 367n7; North Atlantic Telegraph Company and, 148; quaternions and, 147–51, 155, 158–59, 168–72, 177–81, 186; space-time and, 194, 213–15; Tait and, 142, 147–50, 158, 177–81, 186, 194, 332–34, 367n7, 371n1, 385n12; telegraphy and, 147–48, 168–69, 177, 332; tensors and, 273; timeline on, 331–33; *A Treatise on Natural Philosophy*, 148–49, 332
+- Thoreau, Henry David, 84, 331
+- three-dimensional space: algebra and, 1–4; curved space and, 219–23, 229; Hamilton and, 1–4, 68–69, 74–76, 90–91, 97–99, 106–7, 114, 161–62, 183; ideas for vectors and, 68; MRI and, 97; quaternions and, 104, 107, 114, 161–62, 178, 183; rotation in, 2, 68, 75, 90–94, 97, 104, 107, 114, 162, 183, 345n1; space-time and, 191–92, 206–12, 207, 215; tensors and, 254, 267, 287
+- Tigris River, xiv
+- *Time Machine, The* (Wells), 207
+- topology, 111; curved surfaces and, 226–33; invariance and, 226–30; Penrose and, 228, 237
+- trajectories, 35, 46–49, 181–82, 274, 277
+- *Treatise on Celestial Mechanics* (Laplace), 65, 104–5, 126, 329
+- *Treatise on Electricity and Magnetism* (Maxwell), 145; calculus and, 369n19, 369n21, 349n2; differentials and, 369n21; impact of, 343n2; integrals and, 369n19; inverse square law and, 367n11; quaternions and, 150, 153, *154*, 156, 157, 159–61, 168, 170, 174, 176–79, 183, 365n14, 372n7, 373n12; space-time and, 213; Thomson and, 367n7; timeline on, 332
+- *Treatise on Natural Philosophy, A* (Tait and Thomson), 148–49, 332
+- trigonometry, xv–xvi, 90, 173, 328, 344n4, 344n7
+- Trinity College, Cambridge, 72, 81, 120, *124*, 167, 231
+- Trinity College, Dublin, 65–66, 346n4
+- Tripos, 119, 121, 160
+- Ṭūsī Sharaf al-Dīn al-, 11, 13, 328
+- two-slit experiment, 18, 97, 141, 330
+- Tyndall, John, 331, 359n19
+- Uhlenbeck, George, 96, 335, 362n27
+- Ukraine, 317
+- United Kingdom, xix, 117, 333
+- University College, London, 72, 160
+- University Women’s Colleges, xix, 188–89, 321
+- Unruh, William, 264, 389n20
+- Uranus, 62
+- Ursa Major, xvii
+- *Utility of Quaternions in Physics* (McAulay), 183
+- Vector Commission, 211–12
+- vector field: curved space and, 237; electromagnetism and, 3, 118–45; Faraday and, 133–40; Maxwell and, 3, 110, 124, 139–42, 150–55, 157, 159, 166, 183, 201–4, 215, 237, 264, 287–89, 325, 331–32, 343n2; quaternions and, 152–55, 159, 175; space-time and, 201–2; Tait and, 124, 139, 142, 146, 150, 155, 157; tensors and, 264, 280, 287
+- vectors: algebra and, 1–17 (*see also* algebra); calculus and, 18–41 (*see also* calculus); coining of term, xi–xii; column, 85, *246*, 249–54, 263–66, 270; components and, xxi–xxv, 35–36, 44–45, 47–48, 52, 77–79, 179, 189–190, 193, 201–2; concept of, ix–x; cross products and, 78–80, 104, 106, 144, 155, 162, 179–80, 213, 245; curved space and, 217–39; as data storage, xxv, 77–100; Einstein and, 207, 211; four-dimensional, 205–12; Gibbs and, 78, 177–78; Hamilton’s naming of, 76; Heaviside and, 78, 143, 171–77; ideas for, 42–68; importance of, 322–24; magnetic field, 155, 201–2, 264, 287, 392n18; magnitude of, 60, 208; Maxwell and, 118–45; notation and, xx–xxvi; position, xx, 44, 90, *92*, 208, 221, 259, 391n7; power of, x, 157–60; quaternions and, 100–17, 146–87; right-hand rule for multiplying, 2, *79*, 155; space and, 69–100; space-time and, 188–216; tensors and, 240–303 (*see also* tensors); uses of, xxiv–xxvi; vital need for, 322–23; “wars” over, 179–86; whole vectors versus components, 78, 139, 144, 148, 159, 183
+- vector space: quaternions and, 107, 163, 362n29; spanning, 77; tensors and, 247, 252, 265; timeline on, 331, 333
+- velocity: calculus and, 32, 41, 352n15; curved space and, 230; Einstein and, 305–6; four, xxiv, 345n8; ideas for vectors and, 43, 50, 52; Maxwell and, 130–31, 136; notation and, xxi; quaternions and, 146, 156, 172, 182; space-time and, 379n10; tensors and, x, 41, 283, 287, 392n18
+- Veronese, Guiseppe, 257–58
+- Viète, François, 15–16
+- “Vision of a Wrangler, A” (Maxwell), 120–21
+- Voigt, Woldemar, 205, 244–45
+- Volta, Alessandro, 124–25, 330
+- voltage, 125, 152, 157, 172
+- Voltaire, 37–38
+- Walden Pond, 84, 331
+- Wallis, John: algebra and, 14–15, 348n18; *Arithmetica Infinitorum*, 32–34; background of, 32–33; calculus and, 27, 31–34, 350nn7–8; Harriot and, 14–15, 27, 31–32, 52, 61, 111, 348n18, 350n7, 354n10; ideas for vectors and, 52–53, 58, 61, 354n11; quaternions and, 111
+- Warren, John, 58, 60, 104, 113, 330
+- Wathaurong country, xvii
+- Watt, James, 157
+- Weber, Wilhelm, 131
+- Wells, H. G., 207
+- Wessel, Caspar, 58, 60, 330
+- Weyl, Hermann, 306
+- Wheatstone, Charles, 169
+- Whewell, William, 101, 331
+- Whitman, Ann, 38
+- Wiles, Andrew, 57
+- Wolff, Bertrand, 365n14
+- Woolf, Virginia, 189
+- word problems, 4, 7–11
+- Wordsworth, William, 64, 75, 331
+- Working Men’s College, xix, 123
+- World War I, 95, 293, 317, 334–35
+- Wurdi Youang, xvii
+- yaw, 93
+- Young, Thomas: interference patterns and, 19, 97, 199; light and, 18–19, 97, 141, 199, 330; two-slit experiment of, 18, 97, 141, 330
+- Young, William, 242
+- Zangger, Heinrich, 403n5
+- Zeno, 26–31, 40, 44
+
+<!--stats: p=0 fig=0 eq=0 note=0-->

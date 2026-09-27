@@ -1,0 +1,105 @@
+% 《向量》中文版 PDF 的 LaTeX 导言区（由 tools/build_pdf.py 用 -H 注入）
+% 每行配置都对应一个实测结论，改动前请看注释。
+
+% ============ 数学 ============
+\usepackage{amsmath,amssymb}
+\usepackage{unicode-math}
+% fontspec 认不出 "Latin Modern Math" 这个字体名（实测报 fontspec Error），
+% 必须用 TeX Live 里的文件名。
+\setmathfont{latinmodern-math.otf}
+
+% ============ 版式 ============
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  inner=3.3cm, outer=2.2cm, top=2.5cm, bottom=2.5cm,
+  marginparsep=3mm, marginparwidth=1.1cm
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\rightmark}}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+% 章号由 build_pdf.py 写进 H1，LaTeX 不再自动编号；
+% 不能用 \CTEXthechapter —— ctex 的 \chapter 在自增计数器之前就调用 \chaptermark，
+% 取到的永远是「第零章」。
+% pandoc 会设 secnumdepth=-\maxdimen，此时 \chapter 是否步进 chapter 计数器
+% 取决于实现，导致「按章重置图表/脚注」时灵时不灵（实测脚注编号会一路涨到 170+）。
+% 钉成 -1：\chapter 明确不步进计数器、也不显示编号，章号完全由 build_pdf.py 显式设定。
+\setcounter{secnumdepth}{-1}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancypagestyle{plain}{\fancyhf{}\fancyhead[LE,RO]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+% 保住中文与西文之间的空格（xeCJK 默认会吃掉）
+\xeCJKsetup{CJKspace=true}
+
+% ============ 原版页码（页边灰字） ============
+% build_pdf.py 把 <!--p123--> 转成 \origpage{123}；--no-page-marks 时不注入。
+\usepackage{xcolor}
+% \ifinner 兜底：万一标记落在 minipage/盒子内部，静默跳过而不是中断构建
+\newcommand{\origpage}[1]{%
+  \ifinner\else\marginpar{\raggedright\footnotesize\sffamily\color{gray}#1}\fi}
+
+% ============ 章节分隔符 • • • ============
+\newcommand{\secbreak}{%
+  \par\vspace{1.2em}%
+  {\centering\large\textbullet\quad\textbullet\quad\textbullet\par}%
+  \vspace{1.2em}}
+
+% ============ 知识框（infobox） ============
+% pandoc 默认会丢掉 ::: {.infobox} 这个 Div，靠 tools/infobox.lua 转成此环境。
+\usepackage[most]{tcolorbox}
+\newenvironment{infobox}{%
+  \begin{tcolorbox}[
+    enhanced, breakable,
+    colback=black!3, colframe=black!25, boxrule=0.4pt, arc=2pt,
+    left=6pt, right=6pt, top=5pt, bottom=5pt]%
+}{\end{tcolorbox}}
+
+% ============ 图表 ============
+% pandoc 默认按原始尺寸插图，宽图会顶出纸面被裁掉（参考项目实测切过 8 行代码）。
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,keepaspectratio}
+\usepackage{caption}
+\captionsetup{font=small}
+% 图按「章号.序号」编号，与原书的 FIGURE 0.1 / FIGURE 1.1 对应。
+% pandoc 用 \chapter{} 但 secnumdepth=0（不显示章号），章计数器仍会自增，
+% 所以 build_pdf.py 在每个章节文件前把计数器设成「期望章号-1」。
+\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\makeatletter
+\@addtoreset{figure}{chapter}
+\@addtoreset{table}{chapter}
+% 脚注也要按章重新编号：原书与书末注释汇编都是每章 1..N，
+% 不重置的话正文会出现「170」这种全局编号，与汇编对不上
+\@addtoreset{footnote}{chapter}
+\makeatother
+
+% ============ 强调与省略号 ============
+% 中文加粗改用楷体（Kaiti SC 有真实 Bold 字重，无需合成加粗）。
+\newCJKfontfamily\kaiemph{Kaiti SC}[BoldFont={Kaiti SC Bold}]
+\renewcommand{\textbf}[1]{{\kaiemph\bfseries #1}}
+% 宋体一族会把 U+2026（…）反查成 U+22EF（⋯），复制出来不是同一个码位；
+% STFangsong 映射正确。必须用 newCJKfontfamily，否则会被 xeCJK 的标点处理绕过去。
+\newCJKfontfamily\ellipsisfont{STFangsong}
+\usepackage{newunicodechar}
+\newunicodechar{…}{{\ellipsisfont …}}
+
+% ============ 杂项 ============
+% 注：正文里出现的希腊字母（如极坐标 (r, θ)）由 build_pdf.py 在数学环境之外
+% 替换成 $\theta$。不能用 newunicodechar 处理——它定义的是活动字符，
+% 会和 ctex 加载的 microtype 冲突（实测报 \MT@is@char has an extra }）。
+% 长 URL 会在脚注里冲出纸面（实测 x 坐标到 601pt > 页宽 595pt，会被裁掉），
+% xurl 允许 \url{} 在任意字符处断行
+\usepackage{xurl}
+% 非 MathML 的行间公式（原书用 <i>/<sub>/<sup> 排的）：居中显示，
+% 否则会被 pandoc 排成左对齐的普通段落，与原书不符
+\newenvironment{displayeq}{\par\addvspace{0.4em}\centering}{\par\addvspace{0.4em}}
+\usepackage{booktabs}
+% 目录里只排到节
+\setcounter{tocdepth}{1}
+% 避免图表浮到下一章
+\usepackage{placeins}

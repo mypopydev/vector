@@ -1,0 +1,232 @@
+[
+  {
+    "stem": "02_Halftitle",
+    "path": "en/02_Halftitle.md",
+    "chars": 493,
+    "words": 71,
+    "p": 1,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "03_Reviews",
+    "path": "en/03_Reviews.md",
+    "chars": 3088,
+    "words": 463,
+    "p": 14,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "04_Dedication",
+    "path": "en/04_Dedication.md",
+    "chars": 102,
+    "words": 15,
+    "p": 2,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "06_Copyright",
+    "path": "en/06_Copyright.md",
+    "chars": 1319,
+    "words": 190,
+    "p": 15,
+    "fig": 1,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "08_Prolog",
+    "path": "en/08_Prolog.md",
+    "chars": 39582,
+    "words": 6301,
+    "p": 49,
+    "fig": 3,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "09_Chapter01",
+    "path": "en/09_Chapter01.md",
+    "chars": 36640,
+    "words": 5801,
+    "p": 51,
+    "fig": 2,
+    "eq": 5,
+    "note": 0
+  },
+  {
+    "stem": "10_Chapter02",
+    "path": "en/10_Chapter02.md",
+    "chars": 52345,
+    "words": 8322,
+    "p": 61,
+    "fig": 5,
+    "eq": 3,
+    "note": 0
+  },
+  {
+    "stem": "11_Chapter03",
+    "path": "en/11_Chapter03.md",
+    "chars": 53449,
+    "words": 8710,
+    "p": 69,
+    "fig": 9,
+    "eq": 7,
+    "note": 0
+  },
+  {
+    "stem": "12_Chapter04",
+    "path": "en/12_Chapter04.md",
+    "chars": 67258,
+    "words": 10891,
+    "p": 89,
+    "fig": 5,
+    "eq": 12,
+    "note": 0
+  },
+  {
+    "stem": "13_Chapter05",
+    "path": "en/13_Chapter05.md",
+    "chars": 37107,
+    "words": 5891,
+    "p": 46,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "14_Chapter06",
+    "path": "en/14_Chapter06.md",
+    "chars": 60650,
+    "words": 9723,
+    "p": 84,
+    "fig": 6,
+    "eq": 8,
+    "note": 0
+  },
+  {
+    "stem": "15_Chapter07",
+    "path": "en/15_Chapter07.md",
+    "chars": 47124,
+    "words": 7574,
+    "p": 65,
+    "fig": 3,
+    "eq": 7,
+    "note": 0
+  },
+  {
+    "stem": "16_Chapter08",
+    "path": "en/16_Chapter08.md",
+    "chars": 43540,
+    "words": 6861,
+    "p": 60,
+    "fig": 1,
+    "eq": 7,
+    "note": 0
+  },
+  {
+    "stem": "17_Chapter09",
+    "path": "en/17_Chapter09.md",
+    "chars": 56864,
+    "words": 8987,
+    "p": 80,
+    "fig": 8,
+    "eq": 11,
+    "note": 0
+  },
+  {
+    "stem": "18_Chapter10",
+    "path": "en/18_Chapter10.md",
+    "chars": 47679,
+    "words": 7603,
+    "p": 72,
+    "fig": 5,
+    "eq": 14,
+    "note": 0
+  },
+  {
+    "stem": "19_Chapter11",
+    "path": "en/19_Chapter11.md",
+    "chars": 75608,
+    "words": 11975,
+    "p": 117,
+    "fig": 1,
+    "eq": 33,
+    "note": 0
+  },
+  {
+    "stem": "20_Chapter12",
+    "path": "en/20_Chapter12.md",
+    "chars": 65102,
+    "words": 10220,
+    "p": 91,
+    "fig": 2,
+    "eq": 14,
+    "note": 0
+  },
+  {
+    "stem": "21_Chapter13",
+    "path": "en/21_Chapter13.md",
+    "chars": 32102,
+    "words": 5011,
+    "p": 48,
+    "fig": 2,
+    "eq": 7,
+    "note": 0
+  },
+  {
+    "stem": "22_Epilog",
+    "path": "en/22_Epilog.md",
+    "chars": 13467,
+    "words": 2122,
+    "p": 18,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "23_Timeline",
+    "path": "en/23_Timeline.md",
+    "chars": 21481,
+    "words": 3173,
+    "p": 0,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "24_Acknowledgments",
+    "path": "en/24_Acknowledgments.md",
+    "chars": 4469,
+    "words": 726,
+    "p": 7,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  },
+  {
+    "stem": "25_Notes",
+    "path": "en/25_Notes.md",
+    "chars": 161533,
+    "words": 23264,
+    "p": 0,
+    "fig": 1,
+    "eq": 42,
+    "note": 353
+  },
+  {
+    "stem": "26_Index",
+    "path": "en/26_Index.md",
+    "chars": 94951,
+    "words": 14932,
+    "p": 0,
+    "fig": 0,
+    "eq": 0,
+    "note": 0
+  }
+]
