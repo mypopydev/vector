@@ -96,7 +96,7 @@
 
 - cn 行114：小数字 ['1', '2'] 未以数字形式出现（英文 ['1', '1871', '1881', '1884', '2']；中文多写作「二维」这类，可忽略）
 - cn 行116：小数字 ['3'] 未以数字形式出现（英文 ['3']；中文多写作「二维」这类，可忽略）
-- 段落偏长：cn 行9 比率 2.40（该章中位 1.84），可考虑精简
+- 段落偏长：cn 行9 比率 2.33（该章中位 1.84），可考虑精简
 - 段落偏短：cn 行20 比率 1.48（该章中位 1.84），确认无漏译
 - 段落偏短：cn 行91 比率 1.50（该章中位 1.84），确认无漏译
 
@@ -105,7 +105,7 @@
 ### 轻微 (21)
 
 - cn 行9：['1880'] 中文按「N 世纪 M0 年代」表述（英文 ['09', '1880', '1893', '1897', '1928', '2']）
-- cn 行27：小数字 ['3'] 未以数字形式出现（英文 ['09', '1', '2', '2022', '3', '4']；中文多写作「二维」这类，可忽略）
+- cn 行27：小数字 ['1', '3'] 未以数字形式出现（英文 ['09', '1', '2', '2022', '3', '4']；中文多写作「二维」这类，可忽略）
 - cn 行29：小数字 ['3'] 未以数字形式出现（英文 ['3']；中文多写作「二维」这类，可忽略）
 - cn 行164：['1880', '1890'] 中文按「N 世纪 M0 年代」表述（英文 ['1843', '1880', '1890', '2', '9.3']）
 - cn 行169：小数字 ['3', '4'] 未以数字形式出现（英文 ['09', '16', '1884', '1954', '3', '4']；中文多写作「二维」这类，可忽略）
@@ -171,7 +171,7 @@
 - cn 行370：小数字 ['2'] 未以数字形式出现（英文 ['1', '2']；中文多写作「二维」这类，可忽略）
 - cn 行378：小数字 ['2'] 未以数字形式出现（英文 ['2']；中文多写作「二维」这类，可忽略）
 - 段落偏长：cn 行30 比率 2.08（该章中位 1.72），可考虑精简
-- 段落偏长：cn 行189 比率 2.03（该章中位 1.72），可考虑精简
+- 段落偏长：cn 行395 比率 2.02（该章中位 1.72），可考虑精简
 - 段落偏短：cn 行275 比率 1.16（该章中位 1.72），确认无漏译
 - 段落偏短：cn 行218 比率 1.35（该章中位 1.72），确认无漏译
 
@@ -225,7 +225,7 @@
 
 共 1258 个多词外文专名不在译名表内，出现频次最高的 20 个：
 
-　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Albert Einstein×6、Mary Somerville×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Natural Philosophy×5、Thomas Young×5、Trinity College×5、Paul Dirac×5、Louis Lagrange×5、Peter Guthrie Tait×5
+　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Mary Somerville×6、Albert Einstein×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Natural Philosophy×5、Thomas Young×5、Trinity College×5、Paul Dirac×5、Louis Lagrange×5、Peter Guthrie Tait×5
 
 ## 跨章译名一致性
 
