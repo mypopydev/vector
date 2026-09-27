@@ -138,7 +138,7 @@ def proper_nouns(text: str) -> set[str]:
 # ---------- 引文 ----------
 # 阈值必须按语言区分：英文 10 个字符 ≈ 中文 4 个字，用同一个阈值必然误报
 QUOTED_EN = re.compile(r"[“\"]([^”\"]{10,})[”\"]")
-QUOTED_CN = re.compile(r"[“]([^”]{4,})[”]")
+QUOTED_CN = re.compile(r"[“\"]([^”\"]{4,})[”\"]")
 
 
 # ---------- 译名一致（中文（Latin Name）配对） ----------
