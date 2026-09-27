@@ -77,16 +77,17 @@
 
 - cn 行41：小数字 ['2'] 未以数字形式出现（英文 ['06', '1853', '2', '6']；中文多写作「二维」这类，可忽略）
 - cn 行107：['1800'] 中文按「N 世纪 M0 年代」表述（英文 ['1800', '1880']）
-- 段落偏长：cn 行6 比率 2.04（该章中位 1.72），可考虑精简
-- 段落偏长：cn 行11 比率 2.02（该章中位 1.72），可考虑精简
-- 段落偏短：cn 行216 比率 1.08（该章中位 1.72），确认无漏译
-- 段落偏短：cn 行141 比率 1.44（该章中位 1.72），确认无漏译
+- 段落偏长：cn 行6 比率 2.04（该章中位 1.73），可考虑精简
+- 段落偏长：cn 行11 比率 2.02（该章中位 1.73），可考虑精简
+- 段落偏短：cn 行216 比率 1.08（该章中位 1.73），确认无漏译
+- 段落偏短：cn 行141 比率 1.44（该章中位 1.73），确认无漏译
 
 ## 15_Chapter07 ↔ `cn-book/11.第7章-从四元数到向量.md`
 
-### 轻微 (3)
+### 轻微 (4)
 
 - cn 行162：小数字 ['3'] 未以数字形式出现（英文 ['0', '07', '1', '22', '3']；中文多写作「二维」这类，可忽略）
+- 段落偏长：cn 行139 比率 2.10（该章中位 1.81），可考虑精简
 - 段落偏长：cn 行143 比率 2.08（该章中位 1.81），可考虑精简
 - 段落偏短：cn 行107 比率 1.50（该章中位 1.81），确认无漏译
 
@@ -121,10 +122,10 @@
 - cn 行248：小数字 ['3', '4'] 未以数字形式出现（英文 ['3', '4', '8']；中文多写作「二维」这类，可忽略）
 - cn 行258：小数字 ['3'] 未以数字形式出现（英文 ['09', '1', '2', '26', '3', '9.4']；中文多写作「二维」这类，可忽略）
 - cn 行267：小数字 ['3'] 未以数字形式出现（英文 ['3', '9.5']；中文多写作「二维」这类，可忽略）
-- 段落偏长：cn 行178 比率 2.12（该章中位 1.79），可考虑精简
-- 段落偏长：cn 行169 比率 2.11（该章中位 1.79），可考虑精简
-- 段落偏短：cn 行15 比率 1.44（该章中位 1.79），确认无漏译
-- 段落偏短：cn 行40 比率 1.48（该章中位 1.79），确认无漏译
+- 段落偏长：cn 行178 比率 2.12（该章中位 1.80），可考虑精简
+- 段落偏长：cn 行169 比率 2.11（该章中位 1.80），可考虑精简
+- 段落偏短：cn 行15 比率 1.44（该章中位 1.80），确认无漏译
+- 段落偏短：cn 行40 比率 1.48（该章中位 1.80），确认无漏译
 
 ## 18_Chapter10 ↔ `cn-book/14.第10章-弯曲的空间与不变的距离.md`
 
@@ -211,13 +212,13 @@
 
 ### 轻微 (1)
 
-- 引文数量偏少：英文 20 段引文，中文 17 段（注意：引号里的**术语**译成中文后不带引号是正常的，只有**题名**才要求保留原样，故本项需人工判断）
+- 引文数量偏少：英文 20 段引文，中文 16 段（注意：引号里的**术语**译成中文后不带引号是正常的，只有**题名**才要求保留原样，故本项需人工判断）
 
 ## 专名保全（表驱动）
 
 ### 中等 (1)
 
-译名表里有 419 个外文名在整部译稿里从未以原文形式出现（若原文也没出现过则属正常）：
+译名表里有 420 个外文名在整部译稿里从未以原文形式出现（若原文也没出现过则属正常）：
 
 　Annali di Matematica、Argand diagram、Big Bang singularity、Christoffel symbol、Doppler effect、Erlangen / Leiden、Euclidean geometry、Fermat's last theorem、Galilean transformation、Gauss's theorem / divergence theorem、Gaussian curvature、Gaussian elimination、Girton College、Hamiltonian dynamics、Hermitian、Hilbert space、Jacobian determinant、Lagrangian / Hamiltonian、Large Hadron Collider (LHC)、Leyden jar、Lorentz contraction、Lorentz transformation、Maxwell / Faraday tensor、Maxwell stresses、Maxwell's equations、Minkowski space-time / metric、Newtonian limit、Noether theorems、Pauli matrix、Poisson's equation、Pythagorean theorem、QED (quantum electrodynamics)、Renaissance、Rhind papyrus、Ricci tensor、Riemann tensor、Riemannian geometry、Smith's Prize、Stokes's theorem、Taylor series、Unruh effect、Wheatstone bridge、absolute differential calculus、absolute parallelism、abstract、acceleration、action、action-at-a-distance、algorithm、analogy、angle、angular momentum、annus mirabilis、anticommutative、antiderivative、antimatter / positron、arc second / angular second、arithmetic、associative law、associativity…
 
@@ -225,7 +226,7 @@
 
 共 1258 个多词外文专名不在译名表内，出现频次最高的 20 个：
 
-　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Mary Somerville×6、Albert Einstein×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Natural Philosophy×5、Thomas Young×5、Trinity College×5、Paul Dirac×5、Louis Lagrange×5、Peter Guthrie Tait×5
+　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Albert Einstein×6、Mary Somerville×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Natural Philosophy×5、Thomas Young×5、Paul Dirac×5、Trinity College×5、Louis Lagrange×5、Peter Guthrie Tait×5
 
 ## 跨章译名一致性
 
