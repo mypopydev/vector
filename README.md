@@ -8,7 +8,7 @@
 | | |
 |---|---|
 | 英文原书 | 158,316 词（正文 + 注释 + 索引） |
-| 中文译稿 | 23 个 Markdown 文件，汉字 263,121 字（汉字/英文词 = 1.66） |
+| 中文译稿 | 23 个 Markdown 文件，汉字 263,542 字（汉字/英文词 = 1.66） |
 | 成书 PDF | A4，330 页，`dist/vector-cn.pdf` |
 
 ---
@@ -61,6 +61,7 @@ python3 tools/sort_index.py        # 索引按拼音排序
 python3 tools/check_structure.py   # 段/图/公式/尾注/节标题/分页标记 逐项中英对齐
 python3 tools/check_math.py        # 公式与英文逐条一致、且能编译
 python3 tools/check_terms.py       # 术语译名一致性、禁用译名
+python3 tools/check_fidelity.py    # 忠实度守卫（数字/专名/引文/译名/伪公式运算符/段落长度）
 python3 tools/check_baseline.py    # PDF 缺字形 / 丢字 / 越界裁切
 python3 tools/test_mathml2tex.py   # MathML->LaTeX 转换器单测 + 全书公式自检
 ```
@@ -83,7 +84,7 @@ python3 tools/test_mathml2tex.py   # MathML->LaTeX 转换器单测 + 全书公�
 - [第 12 章　万物汇聚：张量与广义相对论](cn-book/16.第12章-万物汇聚.md)
 - [第 13 章　后来发生了什么](cn-book/17.第13章-后来发生了什么.md)
 - [结语](cn-book/18.结语.md) · [时间线](cn-book/19.时间线.md) · [致谢](cn-book/20.致谢.md)
-- [注释（353 条）](cn-book/21.注释.md) · [索引（639 条）](cn-book/22.索引.md)
+- [注释（353 条）](cn-book/21.注释.md) · [索引（636 条）](cn-book/22.索引.md)
 
 ## 📐 排版说明
 

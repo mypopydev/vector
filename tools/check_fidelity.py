@@ -90,6 +90,17 @@ def numbers(text: str) -> collections.Counter:
     return collections.Counter(got)
 
 
+# ---------- 斜体伪公式的运算符 ----------
+# 原书有大量公式是用 <i>/<sup> 排的「伪公式」（如 *a* × *b* = *b* × *a*），
+# 不在 $…$ 里，check_math 查不到；这里逐段比运算符多重集。
+# 只取无歧义的数学运算符：ASCII 连字符是英文复合词、· 是中文人名间隔号，都会淹掉信号
+OPS = re.compile(r"[+×=±⇒≡]|−")
+
+
+def op_counts(text: str) -> collections.Counter:
+    return collections.Counter(OPS.findall(re.sub(r"\$[^$]*\$", "", text)))
+
+
 # ---------- 专名（章级） ----------
 PROPER = re.compile(r"\b[A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,}){0,3}\b")
 # 句首常见的普通词，不是专名
@@ -208,6 +219,14 @@ def main() -> None:
             E = C = []          # 注释是定义列表，段级比对不适用
         if len(E) == len(C):
             for (le, e), (lc, c) in zip(E, C):
+                # 斜体伪公式的运算符必须一致（*a* × *b* = *b* × *a* 这类）
+                eo, co = op_counts(e), op_counts(c)
+                if eo != co:
+                    only_e = dict(eo - co)
+                    only_c = dict(co - eo)
+                    (severe if ("=" in only_e or "=" in only_c) else medium).append(
+                        f"cn 行{lc}（en 行{le}）：公式运算符不一致"
+                        f"（英文多 {only_e or '无'}，中文多 {only_c or '无'}）")
                 en_n, cn_n = numbers(e), numbers(c)
                 if not en_n:
                     continue

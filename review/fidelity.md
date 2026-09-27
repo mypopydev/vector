@@ -20,15 +20,15 @@
 - cn 行82：小数字 ['1'] 未以数字形式出现（英文 ['1', '2', '3', '4']；中文多写作「二维」这类，可忽略）
 - 段落偏长：cn 行100 比率 2.13（该章中位 1.77），可考虑精简
 - 段落偏长：cn 行122 比率 2.09（该章中位 1.77），可考虑精简
+- 段落偏短：cn 行125 比率 1.42（该章中位 1.77），确认无漏译
 - 段落偏短：cn 行103 比率 1.42（该章中位 1.77），确认无漏译
-- 段落偏短：cn 行125 比率 1.47（该章中位 1.77），确认无漏译
 
 ## 10_Chapter02 ↔ `cn-book/6.第2章-微积分的登场.md`
 
 ### 轻微 (4)
 
 - 段落偏长：cn 行98 比率 2.43（该章中位 1.77），可考虑精简
-- 段落偏长：cn 行160 比率 2.18（该章中位 1.77），可考虑精简
+- 段落偏长：cn 行176 比率 2.14（该章中位 1.77），可考虑精简
 - 段落偏短：cn 行56 比率 1.35（该章中位 1.77），确认无漏译
 - 段落偏短：cn 行167 比率 1.46（该章中位 1.77），确认无漏译
 
@@ -94,8 +94,8 @@
 ### 轻微 (4)
 
 - cn 行114：小数字 ['1', '2'] 未以数字形式出现（英文 ['1', '1871', '1881', '1884', '2']；中文多写作「二维」这类，可忽略）
-- 段落偏长：cn 行9 比率 2.37（该章中位 1.84），可考虑精简
-- 段落偏短：cn 行20 比率 1.45（该章中位 1.84），确认无漏译
+- 段落偏长：cn 行9 比率 2.40（该章中位 1.84），可考虑精简
+- 段落偏短：cn 行20 比率 1.48（该章中位 1.84），确认无漏译
 - 段落偏短：cn 行91 比率 1.50（该章中位 1.84），确认无漏译
 
 ## 17_Chapter09 ↔ `cn-book/13.第9章-从空间到时空.md`
@@ -111,7 +111,7 @@
 - cn 行164：['1880', '1890'] 中文按「N 世纪 M0 年代」表述（英文 ['1843', '1880', '1890', '2', '9.3']）
 - cn 行223：小数字 ['3'] 未以数字形式出现（英文 ['1', '3']；中文多写作「二维」这类，可忽略）
 - 段落偏长：cn 行178 比率 2.12（该章中位 1.78），可考虑精简
-- 段落偏长：cn 行169 比率 2.07（该章中位 1.78），可考虑精简
+- 段落偏长：cn 行54 比率 2.08（该章中位 1.78），可考虑精简
 - 段落偏短：cn 行15 比率 1.44（该章中位 1.78），确认无漏译
 - 段落偏短：cn 行27 比率 1.48（该章中位 1.78），确认无漏译
 
@@ -153,10 +153,10 @@
 - cn 行365：小数字 ['2'] 未以数字形式出现（英文 ['2']；中文多写作「二维」这类，可忽略）
 - cn 行370：小数字 ['2'] 未以数字形式出现（英文 ['1', '2']；中文多写作「二维」这类，可忽略）
 - cn 行378：小数字 ['2'] 未以数字形式出现（英文 ['2']；中文多写作「二维」这类，可忽略）
-- 段落偏长：cn 行30 比率 2.08（该章中位 1.71），可考虑精简
-- 段落偏长：cn 行189 比率 2.03（该章中位 1.71），可考虑精简
-- 段落偏短：cn 行275 比率 1.16（该章中位 1.71），确认无漏译
-- 段落偏短：cn 行218 比率 1.35（该章中位 1.71），确认无漏译
+- 段落偏长：cn 行30 比率 2.08（该章中位 1.72），可考虑精简
+- 段落偏长：cn 行189 比率 2.03（该章中位 1.72），可考虑精简
+- 段落偏短：cn 行275 比率 1.16（该章中位 1.72），确认无漏译
+- 段落偏短：cn 行218 比率 1.35（该章中位 1.72），确认无漏译
 
 ## 20_Chapter12 ↔ `cn-book/16.第12章-万物汇聚.md`
 
@@ -177,8 +177,8 @@
 
 - cn 行92：小数字 ['25'] 未以数字形式出现（英文 ['13', '15', '1924', '25']；中文多写作「二维」这类，可忽略）
 - 段落偏长：cn 行86 比率 2.57（该章中位 1.82），可考虑精简
-- 段落偏长：cn 行4 比率 2.13（该章中位 1.82），可考虑精简
-- 段落偏短：cn 行29 比率 1.44（该章中位 1.82），确认无漏译
+- 段落偏短：cn 行29 比率 1.33（该章中位 1.82），确认无漏译
+- 段落偏短：cn 行123 比率 1.55（该章中位 1.82），确认无漏译
 
 ## 22_Epilog ↔ `cn-book/18.结语.md`
 
@@ -191,7 +191,7 @@
 
 ### 中等 (1)
 
-- 引文数量偏少：英文 300 段引文，中文 187 段（注意：引号里的**术语**译成中文后不带引号是正常的，只有**题名**才要求保留原样，故本项需人工判断）
+- 引文数量偏少：英文 300 段引文，中文 188 段（注意：引号里的**术语**译成中文后不带引号是正常的，只有**题名**才要求保留原样，故本项需人工判断）
 
 ## 26_Index ↔ `cn-book/22.索引.md`
 
@@ -203,15 +203,15 @@
 
 ### 中等 (1)
 
-译名表里有 398 个外文名在整部译稿里从未以原文形式出现（若原文也没出现过则属正常）：
+译名表里有 419 个外文名在整部译稿里从未以原文形式出现（若原文也没出现过则属正常）：
 
-　Annali di Matematica、Argand diagram、Big Bang singularity、Christoffel symbol、Doppler effect、Erlangen / Leiden、Euclidean geometry、Fermat's last theorem、Galilean transformation、Gauss's theorem / divergence theorem、Gaussian curvature、Gaussian elimination、Girton College、Hamiltonian dynamics、Hermitian、Hilbert space、Jacobian determinant、Lagrangian / Hamiltonian、Leyden jar、Lorentz contraction、Lorentz transformation、Maxwell / Faraday tensor、Maxwell stresses、Maxwell's equations、Maxwellians / quaternionist、Minkowski space-time / metric、Newtonian limit、Noether theorems、Pauli matrix、Poisson's equation、Pythagorean theorem、QED (quantum electrodynamics)、Renaissance、Ricci tensor、Riemann tensor、Riemannian geometry、Smith's Prize、Stokes's theorem、Taylor series、Unruh effect、Wheatstone bridge、absolute differential calculus、absolute parallelism、abstract、acceleration、action、action-at-a-distance、algorithm、analogy、angle、angular momentum、annus mirabilis、anticommutative、antiderivative、antimatter / positron、arc second / angular second、arithmetic、associative law、associativity、attitude…
+　Annali di Matematica、Argand diagram、Big Bang singularity、Christoffel symbol、Doppler effect、Erlangen / Leiden、Euclidean geometry、Fermat's last theorem、Galilean transformation、Gauss's theorem / divergence theorem、Gaussian curvature、Gaussian elimination、Girton College、Hamiltonian dynamics、Hermitian、Hilbert space、Jacobian determinant、Lagrangian / Hamiltonian、Large Hadron Collider (LHC)、Leyden jar、Lorentz contraction、Lorentz transformation、Maxwell / Faraday tensor、Maxwell stresses、Maxwell's equations、Minkowski space-time / metric、Newtonian limit、Noether theorems、Pauli matrix、Poisson's equation、Pythagorean theorem、QED (quantum electrodynamics)、Renaissance、Rhind papyrus、Ricci tensor、Riemann tensor、Riemannian geometry、Smith's Prize、Stokes's theorem、Taylor series、Unruh effect、Wheatstone bridge、absolute differential calculus、absolute parallelism、abstract、acceleration、action、action-at-a-distance、algorithm、analogy、angle、angular momentum、annus mirabilis、anticommutative、antiderivative、antimatter / positron、arc second / angular second、arithmetic、associative law、associativity…
 
 ## 表外专名（轻微，建议补进译名表）
 
 共 1258 个多词外文专名不在译名表内，出现频次最高的 20 个：
 
-　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Albert Einstein×6、Mary Somerville×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Thomas Young×5、Natural Philosophy×5、Paul Dirac×5、Trinity College×5、Louis Lagrange×5、Peter Guthrie Tait×5
+　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Albert Einstein×6、Mary Somerville×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Thomas Young×5、Natural Philosophy×5、Trinity College×5、Paul Dirac×5、Peter Guthrie Tait×5、Louis Lagrange×5
 
 ## 跨章译名一致性
 

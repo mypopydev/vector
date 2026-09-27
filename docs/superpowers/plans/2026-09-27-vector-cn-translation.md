@@ -208,7 +208,7 @@ Expected: PASS（全部用例）。
 | tensor | 张量 |
 | matrix | 矩阵 |
 | determinant | 行列式 |
-| dot product / scalar product | 点积 / 数量积 |
+| dot product / scalar product | 点积 / 标量积 |
 | cross product / vector product | 叉积 / 向量积 |
 | gradient / divergence / curl | 梯度 / 散度 / 旋度 |
 | (vector) field | （向量）场 |
