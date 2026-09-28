@@ -64,12 +64,16 @@
 \makeatother
 \setkeys{Gin}{width=\maxwidth,keepaspectratio}
 \usepackage{caption}
-\captionsetup{font=small}
-% 图按「章号.序号」编号，与原书的 FIGURE 0.1 / FIGURE 1.1 对应。
-% pandoc 用 \chapter{} 但 secnumdepth=0（不显示章号），章计数器仍会自增，
-% 所以 build_pdf.py 在每个章节文件前把计数器设成「期望章号-1」。
-\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
-\renewcommand{\thetable}{\thechapter.\arabic{table}}
+% 图号改为「显式编号」：编号写死在图注文字里（由译稿决定），LaTeX 不再自动加「图 N:」。
+% 原书的图号体系不是「每张图顺次递增」——它有三类：
+%   ① 正常编号图 FIGURE 2.1 …
+%   ② **不带编号**的照片/图版（pNNN.jpg，9 张）——自动编号会给它们凭空发号，
+%      并把其后所有图号整体推后一位（实测第 4/6/9/10/13 章全部错位）；
+%   ③ **同号分幅** FIGURE 2.3A / 2.3B（5 组）——自动编号会把它们拆成两张连号图。
+% 两类偏差都会让正文引用的「图 N.M」指错图。改用显式编号后，编号与原文一一对应，
+% 且可被 tools/check_figures.py 逐条核对。
+% labelsep=none 必须写：光设 labelformat=empty 还会留下一个「: 」分隔符。
+\captionsetup{font=small, labelformat=empty, labelsep=none}
 \makeatletter
 \@addtoreset{figure}{chapter}
 \@addtoreset{table}{chapter}
