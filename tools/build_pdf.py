@@ -143,6 +143,64 @@ def load(name: str) -> str:
     return (SRC / name).read_text(encoding="utf-8")
 
 
+def git_stamp() -> dict[str, object]:
+    """取当前版本与提交，用于给 PDF 打构建印记。
+
+    PDF 从网上流出去之后就没有来源信息了，读者（和我们自己）无法判断手上
+    这份是哪一个版本，所以把 tag、commit、是否含未提交改动一并烧进 PDF：
+    既印在扉页，也写进 PDF 元数据（pdfinfo 可读）。
+    """
+    def git(*args: str) -> str:
+        try:
+            p = subprocess.run(["git", *args], cwd=REPO, capture_output=True, text=True)
+        except FileNotFoundError:
+            return ""
+        return p.stdout.strip() if p.returncode == 0 else ""
+
+    version = git("describe", "--tags", "--always", "--dirty")
+    commit = git("rev-parse", "--short=7", "HEAD")
+    dirty = version.endswith("-dirty")
+    if dirty:
+        version = version[: -len("-dirty")]
+    return {
+        "version": version or "unknown",
+        "commit": commit or "unknown",
+        "dirty": dirty,
+    }
+
+
+def stamp_line(stamp: dict[str, object], date: str) -> str:
+    # 用中文逗号而不是「 · 」分隔：xeCJK 会吃掉标点与西文之间的空格，
+    # 排出来是「· git」这种粘连的样子。
+    s = f"译本版本 {stamp['version']}，git {stamp['commit']}，{date}"
+    if stamp["dirty"]:
+        s += "（含未提交改动）"
+    return s
+
+
+def write_metadata_tex(path: pathlib.Path, stamp: dict[str, object], date: str) -> None:
+    """写一段只含 ASCII 的 \\hypersetup，把版本信息塞进 PDF 元数据。
+
+    用 \\AtBeginDocument 是因为 pandoc 模板里 \\hypersetup 排在 header-includes
+    之后，直接写会被它覆盖掉。元数据字符串保持 ASCII：中文进 pdfstring 会被
+    \\pdfstringdef 转义成一串八进制，pdfinfo 里看不出是什么。
+    """
+    keywords = f"vector-cn; {stamp['version']}; {stamp['commit']}"
+    if stamp["dirty"]:
+        keywords += "; dirty"
+    subject = f"vector-cn {stamp['version']} ({stamp['commit']}) built {date}"
+    path.write_text(
+        "% 由 tools/build_pdf.py 生成，勿手改\n"
+        "\\AtBeginDocument{%\n"
+        f"  \\hypersetup{{pdfkeywords={{{keywords}}},"
+        f"pdfsubject={{{subject}}},"
+        # 下划线在 pdfstring 里会被吞掉，所以这里不写 build_pdf.py 原样
+        f"pdfcreator={{tools/build-pdf.py}}}}\n"
+        "}\n",
+        encoding="utf-8",
+    )
+
+
 NOTES_DEF = re.compile(r"^\[\^(ch\d\dn\d+)\]:\s*(.*)$")
 NOTES_GROUP = re.compile(r"^##\s+")
 
@@ -239,7 +297,9 @@ def build_merged(page_marks: bool) -> tuple[str, list[str], list[tuple[str, floa
     return "\n\n".join(parts), missing, ratios
 
 
-def run_pandoc(src: pathlib.Path, out: pathlib.Path, date: str) -> int:
+def run_pandoc(
+    src: pathlib.Path, out: pathlib.Path, stamp: str, meta: pathlib.Path | None = None
+) -> int:
     cmd = [
         "pandoc", str(src),
         "-o", str(out),
@@ -247,6 +307,7 @@ def run_pandoc(src: pathlib.Path, out: pathlib.Path, date: str) -> int:
         f"--resource-path={REPO}",
         "--lua-filter", str(TOOLS / "infobox.lua"),
         "-H", str(TOOLS / "header.tex"),
+        *(["-H", str(meta)] if meta else []),
         "--toc", "--toc-depth=1",
         "-V", "documentclass=ctexbook",
         # 钉住 fontset：不钉的话 ctex 每次按机器自动判定，换机器字体就变
@@ -258,7 +319,8 @@ def run_pandoc(src: pathlib.Path, out: pathlib.Path, date: str) -> int:
         "-V", f"title={BOOK_TITLE}",
         "-V", f"subtitle={BOOK_SUBTITLE}",
         "-V", f"author={BOOK_AUTHOR}",
-        "-V", f"date={date}",
+        # 扉页那行「日期」改印版本印记：PDF 一旦离开仓库就没有来源信息了
+        "-V", f"date={stamp}",
         "-V", "titlepage=true",
         "-V", "colorlinks=true",
         "-V", "linkcolor=black",
@@ -307,10 +369,18 @@ def main() -> None:
     src.write_text(merged, encoding="utf-8")
 
     date = dt.date.today().isoformat()
-    glyph_warns = run_pandoc(src, out, date)
+    stamp = git_stamp()
+    line = stamp_line(stamp, date)
+    print(f"  版本印记：{line}")
+    meta = work / "stamp-metadata.tex"
+    write_metadata_tex(meta, stamp, date)
+    glyph_warns = run_pandoc(src, out, line, meta)
 
     report = {
         "built": date,
+        "version": stamp["version"],
+        "commit": stamp["commit"],
+        "dirty": stamp["dirty"],
         "size_bytes": out.stat().st_size,
         "glyph_warnings": glyph_warns,
         "missing_files": missing,
