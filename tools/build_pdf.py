@@ -157,11 +157,12 @@ def git_stamp() -> dict[str, object]:
             return ""
         return p.stdout.strip() if p.returncode == 0 else ""
 
-    version = git("describe", "--tags", "--always", "--dirty")
+    version = git("describe", "--tags", "--always")
     commit = git("rev-parse", "--short=7", "HEAD")
-    dirty = version.endswith("-dirty")
-    if dirty:
-        version = version[: -len("-dirty")]
+    # 不用 git describe --dirty：dist/ 本身就是本脚本的产物，构建完必然变脏，
+    # 那样每份 PDF 都会印上「含未提交改动」，等于没有信息量。
+    # 只问「dist/ 之外」有没有改动。
+    dirty = bool(git("status", "--porcelain", "--", ".", ":!dist"))
     return {
         "version": version or "unknown",
         "commit": commit or "unknown",
