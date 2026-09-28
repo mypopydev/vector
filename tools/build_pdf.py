@@ -159,10 +159,11 @@ def git_stamp() -> dict[str, object]:
 
     version = git("describe", "--tags", "--always")
     commit = git("rev-parse", "--short=7", "HEAD")
-    # 不用 git describe --dirty：dist/ 本身就是本脚本的产物，构建完必然变脏，
-    # 那样每份 PDF 都会印上「含未提交改动」，等于没有信息量。
-    # 只问「dist/ 之外」有没有改动。
-    dirty = bool(git("status", "--porcelain", "--", ".", ":!dist"))
+    # 不用 git describe --dirty，也不看整个工作区：只有**真正参与构建的输入**
+    # 变化才算「含未提交改动」。其余都是产物，看它们会让这个标记永远为真、毫无信息量：
+    #   dist/     本脚本的输出
+    #   review/   各 check_*.py 生成的报告（跑完校验再构建就必然「脏」——实测踩过）
+    dirty = bool(git("status", "--porcelain", "--", "cn-book", "tools"))
     return {
         "version": version or "unknown",
         "commit": commit or "unknown",
@@ -241,7 +242,7 @@ def render_notes(text: str) -> str:
 
 
 def strip_unsafe_marks(text: str) -> str:
-    """去掉放在 \marginpar 会炸的位置上的分页标记。
+    r"""去掉放在 \marginpar 会炸的位置上的分页标记。
 
     知识框（infobox 是 tcolorbox，内部不是 outer par mode）和脚注定义里
     出现 \marginpar 会报 "Not in outer par mode" 并中断构建。
