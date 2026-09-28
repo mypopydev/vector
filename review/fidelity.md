@@ -226,7 +226,7 @@
 
 共 1258 个多词外文专名不在译名表内，出现频次最高的 20 个：
 
-　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Mary Somerville×6、Albert Einstein×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Thomas Young×5、Natural Philosophy×5、Trinity College×5、Paul Dirac×5、Louis Lagrange×5、Peter Guthrie Tait×5
+　Arthur Cayley×10、James Clerk Maxwell×9、Broome Bridge×9、Royal Irish Academy×8、William Rowan Hamilton×7、Thomas Harriot×7、Royal Society×7、William Thomson×7、Albert Einstein×6、Mary Somerville×6、Sophie Germain×6、British Association×6、Felix Klein×6、John Wallis×5、Natural Philosophy×5、Thomas Young×5、Trinity College×5、Paul Dirac×5、Louis Lagrange×5、Peter Guthrie Tait×5
 
 ## 跨章译名一致性
 
