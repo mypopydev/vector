@@ -319,3 +319,19 @@ python3 tools/build_site.py && python3 tools/build_site.py --check
 
 - **Task 6：插图内文字是英文**——实际打开 `fig7_1.jpg` 才看到图内写着 `a) Positive divergence` / `b) Negative divergence (=convergence)` / `c) Examples of zero divergence`。四轮里没人看过图片**内容**。
 - 同时确认：正文引「图 7.1b」「图 7.1c」是引用该图的**面板**，图片确实含 a/b/c 三个面板，**不是**缺陷。
+
+---
+
+## 执行状态（2026-09-28 收尾）
+
+| 任务 | 状态 |
+|---|---|
+| Task 1 图号体系 | **已完成**：方案 A（显式编号）；43 图注补号、自动编号关闭；新增 `check_figures.py`（四方对齐，含 PDF 文本层复核） |
+| Task 2 引文块 | **已完成**：17 行首次逐条核对；3 中等已改 |
+| Task 3 括注纪律 | **已完成**：清 5 处同章重复；200 条候选甄别出 52 条该括并全部补上 |
+| Task 4 交叉引用语义 | **已完成**：141 处核对，真错 0；2 条原书如此、13 条引用他书 |
+| Task 5 标点体例 | **已完成**：索引 8 处 ASCII 直引号已改 |
+| Task 6 图内文字 | **已完成**：57 张逐张看图；7 张图注补译 + 译本说明声明；另补 ch06n8 译者注 |
+| Task 7 汇总/重建/报告 | **已完成**：`汇总-第五轮.md`、`quality-report-round5.md`、PDF 与站点重建 |
+
+产物：`dist/vector-cn.pdf`（A4 330 页）；九道校验严重全 0。
