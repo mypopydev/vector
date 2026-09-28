@@ -62,8 +62,20 @@ python3 tools/check_structure.py   # 段/图/公式/尾注/节标题/分页标�
 python3 tools/check_math.py        # 公式与英文逐条一致、且能编译
 python3 tools/check_terms.py       # 术语译名一致性、禁用译名
 python3 tools/check_fidelity.py    # 忠实度守卫（数字/专名/引文/译名/伪公式运算符/段落长度）
+python3 tools/check_figures.py     # 图号体系：原书编号→译稿图注→正文引用→PDF 渲染号 四方对齐
+python3 tools/check_refs.py        # 交叉引用「第 N 章」「图 N.M」「尾注 N」的指向是否越界
+python3 tools/check_emphasis.py    # 强调标记（斜体/粗体）中英逐段比对（仅提示）
+python3 tools/check_residue.py     # 英文残留：中文句里夹 ASCII 单词（仅提示）
+python3 tools/check_style.py       # 精炼度量化：翻译腔候选清单（仅提示）
 python3 tools/check_baseline.py    # PDF 缺字形 / 丢字 / 越界裁切
+python3 tools/split_notes.py --check  # 各章当页脚注与 21.注释.md 真源是否一致
 python3 tools/test_mathml2tex.py   # MathML->LaTeX 转换器单测 + 全书公式自检
+```
+
+图号那一项要连同 PDF 一起验（源码对了不代表渲染出来对）：
+
+```bash
+pdftotext dist/vector-cn.pdf /tmp/v.txt && python3 tools/check_figures.py --pdf /tmp/v.txt
 ```
 
 ## 📖 章节目录
@@ -90,7 +102,32 @@ python3 tools/test_mathml2tex.py   # MathML->LaTeX 转换器单测 + 全书公�
 
 - 引擎：pandoc + XeLaTeX（ctexbook，A4，11pt，1.25 倍行距）
 - 数学：MathML 由 `tools/mathml2tex.py` 转成 LaTeX，全书 262 处公式逐条编译验证
-- 图：按「章号.序号」编号，与原书 FIGURE 0.1 / 1.1 对应
+- 段落：按中文图书惯例**首行缩进两格**（含章节标题后的第一段）；引文块、公式块、知识框不缩进
+- 西文：缩至中文的 **0.94**（同一字号下拉丁字母的视觉体量大，混排时会「跳出来」）；数学字体同步缩放
+- 图：**编号写死在图注里**（关掉 LaTeX 自动编号），与原书 FIGURE 0.1 / 1.1 逐张对应；原书中**不带编号**的照片图版保持不编号，**同号分幅**（如 2.3A / 2.3B）沿用原书的后缀
+- 推荐语署名行：右对齐
 - 注释：原书集中在书末，本译本改为**当页脚注**，书末另附完整汇编
 - 页边灰色数字：**英文原版页码**，供按索引与注释回查原书
 - 索引：中文词条 + 英文原词，按拼音排序，**页码沿用原版页码**
+- 扉页与 PDF 元数据带**版本印记**（版本号 + commit），便于核对手上这份是哪一版
+
+## ❓ 排错
+
+**macOS 上用 Acrobat 时选不中、复制不了文字**
+
+从浏览器下载的 PDF 会被 macOS 打上 `com.apple.quarantine` 隔离标记；**Adobe Acrobat** 见到该标记会以「受保护视图」打开，而该模式**禁用选中与复制**（页面照常显示）。**PDF 本身没有问题。**
+
+```bash
+xattr -l  vector-cn.pdf                          # 看有没有 com.apple.quarantine
+xattr -d  com.apple.quarantine vector-cn.pdf     # 去掉标记，重新打开即可
+```
+
+也可以改用「预览」或 Chrome 打开（不受该标记影响），或在 Acrobat 的「安全性(增强) → 受保护视图」里把所在目录加进受信任位置。
+
+**复制公式得到的是 𝜃、𝐴 这类字符，不是 LaTeX 源码**
+
+PDF 里只存字形、不存源码，数学符号拷出来就是 Unicode 数学字母。需要源码请用本仓库的 [Markdown 译稿](cn-book/) 或[网页版](https://mypopydev.github.io/books/vector-zh/)。
+
+**复制正文时混进了 `xxvi`、`16` 这样的数字**
+
+那些是**页边标注的英文原版页码**，属于正文文字，会随选区一起被复制。要干净文本请用 Markdown 译稿或网页版。
