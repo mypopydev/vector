@@ -6,3 +6,12 @@ __pycache__/
 # 原书 epub：是抽取英文稿的原料，但属于他人享有著作权的商业出版物，
 # 不随译稿一起进版本库（本地保留即可）
 *.epub
+
+# check_*.py 的校验报告：每次跑校验都会重写，属生成物，不入版本库
+# （人工撰写的 review/acceptance-report.md、review/quality-report*.md、
+#   review/findings/** 仍照常跟踪）
+review/baseline.md
+review/fidelity.md
+review/math.md
+review/structure.md
+review/terms.md
