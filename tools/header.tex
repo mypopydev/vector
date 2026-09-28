@@ -6,7 +6,22 @@
 \usepackage{unicode-math}
 % fontspec 认不出 "Latin Modern Math" 这个字体名（实测报 fontspec Error），
 % 必须用 TeX Live 里的文件名。
-\setmathfont{latinmodern-math.otf}
+% Scale 与下面的西文缩放保持一致：数学字体不受 \setmainfont 影响，不跟着缩的话
+% 行内 $x$ 会比周围的西文大一圈（公式里的字母也是「西文」）。
+\setmathfont{latinmodern-math.otf}[Scale=0.94]
+
+% ============ 西文：略小于中文 ============
+% 同一名义字号下，拉丁字母的视觉体量大于汉字（实测：11pt 时拉丁墨迹高
+% 10.91pt、汉字 10.54pt；再加粗体/斜体的笔画对比，混排时西文会「跳出来」）。
+% 中文出版惯例把西文缩到中文的 90–95%，这里取 0.94。
+% 用文件名而不是字体名——与上面 \setmathfont 同一个原因。
+\setmainfont{lmroman10-regular.otf}[
+  Scale=0.94,
+  BoldFont=lmroman10-bold.otf,
+  ItalicFont=lmroman10-italic.otf,
+  BoldItalicFont=lmroman10-bolditalic.otf]
+\setmonofont{lmmono10-regular.otf}[Scale=0.94]
+\setsansfont{lmsans10-regular.otf}[Scale=0.94]
 
 % ============ 版式 ============
 \usepackage{geometry}
@@ -34,6 +49,17 @@
 % 保住中文与西文之间的空格（xeCJK 默认会吃掉）
 \xeCJKsetup{CJKspace=true}
 
+% ============ 段落：首行缩进两格 ============
+% 中文图书惯例：正文每段首行缩进两格，且**标题后的第一段也缩进**——
+% 后者必须显式加载 indentfirst（LaTeX 默认不缩进章标题后的第一段）。
+\usepackage{indentfirst}
+\usepackage{etoolbox}
+\setlength{\parindent}{2\ccwd}
+% 以下属于附属文本，一律不缩进（否则会与居中/右对齐/盒子的版式打架）：
+\AtBeginEnvironment{quote}{\setlength{\parindent}{0pt}}      % 引文块（含韵文，缩进会破坏断行）
+\AtBeginEnvironment{displayeq}{\setlength{\parindent}{0pt}}  % 公式块
+\AtBeginEnvironment{infobox}{\setlength{\parindent}{0pt}}    % 知识框（tcolorbox）
+
 % ============ 原版页码（页边灰字） ============
 % build_pdf.py 把 <!--p123--> 转成 \origpage{123}；--no-page-marks 时不注入。
 \usepackage{xcolor}
@@ -46,6 +72,12 @@
   \par\vspace{1.2em}%
   {\centering\large\textbullet\quad\textbullet\quad\textbullet\par}%
   \vspace{1.2em}}
+
+% ============ 推荐语署名（右对齐） ============
+% 名家推荐里「——某某，《某某》作者」这类署名行，按中文惯例右对齐。
+% 不缩进、也不用 flushright 列表（省掉列表的额外上下间距，单段右对齐即可）。
+% 由 tools/infobox.lua 把 ::: {.attribution} 转成本环境。
+\newenvironment{attribution}{\par\begingroup\raggedleft}{\par\endgroup}
 
 % ============ 知识框（infobox） ============
 % pandoc 默认会丢掉 ::: {.infobox} 这个 Div，靠 tools/infobox.lua 转成此环境。

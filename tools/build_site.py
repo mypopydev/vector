@@ -69,7 +69,7 @@ IMG_RE = re.compile(
 FIG_REF = re.compile(r"图\s?(\d+)\.(\d+)")
 SECBREAK = re.compile(r"^•\s*•\s*•$", re.M)
 PAGE_MARK = re.compile(r"<!--p([^>]+)-->")
-FENCE_OPEN = re.compile(r"^:::\s*\{\.(infobox|displayeq)\}\s*$")
+FENCE_OPEN = re.compile(r"^:::\s*\{\.(infobox|displayeq|attribution)\}\s*$")
 FENCE_CLOSE = re.compile(r"^:::\s*$")
 # 网页转换用的数学保护：只求把 $…$ 整段挡在外面，不需要 build_pdf 那套
 # 「防货币符号」的收紧规则（那套会漏掉以数字开头的数学，反而让 ^ 暴露给上标正则）
@@ -268,7 +268,7 @@ def check(target: pathlib.Path) -> int:
         t = p.read_text(encoding="utf-8")
         if len(t.strip()) < 50:
             problems.append(f"{slug} 内容过短")
-        for bad in ("{width=", "{.infobox}", "{.displayeq}", "<!--p", "^**", "@@CAP@@"):
+        for bad in ("{width=", "{.infobox}", "{.displayeq}", "{.attribution}", "<!--p", "^**", "@@CAP@@"):
             if bad in t:
                 problems.append(f"{slug} 残留未转换的标记：{bad}")
         for m in re.finditer(r'<img src="([^"]+)"', t):
