@@ -1,6 +1,9 @@
 {
   "built": "2026-09-28",
-  "size_bytes": 8432903,
+  "version": "v1.0.6",
+  "commit": "f7932ba",
+  "dirty": true,
+  "size_bytes": 8433505,
   "glyph_warnings": 0,
   "missing_files": [],
   "min_content_ratio": 0.9807219787870101,
