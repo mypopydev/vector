@@ -1,11 +1,11 @@
 {
-  "built": "2026-09-28",
-  "version": "v1.0.9",
-  "commit": "3b5609b",
+  "built": "2026-09-29",
+  "version": "v1.0.9-6-geda5d0c",
+  "commit": "eda5d0c",
   "dirty": false,
-  "size_bytes": 8389768,
+  "size_bytes": 8390216,
   "glyph_warnings": 0,
   "missing_files": [],
-  "min_content_ratio": 0.9807288841583854,
+  "min_content_ratio": 0.9807308562130964,
   "max_content_ratio": 1.0454545454545454
 }

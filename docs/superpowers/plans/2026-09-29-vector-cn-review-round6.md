@@ -74,6 +74,8 @@
 | 4 主审去重与裁定 | 已完成 | 52 条盲审候选逐条独立裁定：成立 25、部分成立 12、误报 5、主观偏好 10 |
 | 5 当前 HEAD 验收 | 已完成（有范围限制） | 文本/结构/公式/图号/PDF 基线/注释同步通过；`test_whole_book` 因 `.epub` 按版权政策缺席而跳过；确认站点旧图路径故障 |
 | 6 应用批准的正文修订 | 已完成 | 应用 2 Critical、34 Moderate，另统一 1 处历史术语、补 2 处批准的术语英文；Minor 与风格偏好不动 |
-| 7 修正插图 URL 并重建预览 | 已完成（本地候审） | `tools/build_site.py` 修复 URL 和 `--check`，54/54 图片请求 HTTP 200；PDF 328 页，缺字/丢字/裁切 0。截图另发现图注重复编号，待用户决定是否开新专项 |
+| 7 修正插图 URL 并重建预览 | 已完成（本地候审） | `tools/build_site.py` 修复 URL 和 `--check`，54/54 图片请求 HTTP 200；截图发现重复图号，用户决定暂不修。PDF 328 页、缺字/丢字/裁切 0 |
+| 8 本地提交源文件 | 已完成 | 隔离分支提交 `eda5d0c`；无 push/deploy |
+| 9 干净构建 PDF artifact | 已完成 | 印记 `v1.0.9-6-geda5d0c`，dirty=false；等待单独提交 artifact |
 
-交付：`review/findings/汇总-第六轮.md`、`review/quality-report-round6.md`。修改与产物均留在隔离 worktree，未提交、未推送、未打标签、未发布。
+交付：`review/findings/汇总-第六轮.md`、`review/quality-report-round6.md`。译稿与工具源已本地提交；PDF artifact 尚待提交；均未推送、未打标签、未发布。
