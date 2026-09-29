@@ -1,9 +1,9 @@
 {
   "built": "2026-09-29",
-  "version": "v1.0.9-9-gb906595",
-  "commit": "b906595",
+  "version": "v1.0.9-11-g54ca3da",
+  "commit": "54ca3da",
   "dirty": false,
-  "size_bytes": 8389452,
+  "size_bytes": 8389696,
   "glyph_warnings": 0,
   "missing_files": [],
   "min_content_ratio": 0.9807308562130964,
