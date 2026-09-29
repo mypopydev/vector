@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import pathlib
+import posixpath
 import re
 import shutil
 import sys
@@ -130,8 +131,8 @@ def convert_page(text: str, chapter: int) -> str:
             caption, src = m.group(1), m.group(2)
             width = m.group(3) or "80"
             fig_no += 1
-            # 从 docs/books/vector-zh/ 出发：../.. 回到 docs，再接 assets/images/vector
-            rel = "../../" + IMG_DIR.relative_to("docs").as_posix() + "/" + src.split("images/", 1)[1]
+            # 页面由 MkDocs 按目录 URL 输出到 /books/vector-zh/<slug>/，需三级回到站点根。
+            rel = "../../../" + IMG_DIR.relative_to("docs").as_posix() + "/" + src.split("images/", 1)[1]
             label = f"图 {chapter}.{fig_no}"
             # 图注必须写成 markdown 段落：包在 <figcaption> 里的话，
             # Python-Markdown 会把整块当原始 HTML，里面的 $公式$ 和 *斜体* 不会被解析
@@ -271,10 +272,31 @@ def check(target: pathlib.Path) -> int:
         for bad in ("{width=", "{.infobox}", "{.displayeq}", "{.attribution}", "<!--p", "^**", "@@CAP@@"):
             if bad in t:
                 problems.append(f"{slug} 残留未转换的标记：{bad}")
+        page_url = f"/books/vector-zh/{pathlib.Path(slug).stem}/"
+        expected_asset_root = "/" + IMG_DIR.relative_to("docs").as_posix() + "/"
         for m in re.finditer(r'<img src="([^"]+)"', t):
             rel = m.group(1)
-            if not (book / rel).resolve().exists():
-                problems.append(f"{slug} 图片不存在：{rel}")
+            filename = pathlib.PurePosixPath(rel).name
+            resolved_url = posixpath.normpath(posixpath.join(page_url, rel))
+            expected_url = expected_asset_root + filename
+            if resolved_url != expected_url:
+                problems.append(f"{slug} 图片 URL 无法解析到站点资源：{rel} -> {resolved_url}")
+            if not (img / filename).exists():
+                problems.append(f"{slug} 图片文件不存在：{filename}")
+
+    index_text = (book / "index.md").read_text(encoding="utf-8")
+    cover = re.search(r'!\[封面\]\(([^)]+)\)', index_text)
+    if not cover:
+        problems.append("落地页缺少封面图片")
+    else:
+        rel = cover.group(1)
+        filename = pathlib.PurePosixPath(rel).name
+        resolved_url = posixpath.normpath(posixpath.join("/books/vector-zh/", rel))
+        expected_url = "/" + IMG_DIR.relative_to("docs").as_posix() + "/cover.jpg"
+        if filename != "cover.jpg" or resolved_url != expected_url:
+            problems.append(f"落地页封面 URL 错误：{rel} -> {resolved_url}")
+        if not (img / "cover.jpg").exists():
+            problems.append("落地页封面文件不存在：cover.jpg")
 
     for p in (REPO / "images").glob("*"):
         if p.is_file() and not (img / p.name).exists():
