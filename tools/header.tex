@@ -135,7 +135,14 @@
 % 否则会被 pandoc 排成左对齐的普通段落，与原书不符
 \newenvironment{displayeq}{\par\addvspace{0.4em}\centering}{\par\addvspace{0.4em}}
 \usepackage{booktabs}
-% 目录里只排到节
+% 目录：紧凑单页、章条目统一样式，并用点引导线连接页码。
+% 本书的各级标题在目录中都作为 chapter 条目；ctexbook 默认章条目间距较大，
+% 末尾“致谢/注释”会被挤到第二页。压缩章前距但保留清晰行距。
+\usepackage{tocloft}
 \setcounter{tocdepth}{1}
+\setlength{\cftbeforechapskip}{2pt}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
 % 避免图表浮到下一章
 \usepackage{placeins}
