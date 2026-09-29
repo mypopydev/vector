@@ -76,6 +76,6 @@
 | 6 应用批准的正文修订 | 已完成 | 应用 2 Critical、34 Moderate，另统一 1 处历史术语、补 2 处批准的术语英文；Minor 与风格偏好不动 |
 | 7 修正插图 URL 并重建预览 | 已完成（本地候审） | `tools/build_site.py` 修复 URL 和 `--check`，54/54 图片请求 HTTP 200；截图发现重复图号，用户决定暂不修。PDF 328 页、缺字/丢字/裁切 0 |
 | 8 本地提交源文件 | 已完成 | 隔离分支提交 `eda5d0c`；无 push/deploy |
-| 9 干净构建 PDF artifact | 已完成 | 印记 `v1.0.9-6-geda5d0c`，dirty=false；等待单独提交 artifact |
+| 9 干净构建 PDF artifact | 已完成 | 印记 `v1.0.9-6-geda5d0c`，dirty=false；artifact 单独提交 `4dd87ee` |
 
-交付：`review/findings/汇总-第六轮.md`、`review/quality-report-round6.md`。译稿与工具源已本地提交；PDF artifact 尚待提交；均未推送、未打标签、未发布。
+交付：`review/findings/汇总-第六轮.md`、`review/quality-report-round6.md`。译稿与工具源本地提交 `eda5d0c`，PDF artifact 提交 `4dd87ee`；两个提交仅在隔离分支，未推送、未打标签、未发布。

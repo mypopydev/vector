@@ -63,10 +63,10 @@
 
 用户确认只修已核实的 Critical/Moderate 项。实际修改 36 项（Critical 2、Moderate 34），另处理历史术语不一致 1 项，并按既定括注阈值补 2 项（`unitary operator`、`directed line segment`）。Minor 与主观偏好未改。英文源文自身的 Szczecin 错拼、`∂V/∂x=0` 省略及 `B〉` 竖线遗漏均未静默订正。
 
-源文件与复核记录已在隔离分支本地提交 `eda5d0c` 后，从干净输入重建 PDF（A4 328 页）；印记为 `v1.0.9-6-geda5d0c` / `eda5d0c`，dirty=false。`check_baseline`、`check_figures --pdf` 通过，并对受影响页做了 PDF 实际渲染抽查。随后重建的 dist artifact 待单独本地提交；未覆盖发行附件。
+源文件与复核记录已在隔离分支本地提交 `eda5d0c` 后，从干净输入重建 PDF（A4 328 页）；印记为 `v1.0.9-6-geda5d0c` / `eda5d0c`，dirty=false。`check_baseline`、`check_figures --pdf` 通过，并对受影响页做了 PDF 实际渲染抽查。PDF artifact 已另提交 `4dd87ee`；没有覆盖任何既有 Release 附件。
 
 网页浏览器实测发现插图 URL 错一层：原生成 `../../assets/images/vector/...`，目录页把它解析成 `/books/assets/...`（404），正确资源在 `/assets/images/vector/...`（200）。按用户确认，已在隔离 worktree 修 `tools/build_site.py`：图链接改为回到站点根的 `../../../assets/...`，并增强 `--check` 按浏览器页面路由校验 23 页图片及落地页封面 URL 与本地资产存在性。修前回归测试确实漏报（旧目标 `check` 返回 0），修后 stale 生成物报出 53 项；落地页封面 URL 的负向测试也会报错；重新生成后 `--check` 通过，浏览器实测图像请求 54/54 HTTP 200。当前线上仍是旧页面，未部署，所以线上图像问题尚未消除。
 
 修复后浏览器截图及只读线上 HTML 检查另发现另一项未授权修改的站点问题：图注输入本身已含显式“图 N.M”，`build_site.py` 又按顺序自动加一次编号，页面及线上第 3 章 HTML 显示为“图 3.1 图 3.1 …”；自动计数还会把无编号图版计入，且子图锚点/跨章引用值得单独核查。用户决定本轮暂不修图注/锚点逻辑，该项保留为后续专项修复。MkDocs 严格预览能构建，但上游 Material 给出关于未来 MkDocs 2.0 的通用告警；本次没有改依赖。
 
-工作发生在隔离 worktree `worktree-vector-cn-review-round6`。译稿、`tools/build_site.py`、findings、计划与质量报告已本地提交 `eda5d0c`；从该提交干净输入生成的 dist PDF artifact 待单独提交。未推送、未打 tag、未建 Release、未部署；站点仓未修改。
+工作发生在隔离 worktree `worktree-vector-cn-review-round6`。译稿、`tools/build_site.py`、findings 与计划本地提交 `eda5d0c`；从该提交构建的 dist PDF artifact 单独提交为 `4dd87ee`。两个提交均只在隔离分支，未推送；未打 tag、未建 Release、未部署；站点仓未修改。
