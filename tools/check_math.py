@@ -39,7 +39,10 @@ STRAY_CMD = re.compile(
 )
 
 
-def formulas(text: str) -> list[str]:
+def formulas(text: str, include_indented_display: bool = False) -> list[str]:
+    if include_indented_display:
+        # Block math inside the numbered endnote list is indented as list content.
+        text = re.sub(r"(?m)^[ \t]{4,}(?=\$\$)", "", text)
     out = [m.group(1).strip() for m in DISPLAY.finditer(text)]
     out += [m.group(1).strip() for m in INLINE.finditer(text)]
     return out
@@ -97,9 +100,13 @@ def main() -> None:
             continue
         cn_text = cn_path.read_text(encoding="utf-8")
         strip = stem != "25_Notes"
-        en_f = formulas(without_footnote_defs((EN / f"{stem}.md").read_text(encoding="utf-8"))
-                        if strip else (EN / f"{stem}.md").read_text(encoding="utf-8"))
-        cn_f = formulas(without_footnote_defs(cn_text) if strip else cn_text)
+        en_text = (EN / f"{stem}.md").read_text(encoding="utf-8")
+        if strip:
+            en_text = without_footnote_defs(en_text)
+            cn_text = without_footnote_defs(cn_text)
+        include_indented_display = stem == "25_Notes"
+        en_f = formulas(en_text, include_indented_display=include_indented_display)
+        cn_f = formulas(cn_text, include_indented_display=include_indented_display)
         all_cn += cn_f
 
         lines.append(f"## {stem} ↔ `cn-book/{cn_name}`")

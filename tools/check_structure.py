@@ -89,14 +89,15 @@ def without_footnote_defs(text: str) -> str:
     return "\n".join(out)
 
 
-def metrics(text: str) -> dict:
+def metrics(text: str, include_indented_display: bool = False) -> dict:
+    math_text = re.sub(r"(?m)^[ \t]{4,}(?=\$\$)", "", text) if include_indented_display else text
+    inline_math = len(re.findall(r"(?<!\$)\$(?!\$)[^$\n]+?\$(?!\$)", math_text, re.M))
     return {
         "段": len(para_lines(text)),
         "图": count(text, r"^!\["),
-        "行间公式": count(text, r"^\$\$"),  # 仅统计用
-        "行内公式": len([m for m in re.findall(r"(?<!\$)\$(?!\$)[^$\n]+?\$(?!\$)", text, re.M)]),
-        "公式": (len(re.findall(r"^\$\$(.+?)\$\$", text, re.M))
-                + len([m for m in re.findall(r"(?<!\$)\$(?!\$)[^$\n]+?\$(?!\$)", text, re.M)])),
+        "行间公式": count(math_text, r"^\$\$"),  # 仅统计用
+        "行内公式": inline_math,
+        "公式": len(re.findall(r"^\$\$(.+?)\$\$", math_text, re.M)) + inline_math,
         "尾注引用": len(re.findall(r"\[\^(ch\d\dn\d+)\](?!:)", text)),
         "尾注定义": len(re.findall(r"\[\^(ch\d\dn\d+)\]:", text)),
         "节标题": count(text, r"^## "),
@@ -126,8 +127,11 @@ def compare(stem: str, cn_name: str, manifest: dict) -> dict:
     en_text = en_path.read_text(encoding="utf-8")
     cn_text = cn_path.read_text(encoding="utf-8")
     strip = stem != "25_Notes"          # 注释文件的正文就是脚注定义本身
-    en_m, cn_m = (metrics(without_footnote_defs(en_text) if strip else en_text),
-                  metrics(without_footnote_defs(cn_text) if strip else cn_text))
+    include_indented_display = stem == "25_Notes"
+    en_m, cn_m = (metrics(without_footnote_defs(en_text) if strip else en_text,
+                           include_indented_display=include_indented_display),
+                  metrics(without_footnote_defs(cn_text) if strip else cn_text,
+                           include_indented_display=include_indented_display))
 
     severe, medium, minor = [], [], []
     keys = ("段", "图", "公式", "尾注引用", "节标题", "分页标记")
