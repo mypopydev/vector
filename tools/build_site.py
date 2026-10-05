@@ -70,8 +70,10 @@ IMG_RE = re.compile(
 FIG_REF = re.compile(r"图\s?(\d+)\.(\d+)")
 SECBREAK = re.compile(r"^•\s*•\s*•$", re.M)
 PAGE_MARK = re.compile(r"<!--p([^>]+)-->")
-FENCE_OPEN = re.compile(r"^:::\s*\{\.(infobox|displayeq|attribution)\}\s*$")
-FENCE_CLOSE = re.compile(r"^:::\s*$")
+# 围栏也可能整块缩进：章尾脚注的续行缩 4 空格、书末注释是编号列表的续行。
+# 不认这些缩进围栏的话，网页上会把 `::: {.displayeq}` 当正文印出来（改前 2 页中招）。
+FENCE_OPEN = re.compile(r"^(?P<indent>[ \t]*):::\s*\{\.(?P<cls>infobox|displayeq|attribution)\}\s*$")
+FENCE_CLOSE = re.compile(r"^(?P<indent>[ \t]*):::\s*$")
 # 网页转换用的数学保护：只求把 $…$ 整段挡在外面，不需要 build_pdf 那套
 # 「防货币符号」的收紧规则（那套会漏掉以数字开头的数学，反而让 ^ 暴露给上标正则）
 MATH_ANY = re.compile(r"(\$\$.+?\$\$|\$[^$\n]+?\$)")
@@ -114,17 +116,38 @@ def inline_fixes(line: str) -> str:
 
 def convert_page(text: str, chapter: int) -> str:
     """pandoc 方言 -> Python-Markdown。"""
+    def emit(s: str) -> None:
+        """连续空行在 Markdown 里等价，但会提前结束脚注/列表项，所以只留一个。"""
+        if s == "" and out and out[-1] == "":
+            return
+        out.append(s)
+
     out: list[str] = []
     fig_no = 0
+    in_indented_fence = False
     for line in text.splitlines():
+        if in_indented_fence and not line.strip():
+            continue          # 围栏里的空行一律丢掉，空行数量由开/闭围栏两端各补一个
         m = FENCE_OPEN.match(line)
         if m:
-            out.append(f'<div class="{m.group(1)}" markdown="1">')
-            out.append("")
+            if m.group("indent"):
+                # 缩进的围栏（脚注续行、编号列表续行）不能换成 <div>：会被当成
+                # 行内 HTML，连里面的公式一起消失（实测）。直接丢掉围栏，
+                # $$…$$ 在脚注/列表里本来就渲染成居中的行间公式。
+                in_indented_fence = True
+                emit("")
+                continue
+            emit(f'<div class="{m.group("cls")}" markdown="1">')
+            emit("")
             continue
-        if FENCE_CLOSE.match(line):
-            out.append("")
-            out.append("</div>")
+        m = FENCE_CLOSE.match(line)
+        if m:
+            if in_indented_fence:
+                in_indented_fence = False
+                emit("")
+                continue
+            emit("")
+            emit("</div>")
             continue
         m = IMG_RE.match(line.strip())
         if m:
@@ -137,21 +160,21 @@ def convert_page(text: str, chapter: int) -> str:
             # 图注必须写成 markdown 段落：包在 <figcaption> 里的话，
             # Python-Markdown 会把整块当原始 HTML，里面的 $公式$ 和 *斜体* 不会被解析
             out.append(f'<figure id="fig-{chapter}-{fig_no}" markdown="1">')
-            out.append("")
+            emit("")
             out.append(f'<img src="{rel}" style="width:{width}%">')
-            out.append("")
+            emit("")
             out.append(f"@@CAP@@{label}　{inline_fixes(caption)}")
             out.append("{: .figcap }")
-            out.append("")
+            emit("")
             out.append("</figure>")
             continue
         # 独占一行的原版页码：后面必须空一行。否则接下来的 markdown 会被当成
         # 同一块原始 HTML（Python-Markdown 的块级规则），整个列表就渲染不出来了
         if PAGE_MARK.fullmatch(line.strip()):
             out.append(inline_fixes(line.strip()))
-            out.append("")
+            emit("")
             continue
-        out.append(inline_fixes(line))
+        emit(inline_fixes(line))
 
     body = "\n".join(out)
     body = SECBREAK.sub('<p class="secbreak">• • •</p>', body)
@@ -162,6 +185,25 @@ def convert_page(text: str, chapter: int) -> str:
     body = re.sub(r'@@CAP@@<a href="#fig-(\d+)-(\d+)">图 \1\.\2</a>', r"图 \1.\2", body)
     body = body.replace("@@CAP@@", "")
     return body
+
+
+NOTE_ITEM = re.compile(r"^\d+\.\s")
+
+
+def reindent_notes(text: str) -> str:
+    """注释页续行统一缩进 4 空格。
+
+    render_notes 只剥掉 4 空格，剩下的 3 空格续行不够 Python-Markdown 认成
+    列表项内容：编号列表会在那段前提前收尾，行间公式也被当成行内公式
+    （外面还多出两个 $）。4 空格才留在列表项里并渲染成 \\[...\\]。
+    """
+    out: list[str] = []
+    for line in text.splitlines():
+        if not line.strip() or line.startswith("#") or NOTE_ITEM.match(line):
+            out.append(line)
+        else:
+            out.append("    " + line.strip())
+    return "\n".join(out)
 
 
 def build_index(target: pathlib.Path) -> str:
@@ -219,7 +261,7 @@ def build(target: pathlib.Path) -> None:
         if cn_name == "21.注释.md":
             # 注释在网页上排成编号列表；脚注定义已分发到各章，重复定义会让
             # Python-Markdown 的 footnotes 扩展报错
-            text = render_notes(text)
+            text = reindent_notes(render_notes(text))
         out = convert_page(text, chapter)
         (book / slug).write_text(out.rstrip() + "\n", encoding="utf-8")
         total_fig += out.count("<figure ")
