@@ -1,11 +1,11 @@
 {
-  "built": "2026-09-29",
-  "version": "v1.0.9-11-g54ca3da",
-  "commit": "54ca3da",
+  "built": "2026-10-05",
+  "version": "v1.0.10",
+  "commit": "bc74fab",
   "dirty": false,
-  "size_bytes": 8389696,
+  "size_bytes": 8396279,
   "glyph_warnings": 0,
   "missing_files": [],
-  "min_content_ratio": 0.9807308562130964,
+  "min_content_ratio": 0.9802549846235311,
   "max_content_ratio": 1.0454545454545454
 }
