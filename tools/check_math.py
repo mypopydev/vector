@@ -38,6 +38,42 @@ STRAY_CMD = re.compile(
     r"mathbf|Delta|Phi|mu|sigma|lambda|omega|gamma|delta|epsilon|varphi)\b"
 )
 
+# 已核实的英文源文公式笔误：中译按正确写法订正，因此与 en/25_Notes.md 不再逐字相同。
+# 查什么：注释公式的「未经授权」改动。不查什么：这里登记过的订正（源文保留原貌以便回溯）。
+# 出处：第七轮复核 review/findings/round7-notes-ch05-09.md、round7-notes-ch10-14.md。
+# 新增条目必须写明出处与理由；源文若已订正，应把条目删掉（否则 test_check_note_formulas.py 会失败）。
+APPROVED_NOTE_FORMULA_FIXES: dict[str, dict[str, str]] = {
+    r"\text{Area}=\int _{0}^{2\pi}\int _{0}^{R}rdrd\theta=\int _{0}^{2x}\frac{1}{2}R^{2}d\theta=\pi R^{2}": {
+        "cn": r"\text{Area}=\int _{0}^{2\pi}\int _{0}^{R}rdrd\theta=\int _{0}^{2\pi}\frac{1}{2}R^{2}d\theta=\pi R^{2}.",
+        "reason": "ch06n8：圆面积应对 θ 积至 2π 才得 πR²，源文上限误作 2x；"
+                 "句点移入公式内，否则加到显示围栏后会单独占一行。",
+    },
+    r"dx=\frac{\partial f}{\partial p}dp+\frac{\partial f}{\partial p}dq=adp+a'dq": {
+        "cn": r"dx=\frac{\partial f}{\partial p}dp+\frac{\partial f}{\partial q}dq=adp+a'dq",
+        "reason": "ch10n6：链式法则对 q 的偏导误写作 ∂f/∂p，与 x=f(p,q) 及 adp+a′dq 不符。",
+    },
+    r"\cos\theta=\frac{v\cdot v'}{(\sqrt{v\cdot v)(v\cdot v'})}=\frac{F}{\sqrt{EG}}.": {
+        "cn": r"\cos\theta=\frac{v\cdot v'}{\sqrt{(v\cdot v)(v'\cdot v')}}=\frac{F}{\sqrt{EG}}.",
+        "reason": "ch10n6：分母括号不配对且第二个范数重复 v；按 E=v·v、G=v′·v′ 应为 √((v·v)(v′·v′))。",
+    },
+    r"T^{\mu'v'}\equiv a^{\mu'}b^{v'}=\left(A_{\sigma}^{\mu'}a^{\sigma}\right)\left(A_{\lambda}^{v'}a^{\lambda}\right)=A_{\sigma}^{\mu'}A_{\lambda}^{v'}a^{\sigma}a^{\lambda}\equiv A_{\sigma}^{\mu'}A_{\lambda}^{v'}T^{\sigma\lambda}.": {
+        "cn": r"T^{\mu'v'}\equiv a^{\mu'}b^{v'}=\left(A_{\sigma}^{\mu'}a^{\sigma}\right)\left(A_{\lambda}^{v'}b^{\lambda}\right)=A_{\sigma}^{\mu'}A_{\lambda}^{v'}a^{\sigma}b^{\lambda}\equiv A_{\sigma}^{\mu'}A_{\lambda}^{v'}T^{\sigma\lambda}.",
+        "reason": "ch11n19：张量积的第二因子应是 b，源文两处误作 a。",
+    },
+    r"\frac{\partial V}{\partial x}+\frac{\partial Y}{\partial y}+\frac{\partial Z}{\partial z}=0.": {
+        "cn": r"\frac{\partial X}{\partial x}+\frac{\partial Y}{\partial y}+\frac{\partial Z}{\partial z}=0.",
+        "reason": "ch12n7：加速度分量记作 X, Y, Z，散度首项应为 ∂X/∂x，源文误作 V。",
+    },
+}
+
+
+def apply_approved_note_fixes(en_formulas: list[str]) -> list[str]:
+    """把源文中已登记为笔误的公式换成中译订正后的写法，便于与中译逐条比对。"""
+    return [
+        APPROVED_NOTE_FORMULA_FIXES[f]["cn"] if f in APPROVED_NOTE_FORMULA_FIXES else f
+        for f in en_formulas
+    ]
+
 
 def formulas(text: str, include_indented_display: bool = False) -> list[str]:
     if include_indented_display:
@@ -135,11 +171,15 @@ def main() -> None:
             n_severe += 1
             lines.append(f"- **严重**：公式数量 英文 {len(en_f)} vs 中文 {len(cn_f)}")
         elif stem == "25_Notes":
-            # 注释里的公式顺序会变（见上），按多重集比
-            if collections.Counter(en_f) != collections.Counter(cn_f):
+            # 注释里的公式顺序会变（见上），按多重集比；源文笔误的订正走白名单
+            en_f_expected = apply_approved_note_fixes(en_f)
+            if collections.Counter(en_f_expected) != collections.Counter(cn_f):
                 n_severe += 1
-                only_en = [x for x in en_f if x not in cn_f]
+                only_en = [x for x in en_f_expected if x not in cn_f]
                 lines.append(f"- **严重**：注释公式内容不一致，仅见于英文 {len(only_en)} 条")
+            else:
+                lines.append(f"- 注释公式 {len(cn_f)} 条：与英文逐条一致"
+                             f"（其中 {len(APPROVED_NOTE_FORMULA_FIXES)} 条为已登记源文笔误的订正）")
         else:
             diff = [(a, b) for a, b in zip(en_f, cn_f) if a != b]
             if diff:

@@ -48,11 +48,23 @@ GROUP_RE = re.compile(r"^##\s+(.*)$")
 
 
 def parse_notes(text: str) -> list[tuple[str, str, str]]:
-    """返回 [(id, 正文含续行, 所属分组标题), ...]。"""
+    """返回 [(id, 正文含续行, 所属分组标题), ...]。
+
+    注释正文里的空行要保留：行间公式是 `::: {.displayeq}` 围栏包起来的，
+    围栏上下若没有空行，pandoc 就不把它当 div 解析，`:::` 会被当成正文印出来。
+    尾部的空行不算正文（它们只是分隔注释的），所以先攒着、等后面还有内容再补进去。
+    """
     out: list[tuple[str, str, str]] = []
     group = ""
     cur_id: str | None = None
     cur: list[str] = []
+    blanks = 0
+
+    def flush_blanks() -> None:
+        nonlocal blanks
+        cur.extend([""] * blanks)
+        blanks = 0
+
     for line in text.splitlines():
         m = GROUP_RE.match(line)
         if m:
@@ -63,9 +75,13 @@ def parse_notes(text: str) -> list[tuple[str, str, str]]:
             if cur_id:
                 out.append((cur_id, "\n".join(cur).rstrip(), group))
             cur_id, cur = m.group(1), [m.group(2)]
-        elif cur_id and line.startswith("    "):
-            cur.append(line.strip())
-        elif cur_id and line.strip() and not line.lstrip().startswith(("<!--", "![", "## ")):
+            blanks = 0
+        elif cur_id and not line.strip():
+            if cur:
+                blanks += 1
+        elif cur_id and (line.startswith("    ")
+                         or not line.lstrip().startswith(("<!--", "![", "## "))):
+            flush_blanks()
             cur.append(line.strip())
     if cur_id:
         out.append((cur_id, "\n".join(cur).rstrip(), group))
@@ -118,7 +134,7 @@ def main() -> None:
         blocks = []
         for i, b in missing:
             lines = b.split("\n")
-            body = "\n".join([lines[0]] + ["    " + x for x in lines[1:]])
+            body = "\n".join([lines[0]] + ["    " + x if x else "" for x in lines[1:]])
             blocks.append(f"[^{i}]: {body}")
         block = "\n\n" + "\n\n".join(blocks)
         path.write_text(text.rstrip() + "\n" + block + "\n", encoding="utf-8")

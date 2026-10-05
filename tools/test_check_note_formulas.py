@@ -15,6 +15,9 @@ import check_structure  # noqa: E402
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 
+# 已登记为源文笔误的订正清单放在 check_math.py（守卫与测试共用同一份，避免两边漂移）
+APPROVED_DIVERGENCES = check_math.APPROVED_NOTE_FORMULA_FIXES
+
 
 class NoteFormulaTests(unittest.TestCase):
     def test_indented_display_math_is_counted_only_for_endnotes(self) -> None:
@@ -51,6 +54,12 @@ class NoteFormulaTests(unittest.TestCase):
 
         self.assertEqual(len(en_formulas), 74)
         self.assertEqual(len(cn_formulas), 74)
+
+        # 白名单里的条目必须真的还在源文里，否则说明源文已改或条目写错，应删掉该条
+        for en_formula in APPROVED_DIVERGENCES:
+            self.assertIn(en_formula, en_formulas, f"白名单条目已失效：{en_formula[:40]}")
+
+        en_formulas = check_math.apply_approved_note_fixes(en_formulas)
         self.assertEqual(collections.Counter(en_formulas), collections.Counter(cn_formulas))
         self.assertEqual(check_structure.metrics(en_text)["公式"], 74)
         self.assertEqual(
