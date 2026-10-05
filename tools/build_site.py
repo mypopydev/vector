@@ -72,6 +72,10 @@ SECBREAK = re.compile(r"^•\s*•\s*•$", re.M)
 PAGE_MARK = re.compile(r"<!--p([^>]+)-->")
 # 围栏也可能整块缩进：章尾脚注的续行缩 4 空格、书末注释是编号列表的续行。
 # 不认这些缩进围栏的话，网页上会把 `::: {.displayeq}` 当正文印出来（改前 2 页中招）。
+# 独占一行的 `$$…$$`（可能带缩进），后面还可能有尾随内容
+SINGLE_DISPLAY = re.compile(r"^(?P<indent>[ \t]*)\$\$(?P<body>.+)\$\$(?P<tail>.*)$")
+# 公式编号： (3) / … (3) / ...(5)
+EQ_LABEL = re.compile(r"^(?:…|\.\.\.)?\s*\(\d+\)$")
 FENCE_OPEN = re.compile(r"^(?P<indent>[ \t]*):::\s*\{\.(?P<cls>infobox|displayeq|attribution)\}\s*$")
 FENCE_CLOSE = re.compile(r"^(?P<indent>[ \t]*):::\s*$")
 # 网页转换用的数学保护：只求把 $…$ 整段挡在外面，不需要 build_pdf 那套
@@ -149,6 +153,25 @@ def convert_page(text: str, chapter: int) -> str:
             emit("")
             emit("</div>")
             continue
+        m = SINGLE_DISPLAY.match(line)
+        if m:
+            # 单行 `$$…$$` 后面还跟着东西时，arithmatex 不会把它当行间公式：
+            # 只匹配到里面的 $…$ 当行内公式，外面多出两个 $（全书 15 处）。
+            indent, body, tail = m.group("indent"), m.group("body"), m.group("tail").strip()
+            if tail in (".", ","):
+                # 尾随标点挪进公式，整行仍是一段行间公式（KaTeX 里标点照排）
+                emit(f"{indent}$${body}{tail}$$")
+                continue
+            if EQ_LABEL.match(tail):
+                # 公式编号：公式单独成段，编号另起一段
+                emit(f"{indent}$${body}$$")
+                emit("")
+                emit(f"{indent}{tail}")
+                continue
+            if tail:
+                # 后面还接着中文句子：这是夹在句子里的公式，改行内写法才连得上
+                emit(f"{indent}${body}${inline_fixes(m.group('tail'))}")
+                continue
         m = IMG_RE.match(line.strip())
         if m:
             caption, src = m.group(1), m.group(2)
