@@ -1,9 +1,9 @@
 {
   "built": "2026-10-05",
-  "version": "v1.0.10",
-  "commit": "bc74fab",
+  "version": "v1.0.11",
+  "commit": "2db30e7",
   "dirty": false,
-  "size_bytes": 8396279,
+  "size_bytes": 8396278,
   "glyph_warnings": 0,
   "missing_files": [],
   "min_content_ratio": 0.9802549846235311,
